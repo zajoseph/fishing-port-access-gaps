@@ -1,0 +1,48 @@
+# ---------------------------------------------------------------
+# Data: raw downloads and interim files are NOT committed.
+# Folder placeholders (.gitkeep) and manifests ARE committed.
+# data/manifest.csv and data/processed/ are tracked normally.
+# ---------------------------------------------------------------
+data/raw/**
+!data/raw/**/
+!data/raw/**/.gitkeep
+!data/raw/**/manifest*.csv
+
+data/interim/**
+!data/interim/**/
+!data/interim/**/.gitkeep
+!data/interim/**/manifest*.csv
+
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------
+# Editors / OS
+# ---------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
