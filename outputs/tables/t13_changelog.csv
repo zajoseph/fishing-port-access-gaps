@@ -1,0 +1,41 @@
+source_row,port_id,service,change,rule,detail
+facilities_orwa.csv:6,OR-astoria,hoist_crane,row removed; content moved to notes of facilities_orwa.csv:5,hoist_crane ruling: Travelift/launch hoist = notes only,Port of Astoria 2024/25 rate schedule lists an 88-ton Travelift for haul-out (not offload equipment).
+facilities_orwa.csv:80,WA-ilwaco,hoist_crane,available/medium/2026-04 -> not_found/low/2026-11,hoist_crane ruling: Travelift/launch hoist = notes only,WPPA 2026 'Hoist YES' is the launch-hoist column; port page lists two small boat hoists; boatyard Travelifts haul to 70 t. No current offload hoist/crane source located; port is seeking funds for a public fishermen's dock with crane(s) after the 2024-01-22 Ilwaco Landing fire.
+facilities_orwa.csv:97,WA-nahcotta,hoist_crane,available/medium/2026-04 -> not_found/low/2026-11,hoist_crane ruling: Travelift/launch hoist = notes only,WPPA 2026 'Hoist YES' is the launch-hoist column; no offload hoist/crane source located.
+facilities_orwa.csv:121,WA-port-townsend,hoist_crane,available/medium/2026-04 -> not_found/low/2026-11,hoist_crane ruling: Travelift/launch hoist = notes only,WPPA 2026 lists a Travelift (330-ton per Fishermen's News) — haul-out only; no offload hoist/crane source located.
+facilities_orwa.csv:129,WA-everett,hoist_crane,available/medium/2026-04 -> not_found/low/2026-11,hoist_crane ruling: Travelift/launch hoist = notes only,WPPA 2026 lists a Travelift — haul-out only; no offload hoist/crane source located.
+facilities_orwa.csv:133,WA-la-conner,hoist_crane,available/low/2026-04 -> not_found/low/2026-11,hoist_crane ruling: Travelift/launch hoist = notes only,WPPA 2026 'Hoist NEARBY' is the launch-hoist column; no offload hoist/crane source located.
+facilities_orwa.csv:137,WA-anacortes,hoist_crane,available/medium/2026-04 -> not_found/low/2026-11,hoist_crane ruling: Travelift/launch hoist = notes only,WPPA 2026 'Hoist YES' is the launch-hoist column; no offload hoist/crane source located.
+facilities_orwa.csv:89,WA-tokeland,hoist_crane,not_available/low/2026-04 -> not_found/low/2026-11,hoist_crane ruling: Travelift/launch hoist = notes only,WPPA 2026 'Hoist NO' refers to the launch-hoist column and says nothing about offload equipment; no offload hoist/crane source located.
+facilities_orwa.csv:93,WA-bay-center,hoist_crane,not_available/low/2026-04 -> not_found/low/2026-11,hoist_crane ruling: Travelift/launch hoist = notes only,WPPA 2026 'Hoist NO' refers to the launch-hoist column and says nothing about offload equipment; no offload hoist/crane source located.
+facilities_ca.csv:97,CA-redondo-beach,hoist_crane,available/low/2026-11 -> not_found/low/2026-11,hoist_crane ruling: Travelift/launch hoist = notes only (applied to CA for consistency),The Log lists a 5-ton mechanical boat (launch) hoist; use for catch offloading not confirmed. No offload hoist located.
+facilities_ca.csv:118,CA-dana-point,hoist_crane,closed/low/2018-11 -> not_found/low/2026-11,hoist_crane ruling: Travelift/launch hoist = notes only (applied to CA for consistency),"Former row recorded removal (~2018-11) of the Embarcadero Marina boat hoist, a launch hoist, so it is notes-only. No offload hoist found for the commercial fishing docks (2025 OC advisory: boat hoist 'not feasible' for new dock)."
+facilities_ca.csv:73,CA-port-san-luis,hoist_crane,operator text edited (status unchanged),hoist_crane ruling: Travelift/launch hoist = notes only,50-ton boatyard mobile hoist removed from operator field
+facilities_ca.csv:30,CA-point-arena,hoist_crane,note added (status unchanged),dual-use hoist ruling (T1.3 user answer),labelled dual-use launch/offload
+facilities_ca.csv:31,CA-point-arena,hoist_crane,note added (status unchanged),dual-use hoist ruling (T1.3 user answer),labelled dual-use launch/offload
+facilities_orwa.csv:62,OR-port-orford,hoist_crane,note added (status unchanged),dual-use hoist ruling (T1.3 user answer),labelled dual-use launch/offload
+facilities_orwa.csv:8,OR-astoria,ice,row removed; content moved to notes of facilities_orwa.csv:7,ice ruling: retail bagged ice = notes only,"Estuary Partnership launch-point page (undated) lists 'ice available' at West Basin; likely retail, not fleet ice."
+facilities_orwa.csv:98,WA-nahcotta,ice,available/low/2026-11 -> not_found/low/2026-11,ice ruling: retail bagged ice = notes only,"Only a marina amenity listing (PredictWind, undated) mentions ice, likely retail; no bulk/fleet ice source located."
+facilities_orwa.csv:130,WA-everett,ice,available/low/2026-11 -> not_found/low/2026-11,ice ruling: retail bagged ice = notes only,"Only a Dockwa amenity list (undated) mentions ice, likely retail; no bulk/fleet ice source located."
+facilities_orwa.csv:111,WA-neah-bay,cold_storage,'tribal' added to notes,tribal-operator ruling,Makah Tribe
+facilities_orwa.csv:112,WA-neah-bay,fuel,'tribal' added to notes,tribal-operator ruling,Makah Tribe
+facilities_orwa.csv:113,WA-neah-bay,hoist_crane,'tribal' added to notes,tribal-operator ruling,Makah Tribe
+facilities_orwa.csv:114,WA-neah-bay,ice,'tribal' added to notes,tribal-operator ruling,Makah Tribe
+facilities_ca.csv:12,CA-trinidad,hoist_crane,note wording updated,tribal-operator ruling,'pending T1.3 rule' -> ruling cited
+facilities_orwa.csv:37,OR-florence,ice,"note added (status unchanged, flagged)",listed conflict,unresolved: 2011/undated sources say port ice; 2023 Snapshot and 2025 rates say none
+added by T1.3,WA-tokeland,fuel,row added: available/low/2022-10,listed conflict,marinas.com 2022 fuel dock + diesel
+facilities_ca.csv:74,CA-port-san-luis,cold_storage,as_of 2026-09-08 -> 2026-11,date convention: not_found = search month,
+facilities_ca.csv:33,CA-bodega-bay,fuel,'undated' added to notes,date convention: undated page = month accessed,
+facilities_ca.csv:102,CA-los-angeles-long-beach,cold_storage,'undated' added to notes,date convention: undated page = month accessed,
+facilities_ca.csv:130,CA-san-diego-bay,hoist_crane,'undated' added to notes,date convention: undated page = month accessed,
+facilities_orwa.csv:124,WA-seattle,fuel,operator_type private -> unknown,operator_type = unknown when operator not identified,
+ports_orwa.csv + facilities_orwa.csv,WA-aberdeen-hoquiam,all,port and 4 facility rows removed,user ruling: fails harbor-core test,PacFIN GRH; boat launches only
+ports_ca.csv,CA-vallejo,(coords),lat/lon moved 3.5 km to harbor,user answer: replace flagged ds3081 town points,"Vallejo Municipal Marina listing (mastermariners/marinelink, 38.1086,-122.2692)"
+ports_ca.csv,CA-berkeley,(coords),lat/lon moved 3.8 km to harbor,user answer: replace flagged ds3081 town points,"Berkeley Marina listing (mastermariners 37.8665,-122.3150; Wikipedia 37.8677,-122.3125)"
+ports_ca.csv,CA-santa-cruz,(coords),lat/lon moved 2.7 km to harbor,user answer: replace flagged ds3081 town points,"USGS GNIS 'Santa Cruz Small Craft Harbor' (36.96578,-122.00246)"
+ports_ca.csv,CA-ventura,(coords),lat/lon moved 4.1 km to harbor,user answer: replace flagged ds3081 town points,"USGS GNIS 'Ventura Harbor' (34.24945,-119.26483)"
+ports_ca.csv,CA-channel-islands,(coords),lat/lon moved 4.5 km to harbor,user answer: replace flagged ds3081 town points,"USGS GNIS 'Channel Islands Harbor' (34.16417,-119.22428)"
+ports_ca.csv,CA-huntington-harbour,(coords),lat/lon moved 9.0 km to harbor,user answer: replace flagged ds3081 town points,"USGS GNIS populated place 'Huntington Harbour' (33.721,-118.064)"
+ports_ca.csv,CA-san-diego-bay,(coords),lat/lon moved 3.9 km to harbor,user answer: replace flagged ds3081 town points,"USGS GNIS 'Tuna Harbor' (32.71255,-117.17559)"
+ports_ca.csv,CA-los-angeles-long-beach,(coords),lat/lon moved 2.2 km to harbor,user answer: replace flagged ds3081 town points,"USGS GNIS 'Fish Harbor' (33.73613,-118.26757)"
+ports_ca.csv,CA-point-arena,(coords),lat/lon moved 1.7 km to harbor,user answer: replace flagged ds3081 town points,"NOAA tide station 9416841 Arena Cove pier benchmarks (~38.9145,-123.7110)"

@@ -1,0 +1,59 @@
+port_id,lat,lon,in_state_box,km_to_ref,coord_kind
+CA-crescent-city,41.749,-124.204,True,1.7,ds3081
+CA-trinidad,41.0593,-124.1431,True,0.34,ds3081
+CA-humboldt-bay,40.7983,-124.1638,True,0.66,ds3081
+CA-shelter-cove,40.0255,-124.0664,True,0.48,ds3081
+CA-noyo-harbor,39.4252,-123.8038,True,0.22,ds3081
+CA-point-arena,38.9145,-123.711,True,0.0,replaced in T1.3
+CA-bodega-bay,38.3333,-123.0481,True,0.84,ds3081
+CA-san-francisco,37.8086,-122.4155,True,0.27,ds3081
+CA-vallejo,38.1086,-122.2692,True,0.0,replaced in T1.3
+CA-berkeley,37.8665,-122.315,True,0.0,replaced in T1.3
+CA-pillar-point,37.5037,-122.4818,True,0.19,ds3081
+CA-santa-cruz,36.9658,-122.0025,True,0.0,replaced in T1.3
+CA-moss-landing,36.8044,-121.7869,True,0.2,ds3081
+CA-monterey,36.6002,-121.8947,True,0.5,ds3081
+CA-morro-bay,35.3658,-120.8499,True,0.95,ds3081
+CA-port-san-luis,35.175,-120.7552,True,0.67,ds3081
+CA-santa-barbara,34.4072,-119.6888,True,0.46,ds3081
+CA-ventura,34.2494,-119.2648,True,0.0,replaced in T1.3
+CA-channel-islands,34.1642,-119.2243,True,0.0,replaced in T1.3
+CA-port-hueneme,34.1478,-119.1951,True,1.26,ds3081
+CA-marina-del-rey,33.9866,-118.4517,True,0.97,ds3081
+CA-redondo-beach,33.8492,-118.3884,True,0.92,ds3081
+CA-los-angeles-long-beach,33.7361,-118.2676,True,0.0,replaced in T1.3
+CA-huntington-harbour,33.721,-118.064,True,0.0,replaced in T1.3
+CA-newport-beach,33.6155,-117.9306,True,0.9,ds3081
+CA-avalon,33.3428,-118.3279,True,0.33,ds3081
+CA-dana-point,33.467,-117.6981,True,0.83,ds3081
+CA-oceanside,33.1954,-117.3848,True,1.55,ds3081
+CA-mission-bay,32.7792,-117.2342,True,1.5,ds3081
+CA-san-diego-bay,32.7126,-117.1756,True,0.0,replaced in T1.3
+OR-astoria,46.18997,-123.85733,True,0.05,listing
+OR-warrenton,46.1663,-123.9185,True,0.22,listing
+OR-garibaldi,45.55634,-123.91433,True,0.05,listing
+OR-depoe-bay,44.809,-124.0605,True,0.1,manual
+OR-newport,44.6265,-124.056,True,0.1,manual
+OR-florence,43.967,-124.1055,True,0.16,manual
+OR-winchester-bay,43.67918,-124.18193,True,0.02,listing
+OR-charleston,43.345,-124.327,True,0.09,manual
+OR-bandon,43.1204,-124.4116,True,0.18,listing
+OR-port-orford,42.7395,-124.4975,True,0.11,manual
+OR-gold-beach,42.4245,-124.42,True,0.07,manual
+OR-brookings,42.047,-124.27,True,0.22,manual
+WA-ilwaco,46.30443,-124.03809,True,0.0,listing
+WA-chinook,46.27076,-123.94705,True,0.01,listing
+WA-tokeland,46.70665,-123.9683,True,0.16,listing
+WA-bay-center,46.6294,-123.95257,True,0.0,listing
+WA-nahcotta,46.49964,-124.03071,True,0.0,listing
+WA-westport,46.9045,-124.105,True,0.09,manual
+WA-la-push,47.91068,-124.63711,True,0.0,listing
+WA-neah-bay,48.36751,-124.61155,True,0.0,listing
+WA-port-angeles,48.125,-123.452,True,0.28,manual
+WA-port-townsend,48.108,-122.774,True,0.28,manual
+WA-seattle,47.6591,-122.3787,True,0.33,listing
+WA-everett,47.998,-122.222,True,0.13,manual
+WA-la-conner,48.394,-122.498,True,0.11,manual
+WA-anacortes,48.513,-122.607,True,0.25,manual
+WA-bellingham,48.756,-122.499,True,0.13,manual
+WA-blaine,48.993,-122.76,True,0.0,manual
