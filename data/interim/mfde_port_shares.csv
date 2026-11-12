@@ -1,0 +1,60 @@
+cdfw_port_code,cdfw_port_name,pct_state_value_2019_2024,harbor_unit,decision,reason
+611,Santa Barbara Harbor,7.01,CA-santa-barbara,in,
+613,Ventura,10.68,CA-ventura,in,
+745,Terminal Island,9.48,CA-los-angeles-long-beach,in,
+770,San Pedro,2.65,CA-los-angeles-long-beach,in,
+743,Long Beach,0.23,CA-los-angeles-long-beach,in,
+744,Los Angeles,0.04,CA-los-angeles-long-beach,in,
+746,Wilmington,0.02,CA-los-angeles-long-beach,in,
+201,Crescent City,8.94,CA-crescent-city,in,
+440,San Francisco,6.06,CA-san-francisco,in,
+605,Port Hueneme,5.94,CA-port-hueneme,in,
+452,Princeton-Half Moon,5.68,CA-pillar-point,in,
+220,Eureka,5.67,CA-humboldt-bay,in,
+217,Fields Landing,0.55,CA-humboldt-bay,in,
+219,Humboldt Bay,0.04,CA-humboldt-bay,in,
+246,King Salmon,0.01,CA-humboldt-bay,in,
+212,Arcata,0.00,CA-humboldt-bay,in,0.00% shown (tiny or none)
+473,Bodega Bay,5.23,CA-bodega-bay,in,
+880,San Diego,4.35,CA-san-diego-bay,in,
+881,Point Loma,0.76,CA-san-diego-bay,in,
+592,Moss Landing,3.77,CA-moss-landing,in,
+223,Fort Bragg,3.71,CA-noyo-harbor,in,
+550,Monterey,3.61,CA-monterey,in,
+608,Oxnard,3.33,CA-channel-islands,in,
+869,Mission Bay,1.33,CA-mission-bay,in,
+606,Morro Bay,1.31,CA-morro-bay,in,
+593,Santa Cruz,1.30,CA-santa-cruz,in,
+767,Dana Point,1.28,CA-dana-point,in,
+231,Trinidad,1.17,CA-trinidad,in,
+883,Oceanside,1.14,CA-oceanside,in,
+602,Avila/Port San Luis,0.88,CA-port-san-luis,in,
+748,Newport Beach,0.61,CA-newport-beach,in,
+776,Marina Del Rey,0.51,CA-marina-del-rey,in,
+213,Point Arena,0.34,CA-point-arena,in,
+742,Redondo Beach,0.33,CA-redondo-beach,in,
+768,Huntington Beach,0.30,CA-huntington-harbour,in,
+453,Vallejo,0.28,CA-vallejo,in,
+215,Shelter Cove,0.26,CA-shelter-cove,in,
+472,Berkeley,0.17,CA-berkeley,in,
+741,Avalon,0.13,CA-avalon,in,
+487,Bolinas,0.12,,dropped,not a harbor (lagoon/beach landing site; no harbor facilities)
+469,Sausalito,0.07,,dropped,below 0.1%
+478,Richmond,0.06,,dropped,below 0.1%
+471,Alameda,0.05,,dropped,below 0.1%
+760,Seal Beach,0.05,,dropped,below 0.1%
+756,Hermosa Beach,0.04,,dropped,below 0.1%
+470,South San Francisco,0.03,,dropped,below 0.1%
+351,Rio Vista,0.03,,dropped,inland/Delta
+330,Sacramento,0.03,,dropped,inland/Delta
+211,Albion,0.02,,dropped,below 0.1%
+352,Stockton,0.02,,dropped,inland/Delta
+204,Orick,0.01,,dropped,below 0.1%
+462,Marshall,0.01,,dropped,below 0.1%
+468,San Rafael,0.01,,dropped,below 0.1%
+425,Emeryville,0.01,,dropped,below 0.1%
+464,Oakland,0.01,,dropped,below 0.1%
+442,Redwood City,0.01,,dropped,below 0.1%
+516,Mill Creek,0.01,,dropped,below 0.1%
+,UNKNOWN,0.21,,dropped,unknown port code
+,CONFIDENTIAL DATA,0.07,,dropped,confidential (no port identity)
