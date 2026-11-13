@@ -1,0 +1,912 @@
+state,source,unit,year,value_usd,pounds,n_species_cells_confidential,note
+CA,pacfin_all005,PacFIN group CCA,2016,22916542.0,,40,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CCA,2017,7452582.0,,52,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CCA,2018,28288367.0,,28,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CCA,2019,22443707.0,,34,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CCA,2020,10564086.0,,16,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CCA,2021,20142355.0,,26,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CCA,2022,5441813.0,,42,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CCA,2023,25451801.0,,18,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CCA,2024,9023266.0,,30,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CCA,2025,19183891.0,,31,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group ERA,2016,15452761.0,,53,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group ERA,2017,12064743.0,,50,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group ERA,2018,23972724.0,,39,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group ERA,2019,16550410.0,,79,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group ERA,2020,10882960.0,,59,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group ERA,2021,16513528.0,,59,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group ERA,2022,7142101.0,,64,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group ERA,2023,18428615.0,,43,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group ERA,2024,10994990.0,,54,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group ERA,2025,22347876.0,,55,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BGA,2016,7662894.0,,60,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BGA,2017,9444469.0,,60,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BGA,2018,9327506.0,,67,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BGA,2019,6788354.0,,75,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BGA,2020,5763598.0,,74,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BGA,2021,9062052.0,,63,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BGA,2022,7755541.0,,44,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BGA,2023,7696037.0,,47,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BGA,2024,5425089.0,,55,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BGA,2025,7174278.0,,62,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BDA,2016,14201109.0,,37,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BDA,2017,13252497.0,,25,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BDA,2018,7183580.0,,21,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BDA,2019,9582015.0,,20,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BDA,2020,10460077.0,,32,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BDA,2021,10969538.0,,27,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BDA,2022,8840756.0,,27,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BDA,2023,5177457.0,,20,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BDA,2024,10947011.0,,21,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group BDA,2025,7258658.0,,24,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SFA,2016,44863907.0,,60,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SFA,2017,25993908.0,,56,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SFA,2018,20115272.0,,47,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SFA,2019,23463759.0,,48,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SFA,2020,18925420.0,,59,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SFA,2021,25635245.0,,51,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SFA,2022,22107323.0,,55,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SFA,2023,13038415.0,,34,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SFA,2024,26518357.0,,53,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SFA,2025,19403418.0,,45,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MNA,2016,13526432.0,,53,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MNA,2017,13205723.0,,51,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MNA,2018,19448008.0,,49,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MNA,2019,10072098.0,,49,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MNA,2020,22549321.0,,53,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MNA,2021,32459161.0,,54,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MNA,2022,11704653.0,,52,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MNA,2023,5768461.0,,48,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MNA,2024,7951403.0,,62,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MNA,2025,11475527.0,,57,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MRA,2016,9804149.0,,79,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MRA,2017,8773573.0,,82,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MRA,2018,4949511.0,,55,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MRA,2019,6093123.0,,58,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MRA,2020,3076316.0,,43,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MRA,2021,3388515.0,,64,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MRA,2022,3330003.0,,55,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MRA,2023,3198889.0,,51,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MRA,2024,3677816.0,,47,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group MRA,2025,4535427.0,,39,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SBA,2016,39395852.0,,50,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SBA,2017,65622247.0,,51,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SBA,2018,36602468.0,,40,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SBA,2019,24442724.0,,43,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SBA,2020,24003533.0,,40,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SBA,2021,43499626.0,,36,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SBA,2022,88187572.0,,45,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SBA,2023,35603083.0,,36,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SBA,2024,65230464.0,,40,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SBA,2025,60635146.0,,35,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group LAA,2016,21346861.0,,47,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group LAA,2017,29263766.0,,43,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group LAA,2018,21876137.0,,47,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group LAA,2019,20082414.0,,46,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group LAA,2020,17672016.0,,48,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group LAA,2021,22321079.0,,41,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group LAA,2022,33006440.0,,48,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group LAA,2023,32740215.0,,37,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group LAA,2024,37459780.0,,43,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group LAA,2025,49225051.0,,31,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SDA,2016,10254289.0,,46,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SDA,2017,9863342.0,,43,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SDA,2018,10750897.0,,51,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SDA,2019,11639136.0,,53,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SDA,2020,11456079.0,,42,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SDA,2021,18535959.0,,43,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SDA,2022,11234560.0,,45,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SDA,2023,14131694.0,,51,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SDA,2024,12110217.0,,45,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group SDA,2025,10179114.0,,56,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CA2,2016,49637.0,,3,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CA2,2017,42108.0,,5,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CA2,2018,60631.0,,4,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CA2,2019,30588.0,,4,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CA2,2020,15223.0,,3,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CA2,2021,25008.0,,6,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CA2,2022,17808.0,,3,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CA2,2023,48990.0,,5,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CA2,2024,41652.0,,2,sum of species rows; '*' cells excluded (lower bound)
+CA,pacfin_all005,PacFIN group CA2,2025,0.0,,2,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CLO,2016,46957842.0,,46,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CLO,2017,43515522.0,,43,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CLO,2018,43034525.0,,31,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CLO,2019,46820848.0,,34,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CLO,2020,46924694.0,,25,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CLO,2021,57490374.0,,29,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CLO,2022,47771991.0,,30,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CLO,2023,49974314.0,,28,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CLO,2024,73188820.0,,30,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CLO,2025,91114463.0,,23,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group TLA,2016,3416062.0,,24,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group TLA,2017,4801558.0,,27,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group TLA,2018,5216423.0,,20,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group TLA,2019,4759138.0,,30,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group TLA,2020,6326401.0,,17,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group TLA,2021,11424872.0,,26,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group TLA,2022,6070402.0,,19,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group TLA,2023,8589099.0,,15,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group TLA,2024,11490844.0,,7,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group TLA,2025,9297412.0,,11,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group NPA,2016,48436538.0,,39,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group NPA,2017,52997420.0,,53,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group NPA,2018,62694421.0,,43,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group NPA,2019,58630816.0,,41,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group NPA,2020,60123272.0,,44,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group NPA,2021,74617646.0,,36,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group NPA,2022,47908082.0,,35,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group NPA,2023,62340465.0,,42,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group NPA,2024,60116152.0,,72,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group NPA,2025,70860610.0,,74,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CBA,2016,30305026.0,,60,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CBA,2017,30619374.0,,68,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CBA,2018,40228994.0,,56,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CBA,2019,33407701.0,,62,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CBA,2020,24410569.0,,63,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CBA,2021,43160900.0,,55,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CBA,2022,19704941.0,,56,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CBA,2023,35828285.0,,49,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CBA,2024,29062133.0,,49,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group CBA,2025,34296867.0,,55,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group BRA,2016,19499206.0,,27,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group BRA,2017,12138789.0,,35,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group BRA,2018,21319372.0,,29,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group BRA,2019,16715235.0,,25,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group BRA,2020,13958928.0,,40,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group BRA,2021,18716389.0,,21,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group BRA,2022,9108578.0,,31,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group BRA,2023,20224082.0,,29,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group BRA,2024,7967136.0,,26,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group BRA,2025,17778773.0,,17,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group OR1,2016,0.0,,0,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group OR1,2017,0.0,,0,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group OR1,2018,0.0,,0,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group OR1,2019,0.0,,0,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group OR1,2020,0.0,,0,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group OR1,2021,0.0,,0,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group OR1,2022,0.0,,0,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group OR1,2023,0.0,,0,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group OR1,2024,0.0,,0,sum of species rows; '*' cells excluded (lower bound)
+OR,pacfin_all005,PacFIN group OR1,2025,0.0,,0,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group NPS,2016,64582654.0,,27,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group NPS,2017,69625208.0,,30,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group NPS,2018,54853231.0,,35,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group NPS,2019,54016693.0,,36,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group NPS,2020,42853844.0,,35,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group NPS,2021,54232646.0,,27,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group NPS,2022,63759215.0,,25,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group NPS,2023,42692031.0,,22,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group NPS,2024,55776952.0,,30,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group NPS,2025,56703574.0,,21,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group SPS,2016,66064021.0,,15,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group SPS,2017,67621118.0,,18,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group SPS,2018,26247301.0,,33,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group SPS,2019,32057750.0,,27,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group SPS,2020,24344936.0,,16,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group SPS,2021,41544137.0,,16,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group SPS,2022,37585788.0,,16,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group SPS,2023,30033002.0,,28,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group SPS,2024,35514044.0,,17,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group SPS,2025,25550464.0,,13,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CWA,2016,73677255.0,,38,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CWA,2017,79975851.0,,40,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CWA,2018,41958391.0,,44,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CWA,2019,54388570.0,,44,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CWA,2020,54822806.0,,55,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CWA,2021,80986125.0,,54,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CWA,2022,93591373.0,,48,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CWA,2023,68680374.0,,57,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CWA,2024,79382345.0,,46,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CWA,2025,115946444.0,,59,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CLW,2016,25002325.0,,31,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CLW,2017,24560799.0,,27,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CLW,2018,7357926.0,,24,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CLW,2019,17378907.0,,34,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CLW,2020,16414916.0,,25,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CLW,2021,26798559.0,,45,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CLW,2022,16040023.0,,18,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CLW,2023,15292634.0,,21,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CLW,2024,13802478.0,,19,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group CLW,2025,14350142.0,,14,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group WA5,2016,8992392.0,,13,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group WA5,2017,14381086.0,,25,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group WA5,2018,108743961.0,,29,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group WA5,2019,29879288.0,,28,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group WA5,2020,22065636.0,,35,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group WA5,2021,35271795.0,,33,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group WA5,2022,38508483.0,,27,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group WA5,2023,40720230.0,,18,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group WA5,2024,43863425.0,,50,sum of species rows; '*' cells excluded (lower bound)
+WA,pacfin_all005,PacFIN group WA5,2025,47157275.0,,38,sum of species rows; '*' cells excluded (lower bound)
+OR,foss,"FOSS Astoria, OR",2024,68200000.0,174500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Westport, WA",2024,72200000.0,84500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Port Hueneme-Oxnard-Ventura, CA",2024,52600000.0,79400000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Newport, OR",2024,59400000.0,49400000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Los Angeles, CA",2024,31500000.0,49300000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Coos Bay-Charleston, OR",2024,23300000.0,18200000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Moss Landing, CA",2024,4300000.0,9000000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Bellingham, WA",2024,18900000.0,6800000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Monterey, CA",2024,2300000.0,6200000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Francisco Area, CA",2024,17000000.0,4700000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Fort Bragg, CA",2024,4600000.0,4500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Shelton, WA",2024,14700000.0,4000000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Eureka, CA",2024,8500000.0,4000000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Ilwaco-Chinook, WA",2024,12900000.0,3800000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Willapa Bay, WA",2024,11800000.0,3500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Neah Bay, WA",2024,6200000.0,3400000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Bodega Bay, CA",2024,10300000.0,3200000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Princeton-Half Moon Bay, CA",2024,9500000.0,3000000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Anacortes-La Conner, WA",2024,19200000.0,3000000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Diego, CA",2024,9800000.0,2800000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Tillamook, OR",2024,11300000.0,2700000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Crescent City, CA",2024,9000000.0,2600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Santa Barbara, CA",2024,12300000.0,2000000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Seattle, WA",2024,6600000.0,1900000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Winchester Bay, OR",2024,5600000.0,1800000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Olympia, WA",2024,9500000.0,1800000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Brookings, OR",2024,3900000.0,1200000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Port Orford, OR",2024,3800000.0,1100000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Tacoma, WA",2024,7200000.0,1000000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Astoria, OR",2023,44800000.0,157700000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Newport, OR",2023,62000000.0,95100000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Westport, WA",2023,60700000.0,85600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Los Angeles, CA",2023,26300000.0,35500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Port Hueneme-Oxnard-Ventura, CA",2023,22700000.0,21300000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Coos Bay-Charleston, OR",2023,27100000.0,15300000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Brookings, OR",2023,13000000.0,11100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Crescent City, CA",2023,25400000.0,10300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Eureka, CA",2023,14800000.0,9600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Moss Landing, CA",2023,3100000.0,6100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Fort Bragg, CA",2023,6800000.0,5500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Ilwaco-Chinook, WA",2023,14100000.0,5300000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Bellingham, WA",2023,9300000.0,4400000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Willapa Bay, WA",2023,11200000.0,3700000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Anacortes-La Conner, WA",2023,16500000.0,3400000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Monterey, CA",2023,1600000.0,3000000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Diego, CA",2023,11800000.0,2800000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Winchester Bay, OR",2023,8600000.0,2700000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Tillamook, OR",2023,7900000.0,2700000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Port Orford, OR",2023,6600000.0,2500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Neah Bay, WA",2023,5700000.0,2500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Shelton, WA",2023,19900000.0,2400000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Francisco Area, CA",2023,7600000.0,2300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Bodega Bay, CA",2023,4700000.0,2100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Santa Barbara, CA",2023,12500000.0,2000000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Princeton-Half Moon Bay, CA",2023,5300000.0,1900000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Trinidad, CA",2023,3100000.0,1200000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Blaine, WA",2023,5000000.0,1000000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Seattle, WA",2023,5300000.0,900000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Port Townsend, WA",2023,3300000.0,700000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Morro Bay, CA",2023,1900000.0,700000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Avila Beach, CA",2023,1300000.0,600000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Port Angeles, WA",2023,4400000.0,500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Olympia, WA",2023,11400000.0,500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS La Push, WA",2023,1200000.0,500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Oceanside, CA",2023,2300000.0,300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Dana Point, CA",2023,3100000.0,200000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Astoria, OR",2022,41900000.0,150000000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Westport, WA",2022,86500000.0,112300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Port Hueneme-Oxnard-Ventura, CA",2022,74200000.0,105100000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Newport, OR",2022,47700000.0,99700000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Los Angeles, CA",2022,26500000.0,36700000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Coos Bay-Charleston, OR",2022,14200000.0,12100000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Bellingham, WA",2022,22900000.0,7600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Eureka, CA",2022,6300000.0,7500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Fort Bragg, CA",2022,7000000.0,6000000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Moss Landing, CA",2022,4700000.0,5800000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Brookings, OR",2022,4300000.0,4500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Monterey, CA",2022,3500000.0,4300000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Shelton, WA",2022,18000000.0,4200000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Willapa Bay, WA",2022,12700000.0,3300000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Anacortes-La Conner, WA",2022,17100000.0,3000000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Neah Bay, WA",2022,7300000.0,2900000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Ilwaco-Chinook, WA",2022,13200000.0,2900000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Winchester Bay, OR",2022,5200000.0,2800000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Santa Barbara, CA",2022,13600000.0,2500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Francisco Area, CA",2022,11000000.0,2200000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Princeton-Half Moon Bay, CA",2022,10200000.0,2100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Bodega Bay, CA",2022,8500000.0,2100000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Seattle, WA",2022,6100000.0,2000000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Diego, CA",2022,8900000.0,1800000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Tillamook, OR",2022,5800000.0,1600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Crescent City, CA",2022,5400000.0,1500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Blaine, WA",2022,8500000.0,1500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Olympia, WA",2022,11300000.0,500000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Astoria, OR",2021,52700000.0,154500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Westport, WA",2021,71500000.0,132600000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Newport, OR",2021,74200000.0,112600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Port Hueneme-Oxnard-Ventura, CA",2021,31800000.0,37500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Monterey, CA",2021,17000000.0,26500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Moss Landing, CA",2021,12000000.0,21600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Los Angeles, CA",2021,16500000.0,20400000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Coos Bay-Charleston, OR",2021,34800000.0,17800000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Brookings, OR",2021,12700000.0,10400000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Eureka, CA",2021,13200000.0,8100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Princeton-Half Moon Bay, CA",2021,14000000.0,7800000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Ilwaco-Chinook, WA",2021,24300000.0,6500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Fort Bragg, CA",2021,8300000.0,5000000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Bellingham, WA",2021,16500000.0,4400000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Winchester Bay, OR",2021,8300000.0,4300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Crescent City, CA",2021,20100000.0,4300000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Willapa Bay, WA",2021,12600000.0,3200000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Shelton, WA",2021,21300000.0,3000000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Francisco Area, CA",2021,11200000.0,2900000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Anacortes-La Conner, WA",2021,18100000.0,2900000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Tillamook, OR",2021,11200000.0,2600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Diego, CA",2021,9200000.0,2200000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Bodega Bay, CA",2021,10700000.0,2200000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Santa Barbara, CA",2021,11400000.0,2100000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Neah Bay, WA",2021,4600000.0,1900000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Blaine, WA",2021,8000000.0,1200000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Seattle, WA",2021,8500000.0,900000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Olympia, WA",2021,8900000.0,600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Morro Bay, CA",2021,2000000.0,600000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Tacoma, WA",2021,7700000.0,500000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Astoria, OR",2020,42900000.0,182100000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Newport, OR",2020,59800000.0,117200000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Westport, WA",2020,50600000.0,113100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Moss Landing, CA",2020,9600000.0,21500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Monterey, CA",2020,10500000.0,18000000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Coos Bay-Charleston, OR",2020,20000000.0,16700000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Los Angeles, CA",2020,12800000.0,15100000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Brookings, OR",2020,9000000.0,11100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Eureka, CA",2020,8300000.0,8000000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Princeton-Half Moon Bay, CA",2020,10400000.0,7300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Port Hueneme-Oxnard-Ventura, CA",2020,12500000.0,7000000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Ilwaco-Chinook, WA",2020,15500000.0,6100000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Bellingham, WA",2020,13800000.0,4800000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Fort Bragg, CA",2020,6100000.0,4400000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Crescent City, CA",2020,10600000.0,3600000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Winchester Bay, OR",2020,4300000.0,3200000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Diego, CA",2020,9900000.0,3100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Bodega Bay, CA",2020,10200000.0,3100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Francisco Area, CA",2020,8000000.0,2800000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Anacortes-La Conner, WA",2020,14800000.0,2800000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Santa Barbara, CA",2020,11400000.0,2400000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Tillamook, OR",2020,6200000.0,1900000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Shelton, WA",2020,13500000.0,1900000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Willapa Bay, WA",2020,6100000.0,1800000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Port Orford, OR",2020,4100000.0,1400000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Neah Bay, WA",2020,2500000.0,1200000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Blaine, WA",2020,5900000.0,1100000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Astoria, OR",2019,44500000.0,171100000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Newport, OR",2019,58100000.0,121500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Westport, WA",2019,52900000.0,120900000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Los Angeles, CA",2019,15400000.0,23800000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Coos Bay-Charleston, OR",2019,28500000.0,18400000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Moss Landing, CA",2019,5400000.0,18200000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Port Hueneme-Oxnard-Ventura, CA",2019,13400000.0,11500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Eureka, CA",2019,14300000.0,10900000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Ilwaco-Chinook, WA",2019,17500000.0,9700000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Crescent City, CA",2019,22300000.0,8400000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Monterey, CA",2019,2600000.0,8300000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Brookings, OR",2019,11200000.0,8200000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Bellingham, WA",2019,17800000.0,8100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Princeton-Half Moon Bay, CA",2019,9800000.0,4900000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Willapa Bay, WA",2019,15300000.0,4300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Fort Bragg, CA",2019,6400000.0,4100000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Anacortes-La Conner, WA",2019,20500000.0,4100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Francisco Area, CA",2019,12400000.0,3800000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Shelton, WA",2019,32100000.0,3400000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Diego, CA",2019,10100000.0,3200000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Bodega Bay, CA",2019,9400000.0,2800000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Santa Barbara, CA",2019,10800000.0,2600000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Neah Bay, WA",2019,5500000.0,2400000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Winchester Bay, OR",2019,4700000.0,2200000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Seattle, WA",2019,6300000.0,1500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Olympia, WA",2019,14700000.0,1300000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Blaine, WA",2019,5500000.0,1300000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Port Townsend, WA",2019,4200000.0,1100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Morro Bay, CA",2019,3900000.0,1100000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Port Angeles, WA",2019,4500000.0,500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Tacoma, WA",2019,6000000.0,400000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS La Push, WA",2019,800000.0,300000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Everett, WA",2019,800000.0,200000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Astoria, OR",2018,39700000.0,138200000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Newport, OR",2018,62200000.0,123300000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Westport, WA",2018,28600000.0,121600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Moss Landing, CA",2018,8500000.0,37600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Port Hueneme-Oxnard-Ventura, CA",2018,23800000.0,31300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Los Angeles, CA",2018,18600000.0,28800000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Monterey, CA",2018,9600000.0,25300000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Coos Bay-Charleston, OR",2018,34200000.0,25000000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Eureka, CA",2018,20500000.0,13300000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Brookings, OR",2018,15800000.0,13000000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Crescent City, CA",2018,28200000.0,12600000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Bellingham, WA",2018,21300000.0,8200000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Princeton-Half Moon Bay, CA",2018,8700000.0,7500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Francisco Area, CA",2018,10800000.0,5100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Fort Bragg, CA",2018,8500000.0,4600000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Winchester Bay, OR",2018,5800000.0,4500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Shelton, WA",2018,31700000.0,4300000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Anacortes-La Conner, WA",2018,18300000.0,3600000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Willapa Bay, WA",2018,12500000.0,3500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Ilwaco-Chinook, WA",2018,7700000.0,3400000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Santa Barbara, CA",2018,12400000.0,3300000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Neah Bay, WA",2018,6000000.0,3000000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Diego, CA",2018,8800000.0,2600000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Olympia, WA",2018,14200000.0,2300000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Tillamook, OR",2018,5000000.0,1900000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Bodega Bay, CA",2018,6800000.0,1800000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Port Orford, OR",2018,4600000.0,1600000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Blaine, WA",2018,5900000.0,1600000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Seattle, WA",2018,5200000.0,1400000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Morro Bay, CA",2018,3100000.0,1300000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Astoria, OR",2017,40000000.0,151200000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Westport, WA",2017,63900000.0,150400000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Newport, OR",2017,52600000.0,111500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Port Hueneme-Oxnard-Ventura, CA",2017,52600000.0,90600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Los Angeles, CA",2017,26100000.0,43200000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Coos Bay-Charleston, OR",2017,27500000.0,19300000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Ilwaco-Chinook, WA",2017,22000000.0,15600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Monterey, CA",2017,6900000.0,13600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Moss Landing, CA",2017,4500000.0,10300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Eureka, CA",2017,10400000.0,9300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Princeton-Half Moon Bay, CA",2017,11000000.0,8900000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Bellingham, WA",2017,22700000.0,8900000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Brookings, OR",2017,8400000.0,8800000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Seattle, WA",2017,29000000.0,6300000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Shelton, WA",2017,15500000.0,5600000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Anacortes-La Conner, WA",2017,21300000.0,5500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Francisco Area, CA",2017,14500000.0,5300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Fort Bragg, CA",2017,9200000.0,5300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Crescent City, CA",2017,7400000.0,5100000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Neah Bay, WA",2017,8700000.0,4600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Morro Bay, CA",2017,6500000.0,4100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Santa Barbara, CA",2017,12800000.0,3900000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Bodega Bay, CA",2017,13000000.0,3500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Willapa Bay, WA",2017,9900000.0,3400000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Olympia, WA",2017,15100000.0,2300000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Everett, WA",2017,2900000.0,2100000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Diego, CA",2017,7800000.0,2000000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Blaine, WA",2017,6800000.0,1900000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Tacoma, WA",2017,5400000.0,1800000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS La Push, WA",2017,2600000.0,900000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Westport, WA",2016,59200000.0,108300000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Astoria, OR",2016,42300000.0,93600000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Newport, OR",2016,47800000.0,77300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Port Hueneme-Oxnard-Ventura, CA",2016,26000000.0,38000000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Los Angeles, CA",2016,18600000.0,36500000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Coos Bay-Charleston, OR",2016,27900000.0,21300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Moss Landing, CA",2016,6000000.0,13400000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Ilwaco-Chinook, WA",2016,22100000.0,13300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Francisco Area, CA",2016,23200000.0,12900000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Princeton-Half Moon Bay, CA",2016,16600000.0,12700000,,FOSS top US ports; millions rounded to 0.1
+OR,foss,"FOSS Brookings, OR",2016,14700000.0,11000000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Monterey, CA",2016,5800000.0,10400000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Crescent City, CA",2016,22900000.0,9500000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Shelton, WA",2016,36400000.0,9400000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Eureka, CA",2016,12700000.0,8900000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Bellingham, WA",2016,20500000.0,7300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Santa Barbara, CA",2016,13600000.0,5200000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Seattle, WA",2016,25600000.0,5100000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Anacortes-La Conner, WA",2016,19000000.0,4700000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Neah Bay, WA",2016,7000000.0,4600000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Bodega Bay, CA",2016,13800000.0,4500000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Morro Bay, CA",2016,7100000.0,4300000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS Fort Bragg, CA",2016,7300000.0,4300000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Willapa Bay, WA",2016,10800000.0,3800000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Olympia, WA",2016,20600000.0,3400000,,FOSS top US ports; millions rounded to 0.1
+CA,foss,"FOSS San Diego, CA",2016,8300000.0,2200000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Blaine, WA",2016,5900000.0,1800000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Tacoma, WA",2016,7800000.0,1700000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS Everett, WA",2016,2300000.0,1600000,,FOSS top US ports; millions rounded to 0.1
+WA,foss,"FOSS La Push, WA",2016,1200000.0,400000,,FOSS top US ports; millions rounded to 0.1
+CA,panel,CA-avalon,2016,56582.0,5392.0,9,all species; withheld months excluded
+CA,panel,CA-avalon,2017,140450.0,16003.0,6,all species; withheld months excluded
+CA,panel,CA-avalon,2018,89443.0,12740.0,9,all species; withheld months excluded
+CA,panel,CA-avalon,2019,148930.0,17366.0,8,all species; withheld months excluded
+CA,panel,CA-avalon,2020,60076.0,98784.0,9,all species; withheld months excluded
+CA,panel,CA-avalon,2021,191935.0,19495.0,5,all species; withheld months excluded
+CA,panel,CA-avalon,2022,222575.0,21436.0,8,all species; withheld months excluded
+CA,panel,CA-avalon,2023,130836.0,9873.0,5,all species; withheld months excluded
+CA,panel,CA-avalon,2024,71126.0,8834.0,7,all species; withheld months excluded
+CA,panel,CA-avalon,2025,163513.0,36156.0,6,all species; withheld months excluded
+CA,panel,CA-berkeley,2016,173764.0,31491.0,1,all species; withheld months excluded
+CA,panel,CA-berkeley,2017,183481.0,34238.0,0,all species; withheld months excluded
+CA,panel,CA-berkeley,2018,207127.0,58849.0,0,all species; withheld months excluded
+CA,panel,CA-berkeley,2019,196146.0,38955.0,3,all species; withheld months excluded
+CA,panel,CA-berkeley,2020,352445.0,52867.0,1,all species; withheld months excluded
+CA,panel,CA-berkeley,2021,285161.0,42006.0,1,all species; withheld months excluded
+CA,panel,CA-berkeley,2022,462873.0,61452.0,2,all species; withheld months excluded
+CA,panel,CA-berkeley,2023,226524.0,35397.0,4,all species; withheld months excluded
+CA,panel,CA-berkeley,2024,213326.0,39400.0,1,all species; withheld months excluded
+CA,panel,CA-berkeley,2025,251619.0,36840.0,3,all species; withheld months excluded
+CA,panel,CA-bodega-bay,2016,13892048.0,4472251.0,0,all species; withheld months excluded
+CA,panel,CA-bodega-bay,2017,12966725.0,3436820.0,0,all species; withheld months excluded
+CA,panel,CA-bodega-bay,2018,6899940.0,1895843.0,0,all species; withheld months excluded
+CA,panel,CA-bodega-bay,2019,9347454.0,2712270.0,0,all species; withheld months excluded
+CA,panel,CA-bodega-bay,2020,10237710.0,3057394.0,0,all species; withheld months excluded
+CA,panel,CA-bodega-bay,2021,10706853.0,2074071.0,0,all species; withheld months excluded
+CA,panel,CA-bodega-bay,2022,8521930.0,1979924.0,0,all species; withheld months excluded
+CA,panel,CA-bodega-bay,2023,4912757.0,2094154.0,0,all species; withheld months excluded
+CA,panel,CA-bodega-bay,2024,10749274.0,3240790.0,0,all species; withheld months excluded
+CA,panel,CA-bodega-bay,2025,7153819.0,1453733.0,0,all species; withheld months excluded
+CA,panel,CA-channel-islands,2016,3663107.0,1911525.0,0,all species; withheld months excluded
+CA,panel,CA-channel-islands,2017,3362981.0,1392567.0,0,all species; withheld months excluded
+CA,panel,CA-channel-islands,2018,3203853.0,1147456.0,0,all species; withheld months excluded
+CA,panel,CA-channel-islands,2019,3510169.0,1119632.0,0,all species; withheld months excluded
+CA,panel,CA-channel-islands,2020,4214105.0,1395830.0,0,all species; withheld months excluded
+CA,panel,CA-channel-islands,2021,5666733.0,1505415.0,0,all species; withheld months excluded
+CA,panel,CA-channel-islands,2022,7461599.0,1478558.0,0,all species; withheld months excluded
+CA,panel,CA-channel-islands,2023,7157788.0,1231776.0,0,all species; withheld months excluded
+CA,panel,CA-channel-islands,2024,6686862.0,1082624.0,0,all species; withheld months excluded
+CA,panel,CA-channel-islands,2025,6834892.0,1427456.0,0,all species; withheld months excluded
+CA,panel,CA-crescent-city,2016,23036095.0,9447657.0,1,all species; withheld months excluded
+CA,panel,CA-crescent-city,2017,7441000.0,5108069.0,0,all species; withheld months excluded
+CA,panel,CA-crescent-city,2018,28246456.0,12600662.0,0,all species; withheld months excluded
+CA,panel,CA-crescent-city,2019,22454470.0,8485153.0,0,all species; withheld months excluded
+CA,panel,CA-crescent-city,2020,10579796.0,3717199.0,0,all species; withheld months excluded
+CA,panel,CA-crescent-city,2021,20142357.0,4274297.0,0,all species; withheld months excluded
+CA,panel,CA-crescent-city,2022,5441812.0,1515578.0,0,all species; withheld months excluded
+CA,panel,CA-crescent-city,2023,25418064.0,10289793.0,1,all species; withheld months excluded
+CA,panel,CA-crescent-city,2024,9023265.0,2638172.0,0,all species; withheld months excluded
+CA,panel,CA-crescent-city,2025,19183882.0,4111032.0,0,all species; withheld months excluded
+CA,panel,CA-dana-point,2016,1087816.0,82009.0,1,all species; withheld months excluded
+CA,panel,CA-dana-point,2017,1605437.0,122662.0,0,all species; withheld months excluded
+CA,panel,CA-dana-point,2018,1688552.0,199653.0,0,all species; withheld months excluded
+CA,panel,CA-dana-point,2019,1335978.0,316600.0,0,all species; withheld months excluded
+CA,panel,CA-dana-point,2020,1343483.0,300325.0,0,all species; withheld months excluded
+CA,panel,CA-dana-point,2021,1873073.0,281386.0,0,all species; withheld months excluded
+CA,panel,CA-dana-point,2022,3028332.0,420742.0,1,all species; withheld months excluded
+CA,panel,CA-dana-point,2023,3086939.0,415877.0,0,all species; withheld months excluded
+CA,panel,CA-dana-point,2024,2655729.0,410891.0,0,all species; withheld months excluded
+CA,panel,CA-dana-point,2025,2223223.0,483467.0,0,all species; withheld months excluded
+CA,panel,CA-humboldt-bay,2016,10532832.0,7299321.0,11,all species; withheld months excluded
+CA,panel,CA-humboldt-bay,2017,9924099.0,8653011.0,12,all species; withheld months excluded
+CA,panel,CA-humboldt-bay,2018,18127390.0,12299545.0,11,all species; withheld months excluded
+CA,panel,CA-humboldt-bay,2019,12439042.0,10260798.0,11,all species; withheld months excluded
+CA,panel,CA-humboldt-bay,2020,7779346.0,8158311.0,8,all species; withheld months excluded
+CA,panel,CA-humboldt-bay,2021,12412204.0,8096897.0,7,all species; withheld months excluded
+CA,panel,CA-humboldt-bay,2022,6051252.0,7573525.0,5,all species; withheld months excluded
+CA,panel,CA-humboldt-bay,2023,13375941.0,9065604.0,7,all species; withheld months excluded
+CA,panel,CA-humboldt-bay,2024,7430389.0,3675850.0,6,all species; withheld months excluded
+CA,panel,CA-humboldt-bay,2025,15120412.0,3913273.0,8,all species; withheld months excluded
+CA,panel,CA-huntington-harbour,2016,0.0,0.0,6,all species; withheld months excluded
+CA,panel,CA-huntington-harbour,2017,0.0,0.0,4,all species; withheld months excluded
+CA,panel,CA-huntington-harbour,2018,14949.0,2623.0,7,all species; withheld months excluded
+CA,panel,CA-huntington-harbour,2019,63646.0,6916.0,9,all species; withheld months excluded
+CA,panel,CA-huntington-harbour,2020,104941.0,15864.0,9,all species; withheld months excluded
+CA,panel,CA-huntington-harbour,2021,282777.0,45490.0,8,all species; withheld months excluded
+CA,panel,CA-huntington-harbour,2022,518548.0,72089.0,3,all species; withheld months excluded
+CA,panel,CA-huntington-harbour,2023,335411.0,47521.0,6,all species; withheld months excluded
+CA,panel,CA-huntington-harbour,2024,837589.0,138339.0,0,all species; withheld months excluded
+CA,panel,CA-huntington-harbour,2025,602951.0,132670.0,0,all species; withheld months excluded
+CA,panel,CA-los-angeles-long-beach,2016,18013364.0,36308024.0,12,all species; withheld months excluded
+CA,panel,CA-los-angeles-long-beach,2017,25628483.0,42945891.0,8,all species; withheld months excluded
+CA,panel,CA-los-angeles-long-beach,2018,17929795.0,28443721.0,10,all species; withheld months excluded
+CA,panel,CA-los-angeles-long-beach,2019,15552924.0,24506694.0,12,all species; withheld months excluded
+CA,panel,CA-los-angeles-long-beach,2020,13248818.0,15942236.0,6,all species; withheld months excluded
+CA,panel,CA-los-angeles-long-beach,2021,17004913.0,21338788.0,10,all species; withheld months excluded
+CA,panel,CA-los-angeles-long-beach,2022,25917549.0,36993450.0,11,all species; withheld months excluded
+CA,panel,CA-los-angeles-long-beach,2023,25814370.0,35707409.0,9,all species; withheld months excluded
+CA,panel,CA-los-angeles-long-beach,2024,30911587.0,49300118.0,11,all species; withheld months excluded
+CA,panel,CA-los-angeles-long-beach,2025,44373117.0,85394082.0,9,all species; withheld months excluded
+CA,panel,CA-marina-del-rey,2016,124308.0,15599.0,7,all species; withheld months excluded
+CA,panel,CA-marina-del-rey,2017,154595.0,16149.0,8,all species; withheld months excluded
+CA,panel,CA-marina-del-rey,2018,237445.0,71026.0,5,all species; withheld months excluded
+CA,panel,CA-marina-del-rey,2019,328710.0,77294.0,8,all species; withheld months excluded
+CA,panel,CA-marina-del-rey,2020,563865.0,221065.0,2,all species; withheld months excluded
+CA,panel,CA-marina-del-rey,2021,611869.0,255203.0,0,all species; withheld months excluded
+CA,panel,CA-marina-del-rey,2022,1098497.0,393480.0,1,all species; withheld months excluded
+CA,panel,CA-marina-del-rey,2023,1040541.0,263465.0,1,all species; withheld months excluded
+CA,panel,CA-marina-del-rey,2024,1125237.0,176929.0,1,all species; withheld months excluded
+CA,panel,CA-marina-del-rey,2025,591480.0,228859.0,0,all species; withheld months excluded
+CA,panel,CA-mission-bay,2016,2672238.0,411568.0,0,all species; withheld months excluded
+CA,panel,CA-mission-bay,2017,2489529.0,348342.0,0,all species; withheld months excluded
+CA,panel,CA-mission-bay,2018,2101479.0,306859.0,0,all species; withheld months excluded
+CA,panel,CA-mission-bay,2019,1810540.0,791385.0,0,all species; withheld months excluded
+CA,panel,CA-mission-bay,2020,1794610.0,604921.0,0,all species; withheld months excluded
+CA,panel,CA-mission-bay,2021,3783922.0,610405.0,0,all species; withheld months excluded
+CA,panel,CA-mission-bay,2022,1831466.0,553135.0,0,all species; withheld months excluded
+CA,panel,CA-mission-bay,2023,2272138.0,635202.0,0,all species; withheld months excluded
+CA,panel,CA-mission-bay,2024,2369151.0,581842.0,0,all species; withheld months excluded
+CA,panel,CA-mission-bay,2025,1971459.0,573715.0,0,all species; withheld months excluded
+CA,panel,CA-monterey,2016,5856966.0,10443318.0,0,all species; withheld months excluded
+CA,panel,CA-monterey,2017,7067502.0,13635134.0,0,all species; withheld months excluded
+CA,panel,CA-monterey,2018,9675695.0,25721931.0,0,all species; withheld months excluded
+CA,panel,CA-monterey,2019,2579357.0,8249310.0,0,all species; withheld months excluded
+CA,panel,CA-monterey,2020,10607657.0,19012530.0,0,all species; withheld months excluded
+CA,panel,CA-monterey,2021,16999507.0,26796385.0,0,all species; withheld months excluded
+CA,panel,CA-monterey,2022,3512657.0,4420074.0,0,all species; withheld months excluded
+CA,panel,CA-monterey,2023,1582380.0,3090264.0,0,all species; withheld months excluded
+CA,panel,CA-monterey,2024,2275472.0,6294083.0,0,all species; withheld months excluded
+CA,panel,CA-monterey,2025,3511480.0,6430653.0,0,all species; withheld months excluded
+CA,panel,CA-morro-bay,2016,7070640.0,4177151.0,0,all species; withheld months excluded
+CA,panel,CA-morro-bay,2017,6498384.0,4054302.0,0,all species; withheld months excluded
+CA,panel,CA-morro-bay,2018,3416433.0,1393923.0,0,all species; withheld months excluded
+CA,panel,CA-morro-bay,2019,3897017.0,1090684.0,0,all species; withheld months excluded
+CA,panel,CA-morro-bay,2020,1875532.0,686503.0,0,all species; withheld months excluded
+CA,panel,CA-morro-bay,2021,1968246.0,610909.0,0,all species; withheld months excluded
+CA,panel,CA-morro-bay,2022,1841872.0,578105.0,0,all species; withheld months excluded
+CA,panel,CA-morro-bay,2023,1863961.0,735297.0,0,all species; withheld months excluded
+CA,panel,CA-morro-bay,2024,2154090.0,907654.0,0,all species; withheld months excluded
+CA,panel,CA-morro-bay,2025,2677191.0,895006.0,0,all species; withheld months excluded
+CA,panel,CA-moss-landing,2016,6060000.0,13448412.0,0,all species; withheld months excluded
+CA,panel,CA-moss-landing,2017,4528748.0,10342374.0,0,all species; withheld months excluded
+CA,panel,CA-moss-landing,2018,8381298.0,37836515.0,0,all species; withheld months excluded
+CA,panel,CA-moss-landing,2019,5455438.0,18778458.0,0,all species; withheld months excluded
+CA,panel,CA-moss-landing,2020,9668984.0,22472036.0,0,all species; withheld months excluded
+CA,panel,CA-moss-landing,2021,12008893.0,21699243.0,0,all species; withheld months excluded
+CA,panel,CA-moss-landing,2022,4724119.0,6114552.0,0,all species; withheld months excluded
+CA,panel,CA-moss-landing,2023,3120331.0,6939025.0,0,all species; withheld months excluded
+CA,panel,CA-moss-landing,2024,4253913.0,9337423.0,0,all species; withheld months excluded
+CA,panel,CA-moss-landing,2025,6634399.0,9887911.0,0,all species; withheld months excluded
+CA,panel,CA-newport-beach,2016,977695.0,181829.0,0,all species; withheld months excluded
+CA,panel,CA-newport-beach,2017,895115.0,201399.0,0,all species; withheld months excluded
+CA,panel,CA-newport-beach,2018,680356.0,122096.0,1,all species; withheld months excluded
+CA,panel,CA-newport-beach,2019,1093397.0,262326.0,1,all species; withheld months excluded
+CA,panel,CA-newport-beach,2020,1202381.0,289784.0,2,all species; withheld months excluded
+CA,panel,CA-newport-beach,2021,1012465.0,235432.0,1,all species; withheld months excluded
+CA,panel,CA-newport-beach,2022,1081691.0,316094.0,0,all species; withheld months excluded
+CA,panel,CA-newport-beach,2023,1096015.0,275493.0,1,all species; withheld months excluded
+CA,panel,CA-newport-beach,2024,708058.0,166450.0,0,all species; withheld months excluded
+CA,panel,CA-newport-beach,2025,712013.0,194994.0,1,all species; withheld months excluded
+CA,panel,CA-noyo-harbor,2016,7305496.0,4158466.0,0,all species; withheld months excluded
+CA,panel,CA-noyo-harbor,2017,8964340.0,4919418.0,0,all species; withheld months excluded
+CA,panel,CA-noyo-harbor,2018,8524906.0,4561646.0,0,all species; withheld months excluded
+CA,panel,CA-noyo-harbor,2019,6329037.0,4070581.0,0,all species; withheld months excluded
+CA,panel,CA-noyo-harbor,2020,5382768.0,4369949.0,0,all species; withheld months excluded
+CA,panel,CA-noyo-harbor,2021,8341282.0,4901318.0,0,all species; withheld months excluded
+CA,panel,CA-noyo-harbor,2022,7093072.0,6088962.0,0,all species; withheld months excluded
+CA,panel,CA-noyo-harbor,2023,6789197.0,5680806.0,0,all species; withheld months excluded
+CA,panel,CA-noyo-harbor,2024,4748629.0,4775470.0,0,all species; withheld months excluded
+CA,panel,CA-noyo-harbor,2025,6275211.0,4773147.0,0,all species; withheld months excluded
+CA,panel,CA-oceanside,2016,1982352.0,321321.0,0,all species; withheld months excluded
+CA,panel,CA-oceanside,2017,1921325.0,342469.0,0,all species; withheld months excluded
+CA,panel,CA-oceanside,2018,1891696.0,371520.0,0,all species; withheld months excluded
+CA,panel,CA-oceanside,2019,1493925.0,464353.0,0,all species; withheld months excluded
+CA,panel,CA-oceanside,2020,1574066.0,428520.0,0,all species; withheld months excluded
+CA,panel,CA-oceanside,2021,1849602.0,433642.0,0,all species; withheld months excluded
+CA,panel,CA-oceanside,2022,2317944.0,379461.0,0,all species; withheld months excluded
+CA,panel,CA-oceanside,2023,2330865.0,314808.0,0,all species; withheld months excluded
+CA,panel,CA-oceanside,2024,2313685.0,385858.0,0,all species; withheld months excluded
+CA,panel,CA-oceanside,2025,1113068.0,316725.0,0,all species; withheld months excluded
+CA,panel,CA-pillar-point,2016,16677062.0,12693755.0,0,all species; withheld months excluded
+CA,panel,CA-pillar-point,2017,11331086.0,8898526.0,0,all species; withheld months excluded
+CA,panel,CA-pillar-point,2018,8837845.0,7462473.0,0,all species; withheld months excluded
+CA,panel,CA-pillar-point,2019,9764414.0,4856315.0,0,all species; withheld months excluded
+CA,panel,CA-pillar-point,2020,10415788.0,7204864.0,0,all species; withheld months excluded
+CA,panel,CA-pillar-point,2021,13969576.0,7730942.0,0,all species; withheld months excluded
+CA,panel,CA-pillar-point,2022,10162570.0,2077834.0,0,all species; withheld months excluded
+CA,panel,CA-pillar-point,2023,5305412.0,1892645.0,0,all species; withheld months excluded
+CA,panel,CA-pillar-point,2024,9526395.0,3030407.0,0,all species; withheld months excluded
+CA,panel,CA-pillar-point,2025,8878963.0,5702033.0,0,all species; withheld months excluded
+CA,panel,CA-point-arena,2016,319896.0,78559.0,6,all species; withheld months excluded
+CA,panel,CA-point-arena,2017,341434.0,95163.0,5,all species; withheld months excluded
+CA,panel,CA-point-arena,2018,761073.0,186338.0,2,all species; withheld months excluded
+CA,panel,CA-point-arena,2019,363226.0,77315.0,4,all species; withheld months excluded
+CA,panel,CA-point-arena,2020,315531.0,57479.0,6,all species; withheld months excluded
+CA,panel,CA-point-arena,2021,666540.0,163877.0,1,all species; withheld months excluded
+CA,panel,CA-point-arena,2022,541752.0,121310.0,1,all species; withheld months excluded
+CA,panel,CA-point-arena,2023,892162.0,274443.0,1,all species; withheld months excluded
+CA,panel,CA-point-arena,2024,671758.0,176705.0,0,all species; withheld months excluded
+CA,panel,CA-point-arena,2025,855936.0,186211.0,2,all species; withheld months excluded
+CA,panel,CA-port-hueneme,2016,8941151.0,17200949.0,3,all species; withheld months excluded
+CA,panel,CA-port-hueneme,2017,18291806.0,35933291.0,3,all species; withheld months excluded
+CA,panel,CA-port-hueneme,2018,7546370.0,13692549.0,4,all species; withheld months excluded
+CA,panel,CA-port-hueneme,2019,1709386.0,3153078.0,7,all species; withheld months excluded
+CA,panel,CA-port-hueneme,2020,682160.0,1027324.0,8,all species; withheld months excluded
+CA,panel,CA-port-hueneme,2021,8008756.0,12631717.0,1,all species; withheld months excluded
+CA,panel,CA-port-hueneme,2022,27162038.0,45487116.0,3,all species; withheld months excluded
+CA,panel,CA-port-hueneme,2023,4639093.0,7876884.0,5,all species; withheld months excluded
+CA,panel,CA-port-hueneme,2024,17641414.0,33428470.0,5,all species; withheld months excluded
+CA,panel,CA-port-hueneme,2025,14061726.0,29137366.0,3,all species; withheld months excluded
+CA,panel,CA-port-san-luis,2016,2721697.0,978432.0,0,all species; withheld months excluded
+CA,panel,CA-port-san-luis,2017,2250622.0,778351.0,0,all species; withheld months excluded
+CA,panel,CA-port-san-luis,2018,1537950.0,459256.0,0,all species; withheld months excluded
+CA,panel,CA-port-san-luis,2019,2195763.0,604097.0,0,all species; withheld months excluded
+CA,panel,CA-port-san-luis,2020,1197210.0,410541.0,0,all species; withheld months excluded
+CA,panel,CA-port-san-luis,2021,1419970.0,504732.0,0,all species; withheld months excluded
+CA,panel,CA-port-san-luis,2022,1488128.0,741512.0,0,all species; withheld months excluded
+CA,panel,CA-port-san-luis,2023,1334930.0,626114.0,0,all species; withheld months excluded
+CA,panel,CA-port-san-luis,2024,1523778.0,700847.0,0,all species; withheld months excluded
+CA,panel,CA-port-san-luis,2025,1856154.0,662390.0,0,all species; withheld months excluded
+CA,panel,CA-redondo-beach,2016,484455.0,92138.0,6,all species; withheld months excluded
+CA,panel,CA-redondo-beach,2017,352736.0,159802.0,5,all species; withheld months excluded
+CA,panel,CA-redondo-beach,2018,520987.0,324533.0,4,all species; withheld months excluded
+CA,panel,CA-redondo-beach,2019,497361.0,210571.0,4,all species; withheld months excluded
+CA,panel,CA-redondo-beach,2020,549974.0,220583.0,5,all species; withheld months excluded
+CA,panel,CA-redondo-beach,2021,661636.0,273622.0,1,all species; withheld months excluded
+CA,panel,CA-redondo-beach,2022,418634.0,178203.0,1,all species; withheld months excluded
+CA,panel,CA-redondo-beach,2023,371393.0,182107.0,2,all species; withheld months excluded
+CA,panel,CA-redondo-beach,2024,436682.0,184618.0,3,all species; withheld months excluded
+CA,panel,CA-redondo-beach,2025,269619.0,163108.0,2,all species; withheld months excluded
+CA,panel,CA-san-diego-bay,2016,5619395.0,1670788.0,0,all species; withheld months excluded
+CA,panel,CA-san-diego-bay,2017,4918194.0,1312491.0,2,all species; withheld months excluded
+CA,panel,CA-san-diego-bay,2018,6796775.0,2173423.0,0,all species; withheld months excluded
+CA,panel,CA-san-diego-bay,2019,8305218.0,3879624.0,0,all species; withheld months excluded
+CA,panel,CA-san-diego-bay,2020,8070457.0,3867804.0,0,all species; withheld months excluded
+CA,panel,CA-san-diego-bay,2021,12890045.0,3099159.0,0,all species; withheld months excluded
+CA,panel,CA-san-diego-bay,2022,7069424.0,2754109.0,0,all species; withheld months excluded
+CA,panel,CA-san-diego-bay,2023,9515653.0,3805591.0,0,all species; withheld months excluded
+CA,panel,CA-san-diego-bay,2024,7416959.0,3587743.0,0,all species; withheld months excluded
+CA,panel,CA-san-diego-bay,2025,7091010.0,3803731.0,0,all species; withheld months excluded
+CA,panel,CA-san-francisco,2016,22855751.0,12610370.0,0,all species; withheld months excluded
+CA,panel,CA-san-francisco,2017,14104519.0,5046216.0,0,all species; withheld months excluded
+CA,panel,CA-san-francisco,2018,10628095.0,4814800.0,0,all species; withheld months excluded
+CA,panel,CA-san-francisco,2019,11811013.0,3519959.0,0,all species; withheld months excluded
+CA,panel,CA-san-francisco,2020,7255681.0,2457002.0,0,all species; withheld months excluded
+CA,panel,CA-san-francisco,2021,10647518.0,2730667.0,0,all species; withheld months excluded
+CA,panel,CA-san-francisco,2022,10237371.0,2013369.0,0,all species; withheld months excluded
+CA,panel,CA-san-francisco,2023,7031793.0,2192578.0,0,all species; withheld months excluded
+CA,panel,CA-san-francisco,2024,16126406.0,4557447.0,0,all species; withheld months excluded
+CA,panel,CA-san-francisco,2025,9836295.0,2115364.0,0,all species; withheld months excluded
+CA,panel,CA-santa-barbara,2016,13596971.0,5149272.0,0,all species; withheld months excluded
+CA,panel,CA-santa-barbara,2017,12953554.0,3915275.0,0,all species; withheld months excluded
+CA,panel,CA-santa-barbara,2018,12731789.0,3391280.0,0,all species; withheld months excluded
+CA,panel,CA-santa-barbara,2019,10773615.0,2643437.0,0,all species; withheld months excluded
+CA,panel,CA-santa-barbara,2020,11330896.0,2473991.0,0,all species; withheld months excluded
+CA,panel,CA-santa-barbara,2021,11666337.0,2204419.0,0,all species; withheld months excluded
+CA,panel,CA-santa-barbara,2022,13884766.0,2634429.0,0,all species; withheld months excluded
+CA,panel,CA-santa-barbara,2023,12796162.0,2163499.0,0,all species; withheld months excluded
+CA,panel,CA-santa-barbara,2024,12548314.0,2060645.0,0,all species; withheld months excluded
+CA,panel,CA-santa-barbara,2025,11460086.0,2537150.0,0,all species; withheld months excluded
+CA,panel,CA-santa-cruz,2016,1666838.0,446910.0,1,all species; withheld months excluded
+CA,panel,CA-santa-cruz,2017,1736902.0,398039.0,0,all species; withheld months excluded
+CA,panel,CA-santa-cruz,2018,1456258.0,264348.0,0,all species; withheld months excluded
+CA,panel,CA-santa-cruz,2019,1974358.0,395135.0,0,all species; withheld months excluded
+CA,panel,CA-santa-cruz,2020,2241955.0,465626.0,1,all species; withheld months excluded
+CA,panel,CA-santa-cruz,2021,3379665.0,533242.0,0,all species; withheld months excluded
+CA,panel,CA-santa-cruz,2022,3433948.0,560343.0,0,all species; withheld months excluded
+CA,panel,CA-santa-cruz,2023,1065892.0,370525.0,0,all species; withheld months excluded
+CA,panel,CA-santa-cruz,2024,1422027.0,492542.0,0,all species; withheld months excluded
+CA,panel,CA-santa-cruz,2025,1319374.0,367583.0,0,all species; withheld months excluded
+CA,panel,CA-shelter-cove,2016,206290.0,56619.0,3,all species; withheld months excluded
+CA,panel,CA-shelter-cove,2017,183864.0,51707.0,3,all species; withheld months excluded
+CA,panel,CA-shelter-cove,2018,369471.0,110167.0,3,all species; withheld months excluded
+CA,panel,CA-shelter-cove,2019,347199.0,103807.0,0,all species; withheld months excluded
+CA,panel,CA-shelter-cove,2020,679811.0,200297.0,0,all species; withheld months excluded
+CA,panel,CA-shelter-cove,2021,491536.0,124857.0,0,all species; withheld months excluded
+CA,panel,CA-shelter-cove,2022,343601.0,90958.0,0,all species; withheld months excluded
+CA,panel,CA-shelter-cove,2023,517495.0,199439.0,0,all species; withheld months excluded
+CA,panel,CA-shelter-cove,2024,376546.0,117192.0,0,all species; withheld months excluded
+CA,panel,CA-shelter-cove,2025,471615.0,107212.0,0,all species; withheld months excluded
+CA,panel,CA-trinidad,2016,2445926.0,791145.0,1,all species; withheld months excluded
+CA,panel,CA-trinidad,2017,1505551.0,447694.0,1,all species; withheld months excluded
+CA,panel,CA-trinidad,2018,2891246.0,863972.0,2,all species; withheld months excluded
+CA,panel,CA-trinidad,2019,1846971.0,568944.0,4,all species; withheld months excluded
+CA,panel,CA-trinidad,2020,1520893.0,445114.0,3,all species; withheld months excluded
+CA,panel,CA-trinidad,2021,2721517.0,571914.0,3,all species; withheld months excluded
+CA,panel,CA-trinidad,2022,361067.0,62891.0,2,all species; withheld months excluded
+CA,panel,CA-trinidad,2023,3007672.0,1224581.0,1,all species; withheld months excluded
+CA,panel,CA-trinidad,2024,2060413.0,586268.0,2,all species; withheld months excluded
+CA,panel,CA-trinidad,2025,3888472.0,592309.0,2,all species; withheld months excluded
+CA,panel,CA-vallejo,2016,0.0,0.0,5,all species; withheld months excluded
+CA,panel,CA-vallejo,2017,437099.0,122058.0,2,all species; withheld months excluded
+CA,panel,CA-vallejo,2018,218641.0,52389.0,7,all species; withheld months excluded
+CA,panel,CA-vallejo,2019,1195780.0,398080.0,9,all species; withheld months excluded
+CA,panel,CA-vallejo,2020,421275.0,126912.0,8,all species; withheld months excluded
+CA,panel,CA-vallejo,2021,106792.0,21639.0,5,all species; withheld months excluded
+CA,panel,CA-vallejo,2022,900865.0,164924.0,9,all species; withheld months excluded
+CA,panel,CA-vallejo,2023,0.0,0.0,12,all species; withheld months excluded
+CA,panel,CA-vallejo,2024,0.0,0.0,12,all species; withheld months excluded
+CA,panel,CA-vallejo,2025,0.0,0.0,11,all species; withheld months excluded
+CA,panel,CA-ventura,2016,13007462.0,18976215.0,0,all species; withheld months excluded
+CA,panel,CA-ventura,2017,30962180.0,53748650.0,0,all species; withheld months excluded
+CA,panel,CA-ventura,2018,12356702.0,16410876.0,0,all species; withheld months excluded
+CA,panel,CA-ventura,2019,7592565.0,7358189.0,0,all species; withheld months excluded
+CA,panel,CA-ventura,2020,7076187.0,4990754.0,0,all species; withheld months excluded
+CA,panel,CA-ventura,2021,18135973.0,23596675.0,0,all species; withheld months excluded
+CA,panel,CA-ventura,2022,39586083.0,58383259.0,0,all species; withheld months excluded
+CA,panel,CA-ventura,2023,10862585.0,11994874.0,0,all species; withheld months excluded
+CA,panel,CA-ventura,2024,28023591.0,44682820.0,0,all species; withheld months excluded
+CA,panel,CA-ventura,2025,27939776.0,49940511.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-astoria,2016,42435787.0,103819073.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-astoria,2017,40064561.0,153595827.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-astoria,2018,39691304.0,140331419.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-astoria,2019,44363863.0,177460384.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-astoria,2020,42908695.0,189049885.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-astoria,2021,52881616.0,164240054.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-astoria,2022,41869411.0,159570716.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-astoria,2023,44835618.0,166990368.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-astoria,2024,68218525.0,184944561.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-astoria,2025,83728844.0,200006216.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-bandon-brookings-2025,2025,17806021.0,4973265.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-bandon-port-orford,2016,4610971.0,1620379.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-bandon-port-orford,2017,3515030.0,1186326.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-bandon-port-orford,2018,4695957.0,1580173.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-bandon-port-orford,2019,4926280.0,1594231.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-bandon-port-orford,2020,4170862.0,1430765.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-bandon-port-orford,2021,5117966.0,1339260.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-bandon-port-orford,2022,3975187.0,1083862.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-bandon-port-orford,2023,6701519.0,2517315.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-bandon-port-orford,2024,3818797.0,1168216.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-depoe-bay-yachats-2025,2025,70859485.0,89584450.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-florence-charleston-2025,2025,34271504.0,20603841.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gearhart-garibaldi,2016,3673596.0,1489554.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gearhart-garibaldi,2017,4654543.0,2013031.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gearhart-garibaldi,2018,5123885.0,2119337.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gearhart-garibaldi,2019,4749068.0,2019793.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gearhart-garibaldi,2020,6444771.0,2258626.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gearhart-garibaldi,2021,11372481.0,2953505.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gearhart-garibaldi,2022,7095206.0,2202811.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gearhart-garibaldi,2023,8183827.0,3074755.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gearhart-garibaldi,2024,11546119.0,3123089.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gearhart-siletz-bay-2025,2025,9736784.0,2356370.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gold-beach-brookings,2016,14944030.0,11290128.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gold-beach-brookings,2017,8712364.0,9139525.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gold-beach-brookings,2018,16641748.0,13457165.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gold-beach-brookings,2019,11850282.0,8597638.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gold-beach-brookings,2020,9838036.0,11520905.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gold-beach-brookings,2021,13622154.0,10740458.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gold-beach-brookings,2022,5339811.0,4959087.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gold-beach-brookings,2023,13603447.0,11291833.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-gold-beach-brookings,2024,4196358.0,1354424.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-netarts-depoe-bay,2016,299954.0,119886.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-netarts-depoe-bay,2017,296005.0,130363.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-netarts-depoe-bay,2018,255763.0,87067.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-netarts-depoe-bay,2019,338185.0,126548.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-netarts-depoe-bay,2020,235402.0,91497.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-netarts-depoe-bay,2021,287892.0,87984.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-netarts-depoe-bay,2022,356815.0,95389.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-netarts-depoe-bay,2023,870111.0,266736.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-netarts-depoe-bay,2024,676128.0,233405.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-waldport-winchester-bay,2016,2537941.0,1024128.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-waldport-winchester-bay,2017,3173604.0,883180.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-waldport-winchester-bay,2018,6001095.0,4742424.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-waldport-winchester-bay,2019,4951503.0,2302770.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-waldport-winchester-bay,2020,4543530.0,3236428.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-waldport-winchester-bay,2021,8422769.0,4382276.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-waldport-winchester-bay,2022,5382631.0,2953659.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-waldport-winchester-bay,2023,8780958.0,2759953.0,0,all species; withheld months excluded
+OR,panel,OR-ODFW-waldport-winchester-bay,2024,5887484.0,1861897.0,0,all species; withheld months excluded
+OR,panel,OR-charleston,2016,27933298.0,21424508.0,0,all species; withheld months excluded
+OR,panel,OR-charleston,2017,27484562.0,19502770.0,0,all species; withheld months excluded
+OR,panel,OR-charleston,2018,34280762.0,25318277.0,0,all species; withheld months excluded
+OR,panel,OR-charleston,2019,28556936.0,18597402.0,0,all species; withheld months excluded
+OR,panel,OR-charleston,2020,19983330.0,16830086.0,0,all species; withheld months excluded
+OR,panel,OR-charleston,2021,34836183.0,17933382.0,0,all species; withheld months excluded
+OR,panel,OR-charleston,2022,14195532.0,12365098.0,0,all species; withheld months excluded
+OR,panel,OR-charleston,2023,27079438.0,15529026.0,0,all species; withheld months excluded
+OR,panel,OR-charleston,2024,24804595.0,31323275.0,0,all species; withheld months excluded
+OR,panel,OR-newport,2016,48036303.0,84886463.0,0,all species; withheld months excluded
+OR,panel,OR-newport,2017,52688253.0,114904103.0,0,all species; withheld months excluded
+OR,panel,OR-newport,2018,62432689.0,124874337.0,0,all species; withheld months excluded
+OR,panel,OR-newport,2019,58235713.0,123072914.0,0,all species; withheld months excluded
+OR,panel,OR-newport,2020,59799550.0,118801468.0,0,all species; withheld months excluded
+OR,panel,OR-newport,2021,74437822.0,114526275.0,0,all species; withheld months excluded
+OR,panel,OR-newport,2022,47703083.0,101508131.0,0,all species; withheld months excluded
+OR,panel,OR-newport,2023,62032200.0,97238472.0,0,all species; withheld months excluded
+OR,panel,OR-newport,2024,59444300.0,49987087.0,0,all species; withheld months excluded
+WA,panel,WA-PACFIN-CLW,2016,10738824.0,3095554.0,2,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CLW,2017,11080970.0,3607579.0,3,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CLW,2018,882222.0,138606.0,5,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CLW,2019,9765540.0,2870860.0,3,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CLW,2020,10032675.0,2703066.0,3,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CLW,2021,20779377.0,4174652.0,3,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CLW,2022,8941379.0,1389861.0,3,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CLW,2023,12023645.0,4574152.0,4,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CLW,2024,11125778.0,3051133.0,4,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CLW,2025,9465460.0,1443014.0,4,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CWA,2016,35895489.0,10241242.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CWA,2017,43914770.0,13282896.0,1,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CWA,2018,3956656.0,668463.0,4,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CWA,2019,25701578.0,8931787.0,1,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CWA,2020,29096347.0,8931101.0,1,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CWA,2021,52701961.0,14488184.0,1,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CWA,2022,54507364.0,10178567.0,3,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CWA,2023,49332321.0,20002982.0,3,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CWA,2024,53122491.0,14738719.0,4,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-CWA,2025,71618795.0,16763905.0,1,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-NPS,2016,33861333.0,7570452.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-NPS,2017,37807548.0,8644302.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-NPS,2018,30544014.0,6555071.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-NPS,2019,30398231.0,6611509.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-NPS,2020,28231458.0,5227007.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-NPS,2021,36023860.0,5220459.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-NPS,2022,34647288.0,5888259.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-NPS,2023,23770899.0,4900411.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-NPS,2024,33919066.0,5178570.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-NPS,2025,29293807.0,5004052.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-SPS,2016,5743690.0,1275023.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-SPS,2017,4706069.0,1076670.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-SPS,2018,4876343.0,960137.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-SPS,2019,5813704.0,1206656.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-SPS,2020,4240248.0,768444.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-SPS,2021,5108628.0,709073.0,2,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-SPS,2022,4080291.0,654267.0,0,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-SPS,2023,4350261.0,833260.0,1,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-SPS,2024,5031673.0,739849.0,1,Dungeness crab only; withheld months excluded
+WA,panel,WA-PACFIN-SPS,2025,3103684.0,537576.0,2,Dungeness crab only; withheld months excluded

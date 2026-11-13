@@ -1,0 +1,47 @@
+unit_id,unit_type,unit_name,state,port_ids,agency_codes,source,first_year,last_year,notes
+CA-crescent-city,harbor,Crescent City,CA,CA-crescent-city,CDFW 201 Crescent City,cdfw_mfde,2016,2025,single CDFW code
+CA-trinidad,harbor,Trinidad,CA,CA-trinidad,CDFW 231 Trinidad,cdfw_mfde,2016,2025,single CDFW code
+CA-humboldt-bay,harbor,Humboldt Bay (Eureka / Fields Landing / King Salmon),CA,CA-humboldt-bay,CDFW 220 Eureka;CDFW 217 Fields Landing;CDFW 219 Humboldt Bay;CDFW 246 King Salmon;CDFW 212 Arcata,cdfw_mfde,2016,2025,sum of CDFW codes
+CA-shelter-cove,harbor,Shelter Cove,CA,CA-shelter-cove,CDFW 215 Shelter Cove,cdfw_mfde,2016,2025,single CDFW code
+CA-noyo-harbor,harbor,Noyo Harbor (Fort Bragg),CA,CA-noyo-harbor,CDFW 223 Fort Bragg,cdfw_mfde,2016,2025,single CDFW code
+CA-point-arena,harbor,Point Arena (Arena Cove),CA,CA-point-arena,CDFW 213 Point Arena,cdfw_mfde,2016,2025,single CDFW code
+CA-bodega-bay,harbor,Bodega Bay (Spud Point),CA,CA-bodega-bay,CDFW 473 Bodega Bay,cdfw_mfde,2016,2025,single CDFW code
+CA-san-francisco,harbor,San Francisco (Fisherman's Wharf / Pier 45),CA,CA-san-francisco,CDFW 440 San Francisco,cdfw_mfde,2016,2025,single CDFW code
+CA-vallejo,harbor,Vallejo,CA,CA-vallejo,CDFW 453 Vallejo,cdfw_mfde,2016,2025,single CDFW code
+CA-berkeley,harbor,Berkeley,CA,CA-berkeley,CDFW 472 Berkeley,cdfw_mfde,2016,2025,single CDFW code
+CA-pillar-point,harbor,Pillar Point Harbor (Princeton / Half Moon Bay),CA,CA-pillar-point,CDFW 452 Princeton-Half Moon,cdfw_mfde,2016,2025,single CDFW code
+CA-santa-cruz,harbor,Santa Cruz,CA,CA-santa-cruz,CDFW 593 Santa Cruz,cdfw_mfde,2016,2025,single CDFW code
+CA-moss-landing,harbor,Moss Landing,CA,CA-moss-landing,CDFW 592 Moss Landing,cdfw_mfde,2016,2025,single CDFW code
+CA-monterey,harbor,Monterey,CA,CA-monterey,CDFW 550 Monterey,cdfw_mfde,2016,2025,single CDFW code
+CA-morro-bay,harbor,Morro Bay,CA,CA-morro-bay,CDFW 606 Morro Bay,cdfw_mfde,2016,2025,single CDFW code
+CA-port-san-luis,harbor,Port San Luis (Avila Beach),CA,CA-port-san-luis,CDFW 602 Avila/Port San Luis,cdfw_mfde,2016,2025,single CDFW code
+CA-santa-barbara,harbor,Santa Barbara Harbor,CA,CA-santa-barbara,CDFW 611 Santa Barbara Harbor,cdfw_mfde,2016,2025,single CDFW code
+CA-ventura,harbor,Ventura Harbor,CA,CA-ventura,CDFW 613 Ventura,cdfw_mfde,2016,2025,single CDFW code
+CA-channel-islands,harbor,Channel Islands Harbor (Oxnard),CA,CA-channel-islands,CDFW 608 Oxnard,cdfw_mfde,2016,2025,single CDFW code
+CA-port-hueneme,harbor,Port Hueneme,CA,CA-port-hueneme,CDFW 605 Port Hueneme,cdfw_mfde,2016,2025,single CDFW code
+CA-marina-del-rey,harbor,Marina del Rey,CA,CA-marina-del-rey,CDFW 776 Marina Del Rey,cdfw_mfde,2016,2025,single CDFW code
+CA-redondo-beach,harbor,Redondo Beach (King Harbor),CA,CA-redondo-beach,CDFW 742 Redondo Beach,cdfw_mfde,2016,2025,single CDFW code
+CA-los-angeles-long-beach,harbor,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,CA-los-angeles-long-beach,CDFW 745 Terminal Island;CDFW 770 San Pedro;CDFW 743 Long Beach;CDFW 744 Los Angeles;CDFW 746 Wilmington,cdfw_mfde,2016,2025,sum of CDFW codes
+CA-huntington-harbour,harbor,Huntington Harbour,CA,CA-huntington-harbour,CDFW 768 Huntington Beach,cdfw_mfde,2016,2025,single CDFW code
+CA-newport-beach,harbor,Newport Beach,CA,CA-newport-beach,CDFW 748 Newport Beach,cdfw_mfde,2016,2025,single CDFW code
+CA-avalon,harbor,Avalon (Santa Catalina Island),CA,CA-avalon,CDFW 741 Avalon,cdfw_mfde,2016,2025,single CDFW code
+CA-dana-point,harbor,Dana Point Harbor,CA,CA-dana-point,CDFW 767 Dana Point,cdfw_mfde,2016,2025,single CDFW code
+CA-oceanside,harbor,Oceanside Harbor,CA,CA-oceanside,CDFW 883 Oceanside,cdfw_mfde,2016,2025,single CDFW code
+CA-mission-bay,harbor,Mission Bay,CA,CA-mission-bay,CDFW 869 Mission Bay,cdfw_mfde,2016,2025,single CDFW code
+CA-san-diego-bay,harbor,San Diego Bay (Tuna Harbor / Driscoll's Wharf),CA,CA-san-diego-bay,CDFW 880 San Diego;CDFW 881 Point Loma,cdfw_mfde,2016,2025,sum of CDFW codes
+OR-ODFW-astoria,code_group,ODFW Astoria,OR,OR-astoria;OR-warrenton,PacFIN AST,odfw_ftr205,2016,2025,ODFW port table
+OR-ODFW-gearhart-garibaldi,agency_group,ODFW Gearhart-Seaside-Cannon Beach-Nehalem Bay-Garibaldi,OR,OR-garibaldi,PacFIN GSS;CNB;NHL;TLL,odfw_ftr205,2016,2024,"ODFW port table; ends 2024, ODFW regrouped in 2025"
+OR-ODFW-netarts-depoe-bay,agency_group,ODFW Netarts-(Sand Lake)-Pacific City-Siletz Bay-Salmon River-Depoe Bay,OR,OR-depoe-bay,PacFIN NTR;PCC;SLZ;SRV;DPO,odfw_ftr205,2016,2024,"ODFW port table; ends 2024, ODFW regrouped in 2025"
+OR-newport,harbor,ODFW Newport,OR,OR-newport,PacFIN NEW,odfw_ftr205,2016,2024,"ODFW port table; ends 2024, ODFW regrouped in 2025"
+OR-ODFW-waldport-winchester-bay,agency_group,ODFW Waldport-Yachats-Florence-Winchester Bay,OR,OR-florence;OR-winchester-bay,PacFIN WLD;YAC;FLR;WIN,odfw_ftr205,2016,2024,"ODFW port table; ends 2024, ODFW regrouped in 2025"
+OR-charleston,harbor,ODFW Charleston,OR,OR-charleston,PacFIN COS,odfw_ftr205,2016,2024,"ODFW port table; ends 2024, ODFW regrouped in 2025"
+OR-ODFW-bandon-port-orford,agency_group,ODFW Bandon-Port Orford,OR,OR-bandon;OR-port-orford,PacFIN BDN;ORF,odfw_ftr205,2016,2024,"ODFW port table; ends 2024, ODFW regrouped in 2025"
+OR-ODFW-gold-beach-brookings,agency_group,ODFW Gold Beach-Brookings,OR,OR-gold-beach;OR-brookings,PacFIN GLD;BRK,odfw_ftr205,2016,2024,"ODFW port table; ends 2024, ODFW regrouped in 2025"
+OR-ODFW-gearhart-siletz-bay-2025,agency_group,ODFW Gearhart-Cannon Beach-Nehalem Bay-Garibaldi-Netarts-Sand Lake-Pacific City-Salmon River-Siletz Bay,OR,OR-garibaldi,PacFIN GSS;CNB;NHL;TLL;NTR;PCC;SRV;SLZ,odfw_ftr205,2025,2025,ODFW port table; composition changed in 2025 (ODFW regrouped tables)
+OR-ODFW-depoe-bay-yachats-2025,agency_group,ODFW Depoe Bay-Newport-Waldport-Yachats,OR,OR-depoe-bay;OR-newport,PacFIN DPO;NEW;WLD;YAC,odfw_ftr205,2025,2025,ODFW port table; composition changed in 2025 (ODFW regrouped tables)
+OR-ODFW-florence-charleston-2025,agency_group,ODFW Florence-Winchester Bay-Charleston,OR,OR-florence;OR-winchester-bay;OR-charleston,PacFIN FLR;WIN;COS,odfw_ftr205,2025,2025,ODFW port table; composition changed in 2025 (ODFW regrouped tables)
+OR-ODFW-bandon-brookings-2025,agency_group,ODFW Bandon-Port Orford-Gold Beach-Brookings,OR,OR-bandon;OR-port-orford;OR-gold-beach;OR-brookings,PacFIN BDN;ORF;GLD;BRK,odfw_ftr205,2025,2025,ODFW port table; composition changed in 2025 (ODFW regrouped tables)
+WA-PACFIN-CLW,agency_group,PacFIN CLW Columbia River Ports (Washington),WA,WA-ilwaco;WA-chinook,PacFIN group CLW (ports LWC;OCR),pacfin_crab002,2016,2026,Dungeness crab only; PacFIN port group; group also contains non-inventory ports
+WA-PACFIN-CWA,agency_group,PacFIN CWA Washington Coastal Ports,WA,WA-westport;WA-tokeland;WA-bay-center;WA-nahcotta;WA-la-push,PacFIN group CWA (ports CPL;GRH;LAP;OWC;WLB;WPT),pacfin_crab002,2016,2026,Dungeness crab only; PacFIN port group; group also contains non-inventory ports
+WA-PACFIN-NPS,agency_group,PacFIN NPS North Puget Sound Ports,WA,WA-neah-bay;WA-port-angeles;WA-port-townsend;WA-la-conner;WA-anacortes;WA-bellingham;WA-blaine,PacFIN group NPS (ports ANA;BLL;BLN;FRI;LAC;NEA;ONP;PAG;SEQ;TNS),pacfin_crab002,2016,2026,Dungeness crab only; PacFIN port group; group also contains non-inventory ports
+WA-PACFIN-SPS,agency_group,PacFIN SPS South Puget Sound Ports,WA,WA-seattle;WA-everett,PacFIN group SPS (ports EVR;OLY;OSP;SEA;SHL;TAC),pacfin_crab002,2016,2026,Dungeness crab only; PacFIN port group; group also contains non-inventory ports
