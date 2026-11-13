@@ -1,0 +1,69 @@
+port_id,unit_id,unit_type,species_scheme,valid_from,valid_to,n_ports_in_unit
+CA-crescent-city,CA-crescent-city,harbor,all,2016-01,2025-12,1
+CA-trinidad,CA-trinidad,harbor,all,2016-01,2025-12,1
+CA-humboldt-bay,CA-humboldt-bay,harbor,all,2016-01,2025-12,1
+CA-shelter-cove,CA-shelter-cove,harbor,all,2016-01,2025-12,1
+CA-noyo-harbor,CA-noyo-harbor,harbor,all,2016-01,2025-12,1
+CA-point-arena,CA-point-arena,harbor,all,2016-01,2025-12,1
+CA-bodega-bay,CA-bodega-bay,harbor,all,2016-01,2025-12,1
+CA-san-francisco,CA-san-francisco,harbor,all,2016-01,2025-12,1
+CA-vallejo,CA-vallejo,harbor,all,2016-01,2025-12,1
+CA-berkeley,CA-berkeley,harbor,all,2016-01,2025-12,1
+CA-pillar-point,CA-pillar-point,harbor,all,2016-01,2025-12,1
+CA-santa-cruz,CA-santa-cruz,harbor,all,2016-01,2025-12,1
+CA-moss-landing,CA-moss-landing,harbor,all,2016-01,2025-12,1
+CA-monterey,CA-monterey,harbor,all,2016-01,2025-12,1
+CA-morro-bay,CA-morro-bay,harbor,all,2016-01,2025-12,1
+CA-port-san-luis,CA-port-san-luis,harbor,all,2016-01,2025-12,1
+CA-santa-barbara,CA-santa-barbara,harbor,all,2016-01,2025-12,1
+CA-ventura,CA-ventura,harbor,all,2016-01,2025-12,1
+CA-channel-islands,CA-channel-islands,harbor,all,2016-01,2025-12,1
+CA-port-hueneme,CA-port-hueneme,harbor,all,2016-01,2025-12,1
+CA-marina-del-rey,CA-marina-del-rey,harbor,all,2016-01,2025-12,1
+CA-redondo-beach,CA-redondo-beach,harbor,all,2016-01,2025-12,1
+CA-los-angeles-long-beach,CA-los-angeles-long-beach,harbor,all,2016-01,2025-12,1
+CA-huntington-harbour,CA-huntington-harbour,harbor,all,2016-01,2025-12,1
+CA-newport-beach,CA-newport-beach,harbor,all,2016-01,2025-12,1
+CA-avalon,CA-avalon,harbor,all,2016-01,2025-12,1
+CA-dana-point,CA-dana-point,harbor,all,2016-01,2025-12,1
+CA-oceanside,CA-oceanside,harbor,all,2016-01,2025-12,1
+CA-mission-bay,CA-mission-bay,harbor,all,2016-01,2025-12,1
+CA-san-diego-bay,CA-san-diego-bay,harbor,all,2016-01,2025-12,1
+OR-astoria,OR-ODFW-astoria,code_group,all,2016-01,2025-12,2
+OR-warrenton,OR-ODFW-astoria,code_group,all,2016-01,2025-12,2
+OR-garibaldi,OR-ODFW-gearhart-garibaldi,agency_group,all,2016-01,2024-12,1
+OR-garibaldi,OR-ODFW-gearhart-siletz-bay-2025,agency_group,all,2025-01,2025-12,1
+OR-depoe-bay,OR-ODFW-netarts-depoe-bay,agency_group,all,2016-01,2024-12,1
+OR-depoe-bay,OR-ODFW-depoe-bay-yachats-2025,agency_group,all,2025-01,2025-12,2
+OR-newport,OR-newport,harbor,all,2016-01,2024-12,1
+OR-newport,OR-ODFW-depoe-bay-yachats-2025,agency_group,all,2025-01,2025-12,2
+OR-florence,OR-ODFW-waldport-winchester-bay,agency_group,all,2016-01,2024-12,2
+OR-florence,OR-ODFW-florence-charleston-2025,agency_group,all,2025-01,2025-12,3
+OR-winchester-bay,OR-ODFW-waldport-winchester-bay,agency_group,all,2016-01,2024-12,2
+OR-winchester-bay,OR-ODFW-florence-charleston-2025,agency_group,all,2025-01,2025-12,3
+OR-charleston,OR-charleston,harbor,all,2016-01,2024-12,1
+OR-charleston,OR-ODFW-florence-charleston-2025,agency_group,all,2025-01,2025-12,3
+OR-bandon,OR-ODFW-bandon-port-orford,agency_group,all,2016-01,2024-12,2
+OR-bandon,OR-ODFW-bandon-brookings-2025,agency_group,all,2025-01,2025-12,4
+OR-port-orford,OR-ODFW-bandon-port-orford,agency_group,all,2016-01,2024-12,2
+OR-port-orford,OR-ODFW-bandon-brookings-2025,agency_group,all,2025-01,2025-12,4
+OR-gold-beach,OR-ODFW-gold-beach-brookings,agency_group,all,2016-01,2024-12,2
+OR-gold-beach,OR-ODFW-bandon-brookings-2025,agency_group,all,2025-01,2025-12,4
+OR-brookings,OR-ODFW-gold-beach-brookings,agency_group,all,2016-01,2024-12,2
+OR-brookings,OR-ODFW-bandon-brookings-2025,agency_group,all,2025-01,2025-12,4
+WA-ilwaco,WA-PACFIN-CLW,agency_group,Dungeness crab,2016-01,2026-10,2
+WA-chinook,WA-PACFIN-CLW,agency_group,Dungeness crab,2016-01,2026-10,2
+WA-tokeland,WA-PACFIN-CWA,agency_group,Dungeness crab,2016-01,2026-10,5
+WA-bay-center,WA-PACFIN-CWA,agency_group,Dungeness crab,2016-01,2026-10,5
+WA-nahcotta,WA-PACFIN-CWA,agency_group,Dungeness crab,2016-01,2026-10,5
+WA-westport,WA-PACFIN-CWA,agency_group,Dungeness crab,2016-01,2026-10,5
+WA-la-push,WA-PACFIN-CWA,agency_group,Dungeness crab,2016-01,2026-10,5
+WA-neah-bay,WA-PACFIN-NPS,agency_group,Dungeness crab,2016-01,2026-10,7
+WA-port-angeles,WA-PACFIN-NPS,agency_group,Dungeness crab,2016-01,2026-10,7
+WA-port-townsend,WA-PACFIN-NPS,agency_group,Dungeness crab,2016-01,2026-10,7
+WA-seattle,WA-PACFIN-SPS,agency_group,Dungeness crab,2016-01,2026-10,2
+WA-everett,WA-PACFIN-SPS,agency_group,Dungeness crab,2016-01,2026-10,2
+WA-la-conner,WA-PACFIN-NPS,agency_group,Dungeness crab,2016-01,2026-10,7
+WA-anacortes,WA-PACFIN-NPS,agency_group,Dungeness crab,2016-01,2026-10,7
+WA-bellingham,WA-PACFIN-NPS,agency_group,Dungeness crab,2016-01,2026-10,7
+WA-blaine,WA-PACFIN-NPS,agency_group,Dungeness crab,2016-01,2026-10,7
