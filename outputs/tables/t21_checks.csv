@@ -1,0 +1,12 @@
+check,result,detail
+coverage: all 58 harbors have monthly rows,PASS,"58 harbors, min months 120"
+CA species groups sum to all-species (no-withheld months),PASS,100.0% of 139 harbor-months within 0.5%; max rel diff 0.000
+CA Dungeness <= Crabs group,PASS,618 harbor-months compared; violations 0
+OR port tables (incl. Columbia River) sum to ODFW statewide monthly report,PASS,"216 year-month-measure cells; max rel diff 0.0080; years [2016, 2017, 2018, 2020, 2021, 2022, 2023, 2024, 2025]"
+WA CRAB002 (calendar-year sum) within 5% of ALL005 DCRB by group,PASS,"3 group-years off >5% (withheld months explain gaps): CLW 2018: 882,222 vs 970,735; CWA 2018: 3,956,656 vs 14,929,281; SPS 2025: 3,103,684 vs 3,727,484"
+Crescent City panel vs FOSS annual value,PASS,ratios 0.998-1.008
+FOSS Ilwaco-Chinook is most of PacFIN CLW (consistent with LWC in CLW; ALL005 sums exclude * cells so ratio can exceed 1),PASS,ratios 0.823-1.046 (LWC share of CLW)
+ODFW Newport <= PacFIN NPA,PASS,ratios 0.989-0.998
+no duplicate keys,PASS,35123 rows
+"withheld rows have null values, others non-null",PASS,
+"every flagged panel row has a matching withheld_log row (unit, year, month)",PASS,15665 flagged rows; 0 without log match

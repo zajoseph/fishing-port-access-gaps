@@ -1,0 +1,17 @@
+window,unit_id,level,blank_cells,months_with_blank,labels
+Charleston 2019-2020 (full years),OR-charleston,all,0,0,
+Charleston 2019-2020 (full years),OR-charleston,ODFW category,19,18,Molluscs; Other Invertebrates
+Charleston 2019-2020 (full years),OR-charleston,species,975,24,83 species rows
+Charleston 2019-2020 (full years),OR-charleston,Dungeness crab rows,24,21,"Crustaceans > Crab, Dungeness, bay; Crustaceans > Crab, Dungeness, ocean"
+Charleston ice closure months Dec 2019-Sep 2020,OR-charleston,all,0,0,
+Charleston ice closure months Dec 2019-Sep 2020,OR-charleston,ODFW category,7,7,Other Invertebrates
+Charleston ice closure months Dec 2019-Sep 2020,OR-charleston,species,394,10,78 species rows
+Charleston ice closure months Dec 2019-Sep 2020,OR-charleston,Dungeness crab rows,11,10,"Crustaceans > Crab, Dungeness, bay; Crustaceans > Crab, Dungeness, ocean"
+Newport 2024 (full year),OR-newport,all,0,0,
+Newport 2024 (full year),OR-newport,ODFW category,0,0,
+Newport 2024 (full year),OR-newport,species,505,12,73 species rows
+Newport 2024 (full year),OR-newport,Dungeness crab rows,8,8,"Crustaceans > Crab, Dungeness, bay; Crustaceans > Crab, Dungeness, ocean"
+Newport after Bornstein closure May-Dec 2024,OR-newport,all,0,0,
+Newport after Bornstein closure May-Dec 2024,OR-newport,ODFW category,0,0,
+Newport after Bornstein closure May-Dec 2024,OR-newport,species,333,8,70 species rows
+Newport after Bornstein closure May-Dec 2024,OR-newport,Dungeness crab rows,4,4,"Crustaceans > Crab, Dungeness, bay; Crustaceans > Crab, Dungeness, ocean"
