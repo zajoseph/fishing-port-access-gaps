@@ -1,0 +1,10 @@
+harbor,backup_harbor,service,mode,sea_nm_model,charted_equiv_nm,backup_current_status,inventory_note
+CA-crescent-city,OR-brookings,ice,truck,19.3,20.5,available,Oct 2024-Aug 2025 closure: ice trucked from Pacific Seafood's Brookings plant (facilities.csv notes)
+CA-santa-barbara,CA-channel-islands,ice,truck,27.9,29.6,not_found,Ice House overhaul (<4 weeks): ice deliveries from Oxnard (facilities.csv notes); Oxnard = Channel Islands/Port Hueneme
+CA-santa-barbara,CA-port-hueneme,ice,truck,29.2,30.9,available,as above (Oxnard)
+CA-trinidad,CA-humboldt-bay,fuel,truck,23.0,24.4,available,"Pier fuel dock removed (2010 profile): nearest vendor Renner Petroleum, McKinleyville (road)"
+CA-point-arena,CA-noyo-harbor,hoist_crane,unknown,32.6,34.5,available,Hoist out 2025-10-18 to 2026-01-29; nearest harbor with a hoist (no documented run; T3.3 validates)
+OR-charleston,OR-winchester-bay,ice,unknown,22.1,23.4,available,Ice plant fire 2019-12-20 to 2020-09-12; backup used not documented in the inventory
+OR-charleston,OR-newport,ice,unknown,78.2,82.9,available,as above
+WA-ilwaco,WA-chinook,hoist_crane,unknown,4.3,4.6,available,Ilwaco Landing dock and cranes closed 2024-01-22; backup used not documented in the inventory
+WA-ilwaco,OR-astoria,ice,unknown,10.5,11.1,available,Ilwaco ice closed 2024-01-22; backup used not documented
