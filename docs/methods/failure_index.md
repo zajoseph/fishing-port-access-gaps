@@ -133,3 +133,34 @@ Why this range:
 - **WA values** rest on annual group/FOSS data; WA lower bounds can be $0 for harbors without their own FOSS row.
 - **What distance leaves out:** sea distance ignores bar conditions, weather, vessel size and trucking. Several real backups were trucked.
 - **Validation** against known closures is T3.3; not done here.
+
+## T3.2b verification, 2026-11
+
+*Interim (2026-11-14). Public-source pass done; phone checks pending (`docs/t32b_call_sheet.md`). Method, thresholds, sweep, value basis and rank statistic are unchanged from T3.2.*
+
+**Targets.** `src/portgaps/index/targets_t32b.py` selects:
+- **Drivers:** every main-run facility with stranded value > 0 that ranks in its service's top 10 at 25, 30, 40 or 50 nm. There are 48.
+- **(a)** the driver's own cell, if its confidence is low.
+- **(b)** every not_found or low-confidence not_available/closed cell for the same service within the threshold of a harbor the driver cuts off. This is the same test as the `backup_*` flags.
+
+Each (b) cell is ranked by the drop in top-10 stranded value when that one cell is set to available. Each (a) cell is ranked by its driver's own stranded value. This gives 97 cells, plus 2 known open cells (Noyo ice, which is a medium-confidence driver, and Chinook ice, added by the user). The user chose the top 40 plus those 2, so 42 cells at 26 harbors are checked (`selected_for_check = Y` in `outputs/tables/t32b_targets.csv`).
+
+**Public-source pass (2026-11-14).** 42 cells were searched. Every search is recorded in `outputs/tables/t32b_verification_log.csv`. Two cells were resolved with new dated rows in `data/processed/facilities.csv`:
+- **WA-westport hoist_crane: not_found → available, low.** An undated operator job posting shows processor dock offload equipment. To be confirmed by call.
+- **CA-port-hueneme cold_storage: available, low → not_found, low.** The on-dock refrigeration belongs to a produce tenant. No cold storage for fishery use was located.
+
+The other 40 cells are on the call sheet.
+
+**Interim before/after.** Source: `outputs/tables/t32b_index_before_after.csv`, from `src/portgaps/index/before_after_t32b.py`. Counts are top-10 entries with value > 0, summed over 25/30/40/50 nm × 4 services.
+
+| | Before | After |
+|---|---|---|
+| Top-10 entries (value > 0) | 142 | 137 |
+| Resting on a not_found or low-confidence cell | 109 | 106 |
+| Fall to $0 under s1 | 75 | 72 |
+
+- **Hoist:** Westport hoist enters at 25–40 nm ($65.7–72.0M), so it is a single point of failure for Westport itself. Chinook hoist drops out at 40–50 nm because Westport is now its backup.
+- **Cold storage:** Port Hueneme drops out at every band threshold. Santa Barbara, Ventura and Channel Islands now have no cold storage within reach.
+- No other top-10 entry moved.
+
+Final figures follow the calls.

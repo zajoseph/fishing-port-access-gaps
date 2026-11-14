@@ -243,3 +243,14 @@ The two screens don't select the same kind of harbor at the margin. No ports wer
 | OR-depoe-bay | cold_storage: not_found (2026-11, other); ice: not_found (2026-11, other) |
 | CA-morro-bay | cold_storage: not_found (2026-11, other); fuel: available (2026-11, state_db) |
 | CA-monterey | cold_storage: not_found (2026-11, other); ice: not_found (2026-11, state_db) |
+
+## T3.2b verification, 2026-11
+
+*Interim (2026-11-14). Calls pending.* T3.2b appends dated rows to `data/processed/facilities.csv`. It never edits or deletes existing rows and adds no columns. New rows start their notes with "T3.2b (2026-11-14):". Phone and email answers will use `source_type = other` and notes "phone/email with <role>, YYYY-MM-DD".
+
+- **Rows:** 270 → 272.
+  - WA-westport hoist_crane: available, low, 2026-11 (operator job posting, undated).
+  - CA-port-hueneme cold_storage: not_found, low, 2026-11 (port-facts page). This row supersedes the 2026-05 available/low row.
+- **QA:** `qa_inventory_t13.py` reruns at 8/8 PASS with 272 rows.
+- **Join:** `build_join_t22.py` was rerun, so `port_month.csv` current_status columns are refreshed. Reconciliation is unchanged.
+- **Cells checked:** 42 (`outputs/tables/t32b_verification_log.csv`). 2 were resolved from public sources and 40 are on `docs/t32b_call_sheet.md`.

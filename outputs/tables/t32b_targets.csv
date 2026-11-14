@@ -1,0 +1,100 @@
+target_rank,port_id,port_name,service,target_type,cell_status,cell_confidence,cell_as_of_date,dependent_value_low,dependent_value_high,at_threshold_nm,n_linked_drivers,linked_drivers,linked_drivers_zero_under_s1,known_open_cell,selected_for_check
+1,WA-tokeland,Tokeland (Port of Willapa Harbor marina),cold_storage,b_backup_gap,not_found,low,2026-11,114912954,121154887,50.0,2,OR-astoria|cold_storage;WA-westport|cold_storage,OR-astoria|cold_storage;WA-westport|cold_storage,,Y
+2,WA-bay-center,Bay Center (Port of Willapa Harbor marina),cold_storage,b_backup_gap,not_found,low,2026-11,114912954,121154887,50.0,2,OR-astoria|cold_storage;WA-westport|cold_storage,OR-astoria|cold_storage;WA-westport|cold_storage,,Y
+3,WA-nahcotta,Nahcotta (Port of Peninsula),cold_storage,b_backup_gap,not_found,low,2026-11,114912954,121154887,50.0,2,OR-astoria|cold_storage;WA-westport|cold_storage,OR-astoria|cold_storage;WA-westport|cold_storage,,Y
+4,WA-tokeland,Tokeland (Port of Willapa Harbor marina),ice,b_backup_gap,not_found,low,2026-11,114912954,121154887,50.0,2,OR-astoria|ice;WA-westport|ice,OR-astoria|ice;WA-westport|ice,,Y
+5,WA-bay-center,Bay Center (Port of Willapa Harbor marina),ice,b_backup_gap,not_found,low,2026-11,114912954,121154887,50.0,2,OR-astoria|ice;WA-westport|ice,OR-astoria|ice;WA-westport|ice,,Y
+6,WA-nahcotta,Nahcotta (Port of Peninsula),ice,b_backup_gap,not_found,low,2026-11,114912954,121154887,50.0,2,OR-astoria|ice;WA-westport|ice,OR-astoria|ice;WA-westport|ice,,Y
+7,WA-ilwaco,Ilwaco (Port of Ilwaco),cold_storage,b_backup_gap,not_found,low,2026-11,114912954,121154887,50.0,2,OR-astoria|cold_storage;WA-westport|cold_storage,OR-astoria|cold_storage;WA-westport|cold_storage,,Y
+8,WA-chinook,Chinook (Port of Chinook),cold_storage,b_backup_gap,not_found,low,2026-11,114912954,121154887,50.0,2,OR-astoria|cold_storage;WA-westport|cold_storage,OR-astoria|cold_storage;WA-westport|cold_storage,,Y
+9,WA-tokeland,Tokeland (Port of Willapa Harbor marina),fuel,b_backup_gap,not_available,low,2026-04,65733333,71975266,25.0,1,WA-westport|fuel,,Y,Y
+10,WA-ilwaco,Ilwaco (Port of Ilwaco),hoist_crane,b_backup_gap,not_found,low,2026-11,65733333,71975266,50.0,1,WA-chinook|hoist_crane,WA-chinook|hoist_crane,,Y
+11,WA-tokeland,Tokeland (Port of Willapa Harbor marina),hoist_crane,b_backup_gap,not_found,low,2026-11,65733333,71975266,50.0,1,WA-chinook|hoist_crane,WA-chinook|hoist_crane,,Y
+12,WA-bay-center,Bay Center (Port of Willapa Harbor marina),hoist_crane,b_backup_gap,not_found,low,2026-11,65733333,71975266,50.0,1,WA-chinook|hoist_crane,WA-chinook|hoist_crane,,Y
+13,WA-nahcotta,Nahcotta (Port of Peninsula),hoist_crane,b_backup_gap,not_found,low,2026-11,65733333,71975266,50.0,1,WA-chinook|hoist_crane,WA-chinook|hoist_crane,,Y
+14,WA-westport,Westport (Port of Grays Harbor Westport Marina),hoist_crane,b_backup_gap,not_found,low,2026-11,65733333,71975266,50.0,1,WA-chinook|hoist_crane,WA-chinook|hoist_crane,Y,Y
+15,OR-warrenton,Warrenton (City Mooring Basin; Hammond Marina),cold_storage,b_backup_gap,not_found,low,2026-11,65429621,66800874,25.0,1,OR-astoria|cold_storage,OR-astoria|cold_storage,,Y
+16,OR-warrenton,Warrenton (City Mooring Basin; Hammond Marina),ice,b_backup_gap,not_found,low,2026-11,65429621,66800874,25.0,1,OR-astoria|ice,OR-astoria|ice,,Y
+17,OR-depoe-bay,Depoe Bay (City harbor),ice,b_backup_gap,not_found,low,2026-11,60736200,60736200,25.0,1,OR-newport|ice,OR-newport|ice,,Y
+18,OR-florence,Florence (Port of Siuslaw),ice,b_backup_gap,not_available,low,2023-12,60275444,60275444,50.0,1,OR-newport|ice,OR-newport|ice,Y,Y
+19,CA-port-hueneme,Port Hueneme,cold_storage,a_removed_cell_low_conf,available,low,2026-05,46469530,46469530,40.0,1,CA-port-hueneme|cold_storage,CA-port-hueneme|cold_storage,,Y
+20,CA-santa-barbara,Santa Barbara Harbor,cold_storage,b_backup_gap,not_found,low,2026-11,46469530,46469530,40.0,1,CA-port-hueneme|cold_storage,CA-port-hueneme|cold_storage,,Y
+21,CA-ventura,Ventura Harbor,cold_storage,b_backup_gap,not_found,low,2026-11,46469530,46469530,40.0,1,CA-port-hueneme|cold_storage,CA-port-hueneme|cold_storage,,Y
+22,CA-channel-islands,Channel Islands Harbor (Oxnard),cold_storage,b_backup_gap,not_found,low,2026-11,46469530,46469530,40.0,1,CA-port-hueneme|cold_storage,CA-port-hueneme|cold_storage,,Y
+23,WA-la-conner,La Conner (Port of Skagit La Conner Marina),cold_storage,b_backup_gap,not_found,low,2026-11,40966667,52221897,50.0,1,WA-bellingham|cold_storage,WA-bellingham|cold_storage,,Y
+24,WA-anacortes,Anacortes (Port of Anacortes Cap Sante Marina),cold_storage,b_backup_gap,not_found,low,2026-11,40966667,52221897,50.0,1,WA-bellingham|cold_storage,WA-bellingham|cold_storage,,Y
+25,WA-bellingham,Bellingham (Port of Bellingham Squalicum Harbor),ice,a_removed_cell_low_conf,available,low,2020-09-18,40966667,52221897,50.0,1,WA-bellingham|ice,WA-bellingham|ice,,Y
+26,WA-la-conner,La Conner (Port of Skagit La Conner Marina),ice,b_backup_gap,not_found,low,2026-11,40966667,52221897,50.0,1,WA-bellingham|ice,WA-bellingham|ice,,Y
+27,WA-anacortes,Anacortes (Port of Anacortes Cap Sante Marina),ice,b_backup_gap,not_found,low,2026-11,40966667,52221897,50.0,1,WA-bellingham|ice,WA-bellingham|ice,,Y
+28,WA-blaine,Blaine (Port of Bellingham Blaine Harbor),cold_storage,b_backup_gap,not_found,low,2026-11,39716667,0,40.0,1,WA-bellingham|cold_storage,WA-bellingham|cold_storage,,Y
+29,WA-blaine,Blaine (Port of Bellingham Blaine Harbor),ice,b_backup_gap,not_found,low,2026-11,39716667,0,40.0,1,WA-bellingham|ice,WA-bellingham|ice,,Y
+30,CA-marina-del-rey,Marina del Rey,cold_storage,b_backup_gap,not_found,low,2026-11,38692110,38692110,50.0,2,CA-los-angeles-long-beach|cold_storage;CA-port-hueneme|cold_storage,CA-los-angeles-long-beach|cold_storage;CA-port-hueneme|cold_storage,,Y
+31,CA-redondo-beach,Redondo Beach (King Harbor),cold_storage,b_backup_gap,not_found,low,2026-11,38692110,38692110,50.0,2,CA-los-angeles-long-beach|cold_storage;CA-port-hueneme|cold_storage,CA-los-angeles-long-beach|cold_storage;CA-port-hueneme|cold_storage,,Y
+32,OR-bandon,Bandon (Port of Bandon),cold_storage,b_backup_gap,not_available,low,2023-12,36536119,29694437,50.0,2,OR-brookings|cold_storage;OR-charleston|cold_storage,,Y,Y
+33,WA-port-townsend,"Port Townsend (Boat Haven, Port of Port Townsend)",cold_storage,b_backup_gap,not_found,low,2026-11,35483334,0,50.0,1,WA-bellingham|cold_storage,WA-bellingham|cold_storage,,Y
+34,WA-port-townsend,"Port Townsend (Boat Haven, Port of Port Townsend)",ice,b_backup_gap,not_found,low,2026-11,35483334,0,50.0,1,WA-bellingham|ice,WA-bellingham|ice,,Y
+35,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",cold_storage,b_backup_gap,not_available,low,2023-12,33394437,31237481,50.0,1,OR-charleston|cold_storage,,,Y
+36,OR-florence,Florence (Port of Siuslaw),cold_storage,b_backup_gap,not_available,low,2023-12,31026002,31237481,50.0,1,OR-charleston|cold_storage,,,Y
+37,OR-port-orford,Port Orford (Port of Port Orford dolly dock),cold_storage,b_backup_gap,not_available,low,2023-12,30419452,29694437,50.0,2,OR-brookings|cold_storage;OR-charleston|cold_storage,,,Y
+38,OR-gold-beach,Gold Beach (Port of Gold Beach),cold_storage,b_backup_gap,not_available,low,2023-12,30036744,30036743,50.0,2,OR-brookings|cold_storage;OR-charleston|cold_storage,,Y,Y
+39,CA-ventura,Ventura Harbor,ice,b_backup_gap,not_found,low,2026-11,27923366,27923366,25.0,2,CA-port-hueneme|ice;CA-santa-barbara|ice,CA-port-hueneme|ice;CA-santa-barbara|ice,,Y
+40,CA-newport-beach,Newport Beach,ice,b_backup_gap,not_found,low,2026-11,27136029,27136029,50.0,2,CA-los-angeles-long-beach|ice;CA-san-diego-bay|ice,CA-los-angeles-long-beach|ice;CA-san-diego-bay|ice,,Y
+41,CA-dana-point,Dana Point Harbor,ice,b_backup_gap,not_found,low,2026-11,27136029,27136029,50.0,2,CA-los-angeles-long-beach|ice;CA-san-diego-bay|ice,CA-los-angeles-long-beach|ice;CA-san-diego-bay|ice,,
+42,CA-huntington-harbour,Huntington Harbour,cold_storage,b_backup_gap,not_found,low,2026-11,26440082,26440082,40.0,1,CA-los-angeles-long-beach|cold_storage,CA-los-angeles-long-beach|cold_storage,,
+43,CA-los-angeles-long-beach,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",ice,a_removed_cell_low_conf,available,low,2011-11-28,26440082,26440082,40.0,1,CA-los-angeles-long-beach|ice,CA-los-angeles-long-beach|ice,,
+44,CA-huntington-harbour,Huntington Harbour,ice,b_backup_gap,not_found,low,2026-11,26440082,26440082,40.0,1,CA-los-angeles-long-beach|ice,CA-los-angeles-long-beach|ice,,
+45,CA-avalon,Avalon (Santa Catalina Island),cold_storage,b_backup_gap,not_found,low,2026-11,25645296,25645296,40.0,1,CA-los-angeles-long-beach|cold_storage,CA-los-angeles-long-beach|cold_storage,,
+46,CA-avalon,Avalon (Santa Catalina Island),ice,b_backup_gap,not_found,low,2026-11,25645296,25645296,40.0,1,CA-los-angeles-long-beach|ice,CA-los-angeles-long-beach|ice,,
+47,CA-newport-beach,Newport Beach,cold_storage,b_backup_gap,not_found,low,2026-11,25156016,25156016,40.0,1,CA-los-angeles-long-beach|cold_storage,CA-los-angeles-long-beach|cold_storage,,
+48,CA-dana-point,Dana Point Harbor,cold_storage,b_backup_gap,not_found,low,2026-11,25156016,25156016,40.0,1,CA-los-angeles-long-beach|cold_storage,CA-los-angeles-long-beach|cold_storage,,
+49,WA-port-townsend,"Port Townsend (Boat Haven, Port of Port Townsend)",hoist_crane,b_backup_gap,not_found,low,2026-11,24783333,85735173,50.0,2,WA-port-angeles|hoist_crane;WA-seattle|hoist_crane,WA-port-angeles|hoist_crane;WA-seattle|hoist_crane,,
+50,WA-everett,Everett (Port of Everett Marina),hoist_crane,b_backup_gap,not_found,low,2026-11,23300000,33513276,50.0,2,WA-port-angeles|hoist_crane;WA-seattle|hoist_crane,WA-port-angeles|hoist_crane;WA-seattle|hoist_crane,,
+51,CA-redondo-beach,Redondo Beach (King Harbor),ice,b_backup_gap,not_found,low,2026-11,23187158,23187158,40.0,1,CA-los-angeles-long-beach|ice,CA-los-angeles-long-beach|ice,,
+52,CA-marina-del-rey,Marina del Rey,ice,b_backup_gap,not_found,low,2026-11,23049579,23049579,40.0,1,CA-los-angeles-long-beach|ice,CA-los-angeles-long-beach|ice,,
+53,CA-channel-islands,Channel Islands Harbor (Oxnard),ice,b_backup_gap,not_found,low,2026-11,22140490,22140490,30.0,2,CA-port-hueneme|ice;CA-santa-barbara|ice,CA-port-hueneme|ice;CA-santa-barbara|ice,,
+54,CA-redondo-beach,Redondo Beach (King Harbor),hoist_crane,b_backup_gap,not_found,low,2026-11,21897640,21897640,25.0,1,CA-los-angeles-long-beach|hoist_crane,CA-los-angeles-long-beach|hoist_crane,,
+55,CA-huntington-harbour,Huntington Harbour,hoist_crane,b_backup_gap,not_found,low,2026-11,21765512,21765512,25.0,1,CA-los-angeles-long-beach|hoist_crane,CA-los-angeles-long-beach|hoist_crane,,
+56,WA-la-conner,La Conner (Port of Skagit La Conner Marina),hoist_crane,b_backup_gap,not_found,low,2026-11,19316666,52221897,50.0,2,WA-port-angeles|hoist_crane;WA-seattle|hoist_crane,WA-port-angeles|hoist_crane;WA-seattle|hoist_crane,,
+57,WA-anacortes,Anacortes (Port of Anacortes Cap Sante Marina),hoist_crane,b_backup_gap,not_found,low,2026-11,19183333,52221897,50.0,1,WA-port-angeles|hoist_crane,WA-port-angeles|hoist_crane,,
+58,WA-everett,Everett (Port of Everett Marina),cold_storage,b_backup_gap,not_found,low,2026-11,18950000,0,50.0,1,WA-bellingham|cold_storage,WA-bellingham|cold_storage,,
+59,WA-everett,Everett (Port of Everett Marina),ice,b_backup_gap,not_found,low,2026-11,18950000,0,50.0,1,WA-bellingham|ice,WA-bellingham|ice,,
+60,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),cold_storage,b_backup_gap,not_found,low,2026-11,18950000,0,50.0,1,WA-bellingham|cold_storage,WA-bellingham|cold_storage,,
+61,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),ice,b_backup_gap,not_found,low,2026-11,18950000,0,50.0,1,WA-bellingham|ice,WA-bellingham|ice,,
+62,WA-bellingham,Bellingham (Port of Bellingham Squalicum Harbor),hoist_crane,b_backup_gap,not_found,low,2026-11,17700000,0,50.0,1,WA-port-angeles|hoist_crane,WA-port-angeles|hoist_crane,,
+63,WA-blaine,Blaine (Port of Bellingham Blaine Harbor),hoist_crane,b_backup_gap,not_found,low,2026-11,17700000,0,50.0,1,WA-port-angeles|hoist_crane,WA-port-angeles|hoist_crane,,
+64,CA-oceanside,Oceanside Harbor,ice,b_backup_gap,not_found,low,2026-11,16421201,16421201,50.0,2,CA-los-angeles-long-beach|ice;CA-san-diego-bay|ice,CA-los-angeles-long-beach|ice;CA-san-diego-bay|ice,,
+65,CA-trinidad,Trinidad,cold_storage,b_backup_gap,not_available,low,2010-08,15509961,15509961,50.0,1,OR-brookings|cold_storage,,,
+66,CA-mission-bay,Mission Bay,hoist_crane,b_backup_gap,not_found,low,2026-11,13168278,13168278,50.0,1,CA-san-diego-bay|hoist_crane,CA-san-diego-bay|hoist_crane,,
+67,CA-san-diego-bay,San Diego Bay (Tuna Harbor / Driscoll's Wharf),ice,a_removed_cell_low_conf,available,low,2026-11,13168278,13168278,50.0,1,CA-san-diego-bay|ice,CA-san-diego-bay|ice,,
+68,CA-mission-bay,Mission Bay,ice,b_backup_gap,not_found,low,2026-11,13168278,13168278,50.0,1,CA-san-diego-bay|ice,CA-san-diego-bay|ice,,
+69,CA-oceanside,Oceanside Harbor,hoist_crane,b_backup_gap,not_found,low,2026-11,13168278,13168278,50.0,1,CA-san-diego-bay|hoist_crane,CA-san-diego-bay|hoist_crane,,
+70,CA-trinidad,Trinidad,fuel,b_backup_gap,not_available,low,2010-08,11834451,11834451,25.0,1,CA-humboldt-bay|fuel,,,
+71,CA-trinidad,Trinidad,ice,b_backup_gap,not_available,low,2010-08,11834451,11834451,25.0,1,CA-humboldt-bay|ice,,,
+72,CA-san-francisco,San Francisco (Fisherman's Wharf / Pier 45),hoist_crane,a_removed_cell_low_conf,available,low,2016-03-30,11245162,11245162,25.0,1,CA-san-francisco|hoist_crane,CA-san-francisco|hoist_crane,,
+73,CA-vallejo,Vallejo,hoist_crane,b_backup_gap,not_found,low,2026-11,11245162,11245162,25.0,1,CA-san-francisco|hoist_crane,CA-san-francisco|hoist_crane,,
+74,CA-berkeley,Berkeley,hoist_crane,b_backup_gap,not_found,low,2026-11,11245162,11245162,25.0,1,CA-san-francisco|hoist_crane,CA-san-francisco|hoist_crane,,
+75,CA-vallejo,Vallejo,ice,b_backup_gap,not_found,low,2026-11,11245162,11245162,25.0,1,CA-san-francisco|ice,CA-san-francisco|ice,,
+76,CA-berkeley,Berkeley,ice,b_backup_gap,not_found,low,2026-11,11245162,11245162,25.0,1,CA-san-francisco|ice,CA-san-francisco|ice,,
+77,OR-garibaldi,Garibaldi (Port of Garibaldi),hoist_crane,a_removed_cell_low_conf,available,low,2026-11,8231912,8231912,25.0,1,OR-garibaldi|hoist_crane,,,
+78,OR-garibaldi,Garibaldi (Port of Garibaldi),ice,a_removed_cell_low_conf,available,low,2026-11,8231912,8231912,40.0,1,OR-garibaldi|ice,,,
+79,CA-noyo-harbor,Noyo Harbor (Fort Bragg),ice,c_known_open_driver,available,medium,2026-02-24,7481857,7481857,50.0,1,CA-noyo-harbor|ice,CA-noyo-harbor|ice,Y,Y
+80,CA-noyo-harbor,Noyo Harbor (Fort Bragg),fuel,a_removed_cell_low_conf,available,low,2025-10,7022492,7022492,40.0,1,CA-noyo-harbor|fuel,CA-noyo-harbor|fuel,,
+81,CA-point-arena,Point Arena (Arena Cove),fuel,b_backup_gap,not_found,low,2026-11,7022492,7022492,40.0,1,CA-noyo-harbor|fuel,CA-noyo-harbor|fuel,,
+82,CA-point-arena,Point Arena (Arena Cove),ice,b_backup_gap,not_found,low,2026-11,7022492,7022492,40.0,1,CA-noyo-harbor|ice,CA-noyo-harbor|ice,,
+83,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",hoist_crane,b_backup_gap,not_available,low,2023-12,6116667,6328146,25.0,2,OR-charleston|hoist_crane;OR-florence|hoist_crane,,,
+84,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),cold_storage,a_removed_cell_low_conf,available,low,2026-11,5633333,124197162,40.0,1,WA-neah-bay|cold_storage,WA-neah-bay|cold_storage,,
+85,WA-la-push,La Push (Quileute Harbor Marina),cold_storage,b_backup_gap,not_found,low,2026-11,5633333,124197162,40.0,1,WA-neah-bay|cold_storage,WA-neah-bay|cold_storage,,
+86,WA-la-push,La Push (Quileute Harbor Marina),hoist_crane,b_backup_gap,not_found,low,2026-11,5633333,124197162,40.0,1,WA-neah-bay|hoist_crane,WA-neah-bay|hoist_crane,,
+87,WA-blaine,Blaine (Port of Bellingham Blaine Harbor),fuel,a_removed_cell_low_conf,available,low,2026-04,5483333,52221897,25.0,1,WA-blaine|fuel,,,
+88,CA-oceanside,Oceanside Harbor,cold_storage,b_backup_gap,not_found,low,2026-11,3252923,3252923,50.0,1,CA-los-angeles-long-beach|cold_storage,CA-los-angeles-long-beach|cold_storage,,
+89,OR-port-orford,Port Orford (Port of Port Orford dolly dock),fuel,a_removed_cell_low_conf,available,low,2026-11,2416667,4785102,25.0,1,OR-port-orford|fuel,,,
+90,CA-newport-beach,Newport Beach,hoist_crane,b_backup_gap,not_available,low,2018-02,1980014,1980014,50.0,2,CA-los-angeles-long-beach|hoist_crane;CA-san-diego-bay|hoist_crane,CA-los-angeles-long-beach|hoist_crane;CA-san-diego-bay|hoist_crane,,
+91,CA-dana-point,Dana Point Harbor,hoist_crane,b_backup_gap,not_found,low,2026-11,1980014,1980014,50.0,2,CA-los-angeles-long-beach|hoist_crane;CA-san-diego-bay|hoist_crane,CA-los-angeles-long-beach|hoist_crane;CA-san-diego-bay|hoist_crane,,
+92,CA-marina-del-rey,Marina del Rey,hoist_crane,b_backup_gap,not_found,low,2026-11,1284067,1284067,30.0,1,CA-los-angeles-long-beach|hoist_crane,CA-los-angeles-long-beach|hoist_crane,,
+93,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",cold_storage,b_backup_gap,not_found,low,2026-11,1250000,0,50.0,1,WA-bellingham|cold_storage,WA-bellingham|cold_storage,,
+94,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",ice,b_backup_gap,not_found,low,2026-11,1250000,0,50.0,1,WA-bellingham|ice,WA-bellingham|ice,,
+95,CA-shelter-cove,Shelter Cove,fuel,a_removed_cell_low_conf,available,low,2026-11,459365,459365,30.0,1,CA-shelter-cove|fuel,,,
+96,CA-shelter-cove,Shelter Cove,hoist_crane,b_backup_gap,not_found,low,2026-11,459365,459365,50.0,1,CA-noyo-harbor|hoist_crane,CA-noyo-harbor|hoist_crane,,
+97,WA-la-push,La Push (Quileute Harbor Marina),fuel,a_removed_cell_low_conf,available,low,2022-12,333333,71975266,30.0,1,WA-la-push|fuel,,,
+98,OR-newport,Newport (Port of Newport commercial marina),cold_storage,b_backup_gap,not_available,low,2023-12,0,0,,1,OR-charleston|cold_storage,,,
+99,WA-chinook,Chinook (Port of Chinook),ice,c_user_added,not_available,medium,2026-02-09,0,0,,0,,,Y,Y
