@@ -1,0 +1,31 @@
+a,b,published_nm,table,pair_type
+REF-san-diego,REF-los-angeles,95,T28,coastwise
+REF-san-diego,REF-newport-beach,78,T28,coastwise
+REF-long-beach,REF-newport-beach,25,T28,coastwise
+REF-los-angeles,REF-santa-barbara,90,T28,coastwise
+REF-port-hueneme,REF-santa-barbara,29,T28,coastwise
+REF-santa-barbara,REF-port-san-luis,91,T28,coastwise (Pt Conception)
+REF-port-san-luis,REF-monterey,121,T28,coastwise
+REF-monterey,REF-san-francisco,96,T28,cross-entrance (Golden Gate)
+REF-san-diego,REF-san-francisco,455,T28,long coastwise + entrance
+REF-san-francisco,REF-eureka,232,T28,"cross-entrance (Golden Gate, Humboldt Bar)"
+REF-eureka,REF-crescent-city,64,T28,cross-entrance (Humboldt Bar)
+REF-crescent-city,REF-coos-bay,125,T28,cross-entrance (Coos Bay)
+REF-coos-bay,REF-newport-or,92,T28,cross-entrance (2 bars)
+REF-florence,REF-newport-or,43,T28,cross-entrance (2 bars)
+REF-depoe-bay,REF-newport-or,16,T28,short coastwise
+REF-newport-or,REF-astoria,115,T28,cross-entrance (Columbia)
+REF-garibaldi,REF-astoria,58,T28,"cross-entrance (Tillamook, Columbia)"
+REF-astoria,REF-cape-flattery,153,T28,cross-entrance (Columbia)
+REF-san-francisco,REF-astoria,567,T28,long coastwise + 2 entrances
+REF-san-francisco,REF-vallejo,23,T29,in-bay
+REF-cape-flattery,REF-neah-bay,10,T31,short
+REF-neah-bay,REF-port-angeles,54,T31,Strait of Juan de Fuca
+REF-port-angeles,REF-port-townsend,32,T31,Strait
+REF-port-townsend,REF-seattle,40,T31,in-sound
+REF-seattle,REF-everett,30,T31,in-sound
+REF-everett,REF-anacortes,49,T31,in-sound (Saratoga/Deception?)
+REF-anacortes,REF-bellingham,17,T31,in-sound
+REF-bellingham,REF-blaine,38,T31,in-sound
+REF-neah-bay,REF-seattle,116,T31,Strait + sound
+REF-seattle,REF-bellingham,80,T31,in-sound

@@ -46,3 +46,7 @@ env/
 *.swp
 .DS_Store
 Thumbs.db
+
+# T3.1 interim deliverables tracked
+!data/interim/snapped_ports.csv
+!data/interim/sea_routes.geojson
