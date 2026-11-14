@@ -1,0 +1,34 @@
+a,b,table,pair_type,endpoints,published_nm,model_nm,diff_nm,pct_err,flag_gt10pct
+san-diego,los-angeles,T28,coastwise,NOAA table coordinates,95,89.0,-6.0,-6.3,False
+san-diego,newport-beach,T28,coastwise,NOAA table coordinates,78,72.5,-5.5,-7.1,False
+long-beach,newport-beach,T28,coastwise,NOAA table coordinates,25,28.3,3.3000000000000007,13.2,True
+los-angeles,santa-barbara,T28,coastwise,NOAA table coordinates,90,85.0,-5.0,-5.6,False
+port-hueneme,santa-barbara,T28,coastwise,NOAA table coordinates,29,28.8,-0.1999999999999993,-0.7,False
+santa-barbara,port-san-luis,T28,coastwise (Pt Conception),NOAA table coordinates,91,87.5,-3.5,-3.8,False
+port-san-luis,monterey,T28,coastwise,NOAA table coordinates,121,114.5,-6.5,-5.4,False
+monterey,san-francisco,T28,cross-entrance (Golden Gate),NOAA table coordinates,96,85.8,-10.200000000000005,-10.6,True
+san-diego,san-francisco,T28,long coastwise + entrance,NOAA table coordinates,455,433.9,-21.100000000000023,-4.6,False
+san-francisco,eureka,T28,"cross-entrance (Golden Gate, Humboldt Bar)",NOAA table coordinates,232,218.2,-13.800000000000011,-5.9,False
+eureka,crescent-city,T28,cross-entrance (Humboldt Bar),NOAA table coordinates,64,62.3,-1.7000000000000028,-2.7,False
+crescent-city,coos-bay,T28,cross-entrance (Coos Bay),NOAA table coordinates,125,112.6,-12.400000000000006,-9.9,False
+coos-bay,newport-or,T28,cross-entrance (2 bars),NOAA table coordinates,92,87.8,-4.200000000000003,-4.6,False
+florence,newport-or,T28,cross-entrance (2 bars),NOAA table coordinates,43,41.4,-1.6000000000000014,-3.7,False
+depoe-bay,newport-or,T28,short coastwise,NOAA table coordinates,16,12.9,-3.1,-19.4,True
+newport-or,astoria,T28,cross-entrance (Columbia),NOAA table coordinates,115,108.5,-6.5,-5.7,False
+garibaldi,astoria,T28,"cross-entrance (Tillamook, Columbia)",NOAA table coordinates,58,52.4,-5.600000000000001,-9.7,False
+astoria,cape-flattery,T28,cross-entrance (Columbia),NOAA table coordinates,153,144.5,-8.5,-5.6,False
+san-francisco,astoria,T28,long coastwise + 2 entrances,NOAA table coordinates,567,553.0,-14.0,-2.5,False
+san-francisco,vallejo,T29,in-bay,NOAA table coordinates,23,21.4,-1.6000000000000014,-7.0,False
+cape-flattery,neah-bay,T31,short,NOAA table coordinates,10,7.9,-2.1,-21.0,True
+neah-bay,port-angeles,T31,Strait of Juan de Fuca,NOAA table coordinates,54,53.0,-1.0,-1.9,False
+port-angeles,port-townsend,T31,Strait,NOAA table coordinates,32,30.3,-1.6999999999999993,-5.3,False
+port-townsend,seattle,T31,in-sound,NOAA table coordinates,40,36.8,-3.200000000000003,-8.0,False
+seattle,everett,T31,in-sound,NOAA table coordinates,30,27.9,-2.1000000000000014,-7.0,False
+everett,anacortes,T31,in-sound (Saratoga/Deception?),NOAA table coordinates,49,45.9,-3.1000000000000014,-6.3,False
+anacortes,bellingham,T31,in-sound,NOAA table coordinates,17,15.6,-1.4000000000000004,-8.2,False
+bellingham,blaine,T31,in-sound,NOAA table coordinates,38,26.0,-12.0,-31.6,True
+neah-bay,seattle,T31,Strait + sound,NOAA table coordinates,116,113.4,-2.5999999999999943,-2.2,False
+seattle,bellingham,T31,in-sound,NOAA table coordinates,80,76.5,-3.5,-4.4,False
+WA-ilwaco,OR-astoria,T30,in-estuary (Columbia),inventory harbor points (proxy),13,10.5,-2.5,-19.2,True
+OR-warrenton,OR-astoria,T30,in-estuary (Columbia),inventory harbor points (proxy),4,3.3,-0.7000000000000002,-17.5,True
+WA-ilwaco,OR-warrenton,T30,in-estuary (Columbia),inventory harbor points (proxy),12,10.3,-1.6999999999999993,-14.2,True
