@@ -1,0 +1,59 @@
+port_id,port_name,state,unit_id,unit_members,shared_unit,value_low,value_high,unit_value,foss_block,foss_years_listed,value_source,unit_level,lower_bound_withheld,confidential_share,partial_confidential_share,heavily_withheld,marina_only
+CA-crescent-city,Crescent City,CA,CA-crescent-city,CA-crescent-city,N,15509961,15509961,15509961,,,CDFW MFDE harbor panel,N,Y,0.014,0.0,N,N
+CA-trinidad,Trinidad,CA,CA-trinidad,CA-trinidad,N,1919756,1919756,1919756,,,CDFW MFDE harbor panel,N,Y,0.208,0.0,N,N
+CA-humboldt-bay,Humboldt Bay (Eureka / Fields Landing / King Salmon),CA,CA-humboldt-bay,CA-humboldt-bay,N,9914696,9914696,9914696,,,CDFW MFDE harbor panel,N,Y,0.0,0.611,N,N
+CA-shelter-cove,Shelter Cove,CA,CA-shelter-cove,CA-shelter-cove,N,459365,459365,459365,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,CA-noyo-harbor,CA-noyo-harbor,N,6447331,6447331,6447331,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+CA-point-arena,Point Arena (Arena Cove),CA,CA-point-arena,CA-point-arena,N,575162,575162,575162,,,CDFW MFDE harbor panel,N,Y,0.181,0.0,N,N
+CA-bodega-bay,Bodega Bay (Spud Point),CA,CA-bodega-bay,CA-bodega-bay,N,9079330,9079330,9079330,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+CA-san-francisco,San Francisco (Fisherman's Wharf / Pier 45),CA,CA-san-francisco,CA-san-francisco,N,10518297,10518297,10518297,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+CA-vallejo,Vallejo,CA,CA-vallejo,CA-vallejo,N,437452,437452,437452,,,CDFW MFDE harbor panel,N,Y,0.764,0.0,Y,Y
+CA-berkeley,Berkeley,CA,CA-berkeley,CA-berkeley,N,289412,289412,289412,,,CDFW MFDE harbor panel,N,Y,0.167,0.0,N,Y
+CA-pillar-point,Pillar Point Harbor (Princeton / Half Moon Bay),CA,CA-pillar-point,CA-pillar-point,N,9857359,9857359,9857359,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+CA-santa-cruz,Santa Cruz,CA,CA-santa-cruz,CA-santa-cruz,N,2252974,2252974,2252974,,,CDFW MFDE harbor panel,N,Y,0.014,0.0,N,N
+CA-moss-landing,Moss Landing,CA,CA-moss-landing,CA-moss-landing,N,6538613,6538613,6538613,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+CA-monterey,Monterey,CA,CA-monterey,CA-monterey,N,6259505,6259505,6259505,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+CA-morro-bay,Morro Bay,CA,CA-morro-bay,CA-morro-bay,N,2266786,2266786,2266786,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+CA-port-san-luis,Port San Luis (Avila Beach),CA,CA-port-san-luis,CA-port-san-luis,N,1526630,1526630,1526630,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+CA-santa-barbara,Santa Barbara Harbor,CA,CA-santa-barbara,CA-santa-barbara,N,12166682,12166682,12166682,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+CA-ventura,Ventura Harbor,CA,CA-ventura,CA-ventura,N,18546164,18546164,18546164,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+CA-channel-islands,Channel Islands Harbor (Oxnard),CA,CA-channel-islands,CA-channel-islands,N,5782876,5782876,5782876,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+CA-port-hueneme,Port Hueneme,CA,CA-port-hueneme,CA-port-hueneme,N,9973808,9973808,9973808,,,CDFW MFDE harbor panel,N,Y,0.403,0.0,Y,N
+CA-marina-del-rey,Marina del Rey,CA,CA-marina-del-rey,CA-marina-del-rey,N,794786,794786,794786,,,CDFW MFDE harbor panel,N,Y,0.181,0.0,N,N
+CA-redondo-beach,Redondo Beach (King Harbor),CA,CA-redondo-beach,CA-redondo-beach,N,489280,489280,489280,,,CDFW MFDE harbor panel,N,Y,0.222,0.0,N,Y
+CA-los-angeles-long-beach,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,CA-los-angeles-long-beach,CA-los-angeles-long-beach,N,21408360,21408360,21408360,,,CDFW MFDE harbor panel,N,Y,0.0,0.819,N,N
+CA-huntington-harbour,Huntington Harbour,CA,CA-huntington-harbour,CA-huntington-harbour,N,357152,357152,357152,,,CDFW MFDE harbor panel,N,Y,0.486,0.0,Y,Y
+CA-newport-beach,Newport Beach,CA,CA-newport-beach,CA-newport-beach,N,1032334,1032334,1032334,,,CDFW MFDE harbor panel,N,Y,0.069,0.0,N,N
+CA-avalon,Avalon (Santa Catalina Island),CA,CA-avalon,CA-avalon,N,137580,137580,137580,,,CDFW MFDE harbor panel,N,Y,0.583,0.0,Y,N
+CA-dana-point,Dana Point Harbor,CA,CA-dana-point,CA-dana-point,N,2220589,2220589,2220589,,,CDFW MFDE harbor panel,N,Y,0.014,0.0,N,N
+CA-oceanside,Oceanside Harbor,CA,CA-oceanside,CA-oceanside,N,1980014,1980014,1980014,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+CA-mission-bay,Mission Bay,CA,CA-mission-bay,CA-mission-bay,N,2310304,2310304,2310304,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+CA-san-diego-bay,San Diego Bay (Tuna Harbor / Driscoll's Wharf),CA,CA-san-diego-bay,CA-san-diego-bay,N,8877959,8877959,8877959,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
+OR-astoria,Astoria (Port of Astoria West/East Basins),OR,OR-ODFW-astoria,OR-astoria;OR-warrenton,Y,49166667,49179621,49179621,"FOSS Astoria, OR",6,ODFW FTR205 port table,N,N,0.0,0.0,N,N
+OR-warrenton,Warrenton (City Mooring Basin; Hammond Marina),OR,OR-ODFW-astoria,OR-astoria;OR-warrenton,Y,0,49179621,49179621,,,ODFW FTR205 port table,N,N,0.0,0.0,N,N
+OR-garibaldi,Garibaldi (Port of Garibaldi),OR,OR-ODFW-gearhart-garibaldi,OR-garibaldi,N,8231912,8231912,8231912,,,ODFW FTR205 port table,Y,N,0.0,0.0,N,N
+OR-depoe-bay,Depoe Bay (City harbor),OR,OR-ODFW-netarts-depoe-bay,OR-depoe-bay,N,460756,460756,460756,,,ODFW FTR205 port table,Y,N,0.0,0.0,N,N
+OR-newport,Newport (Port of Newport commercial marina),OR,OR-newport,OR-newport,N,60275445,60275445,60275445,,,ODFW FTR205 port table,N,N,0.0,0.0,N,N
+OR-florence,Florence (Port of Siuslaw),OR,OR-ODFW-waldport-winchester-bay,OR-florence;OR-winchester-bay,Y,0,6328146,6328146,,,ODFW FTR205 port table,N,N,0.0,0.0,N,N
+OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,OR-ODFW-waldport-winchester-bay,OR-florence;OR-winchester-bay,Y,6116667,6328146,6328146,"FOSS Winchester Bay, OR",6,ODFW FTR205 port table,N,N,0.0,0.0,N,N
+OR-charleston,Charleston (Port of Coos Bay Charleston Marina),OR,OR-charleston,OR-charleston,N,24909336,24909336,24909336,,,ODFW FTR205 port table,N,N,0.0,0.0,N,N
+OR-bandon,Bandon (Port of Bandon),OR,OR-ODFW-bandon-port-orford,OR-bandon;OR-port-orford,Y,0,4785102,4785102,,,ODFW FTR205 port table,N,N,0.0,0.0,N,N
+OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,OR-ODFW-bandon-port-orford,OR-bandon;OR-port-orford,Y,2416667,4785102,4785102,"FOSS Port Orford, OR",3,ODFW FTR205 port table,N,N,0.0,0.0,N,N
+OR-gold-beach,Gold Beach (Port of Gold Beach),OR,OR-ODFW-gold-beach-brookings,OR-brookings;OR-gold-beach,Y,0,9741681,9741681,,,ODFW FTR205 port table,N,N,0.0,0.0,N,N
+OR-brookings,Brookings (Port of Brookings Harbor),OR,OR-ODFW-gold-beach-brookings,OR-brookings;OR-gold-beach,Y,9016667,9741681,9741681,"FOSS Brookings, OR",6,ODFW FTR205 port table,N,N,0.0,0.0,N,N
+WA-ilwaco,Ilwaco (Port of Ilwaco),WA,WA-PACFIN-CLW,WA-chinook;WA-ilwaco,Y,0,17621253,17621253,"FOSS Ilwaco-Chinook, WA",6,PacFIN ALL005 PacFIN group CLW (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-chinook,Chinook (Port of Chinook),WA,WA-PACFIN-CLW,WA-chinook;WA-ilwaco,Y,0,17621253,17621253,"FOSS Ilwaco-Chinook, WA",6,PacFIN ALL005 PacFIN group CLW (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-tokeland,Tokeland (Port of Willapa Harbor marina),WA,WA-PACFIN-CWA,WA-bay-center;WA-la-push;WA-nahcotta;WA-tokeland;WA-westport,Y,0,71975266,71975266,"FOSS Willapa Bay, WA",6,PacFIN ALL005 PacFIN group CWA (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-bay-center,Bay Center (Port of Willapa Harbor marina),WA,WA-PACFIN-CWA,WA-bay-center;WA-la-push;WA-nahcotta;WA-tokeland;WA-westport,Y,0,71975266,71975266,"FOSS Willapa Bay, WA",6,PacFIN ALL005 PacFIN group CWA (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-nahcotta,Nahcotta (Port of Peninsula),WA,WA-PACFIN-CWA,WA-bay-center;WA-la-push;WA-nahcotta;WA-tokeland;WA-westport,Y,0,71975266,71975266,"FOSS Willapa Bay, WA",6,PacFIN ALL005 PacFIN group CWA (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-westport,Westport (Port of Grays Harbor Westport Marina),WA,WA-PACFIN-CWA,WA-bay-center;WA-la-push;WA-nahcotta;WA-tokeland;WA-westport,Y,65733333,71975266,71975266,"FOSS Westport, WA",6,PacFIN ALL005 PacFIN group CWA (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-la-push,La Push (Quileute Harbor Marina),WA,WA-PACFIN-CWA,WA-bay-center;WA-la-push;WA-nahcotta;WA-tokeland;WA-westport,Y,333333,71975266,71975266,"FOSS La Push, WA",2,PacFIN ALL005 PacFIN group CWA (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,WA-PACFIN-NPS,WA-anacortes;WA-bellingham;WA-blaine;WA-la-conner;WA-neah-bay;WA-port-angeles;WA-port-townsend,Y,5300000,52221897,52221897,"FOSS Neah Bay, WA",6,PacFIN ALL005 PacFIN group NPS (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,WA-PACFIN-NPS,WA-anacortes;WA-bellingham;WA-blaine;WA-la-conner;WA-neah-bay;WA-port-angeles;WA-port-townsend,Y,1483333,52221897,52221897,"FOSS Port Angeles, WA",2,PacFIN ALL005 PacFIN group NPS (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-port-townsend,"Port Townsend (Boat Haven, Port of Port Townsend)",WA,WA-PACFIN-NPS,WA-anacortes;WA-bellingham;WA-blaine;WA-la-conner;WA-neah-bay;WA-port-angeles;WA-port-townsend,Y,1250000,52221897,52221897,"FOSS Port Townsend, WA",2,PacFIN ALL005 PacFIN group NPS (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,WA-PACFIN-SPS,WA-everett;WA-seattle,Y,5466667,33513276,33513276,"FOSS Seattle, WA",5,PacFIN ALL005 PacFIN group SPS (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-everett,Everett (Port of Everett Marina),WA,WA-PACFIN-SPS,WA-everett;WA-seattle,Y,133333,33513276,33513276,"FOSS Everett, WA",1,PacFIN ALL005 PacFIN group SPS (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-la-conner,La Conner (Port of Skagit La Conner Marina),WA,WA-PACFIN-NPS,WA-anacortes;WA-bellingham;WA-blaine;WA-la-conner;WA-neah-bay;WA-port-angeles;WA-port-townsend,Y,0,52221897,52221897,"FOSS Anacortes-La Conner, WA",6,PacFIN ALL005 PacFIN group NPS (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-anacortes,Anacortes (Port of Anacortes Cap Sante Marina),WA,WA-PACFIN-NPS,WA-anacortes;WA-bellingham;WA-blaine;WA-la-conner;WA-neah-bay;WA-port-angeles;WA-port-townsend,Y,0,52221897,52221897,"FOSS Anacortes-La Conner, WA",6,PacFIN ALL005 PacFIN group NPS (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-bellingham,Bellingham (Port of Bellingham Squalicum Harbor),WA,WA-PACFIN-NPS,WA-anacortes;WA-bellingham;WA-blaine;WA-la-conner;WA-neah-bay;WA-port-angeles;WA-port-townsend,Y,16533333,52221897,52221897,"FOSS Bellingham, WA",6,PacFIN ALL005 PacFIN group NPS (annual; '*' cells excluded),N,Y,0.0,0.0,N,N
+WA-blaine,Blaine (Port of Bellingham Blaine Harbor),WA,WA-PACFIN-NPS,WA-anacortes;WA-bellingham;WA-blaine;WA-la-conner;WA-neah-bay;WA-port-angeles;WA-port-townsend,Y,5483333,52221897,52221897,"FOSS Blaine, WA",5,PacFIN ALL005 PacFIN group NPS (annual; '*' cells excluded),N,Y,0.0,0.0,N,N

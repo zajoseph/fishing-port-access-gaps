@@ -1,0 +1,10 @@
+check,pass,detail
+C1 every harbor has a value unit,True,58 harbors
+C2 upper of all harbors = sum of unique unit values (dedup on unit_id),True,"509,174,207"
+C3 stranded_low <= stranded_high everywhere,True,
+C4 no stranded value exceeds total upper,True,
+"C5 independent brute-force recompute, 25 random facilities at mid threshold",True,
+C6 main run facilities = current 'available' cells,True,117 per threshold
+C7 bound run facilities = available + not_found,True,207
+C8 distance matrix symmetric,True,
+C9 drop runs remove exactly the listed harbors,True,"s3 = ['CA-avalon', 'CA-huntington-harbour', 'CA-port-hueneme', 'CA-vallejo']"
