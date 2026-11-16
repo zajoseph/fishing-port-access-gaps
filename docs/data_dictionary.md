@@ -77,7 +77,9 @@ A harbor can have several rows for one service: a history of openings and closur
 - **Dated events** (openings, closures, reopenings) → the day of the event when the source gives it. When a source reports that a service was running by a meeting date, `as_of_date` = that meeting date (e.g., Crescent City ice 2025-08-27; exact restart day unknown).
 - **Inferred months** say so in `notes` (e.g., CA-dana-point ~2018-11).
 - **Current status of a port × service** = the row with the latest `as_of_date`, compared as strings. At equal precision this is chronological; a `YYYY-MM` row sorts before day-dated rows in the same month.
-  - T1.3 checked that no port × service has two rows with different statuses on its latest date.
+  - **Tie rule (T3.4, 2026-11-16; decision F1/R1):** when two or more rows for the same port × service share an `as_of_date`, the **later-appended row (higher file line) wins**. "File line" is the row's 1-based line in `facilities.csv` counting the header as line 1. The rule is applied with an explicit file-line key wherever current or monthly status is computed (`qa_inventory_t13.py`, `build_join_t22.py`, `index/simulate.py`, `review/t33_indep.py`); it does not rely on sort stability. Because rows are only ever appended, the later line is the later observation.
+  - Same-date ties do exist. QA check 9 lists every tie and its winner in `outputs/tables/t13_qa_ties.csv`. As of T3.4 there is one: `WA-westport · hoist_crane · 2026-11`, line 230 (T1.3 `not_found`) vs line 272 (T3.2b `available`/low); line 272 wins, so Westport hoist is `available`/low.
+  - The same rule applies to monthly status in `port_month.csv`: within a month, rows are ordered by `as_of_date` then file line, and the last one wins.
   - The latest-row table is `outputs/tables/t13_latest_status.csv`.
 - **Event histories** (for T3.3/T4) come from day-dated `closed` / `available` / `not_available` sequences. Closure-port key rows:
 

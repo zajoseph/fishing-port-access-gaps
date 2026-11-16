@@ -27,6 +27,8 @@ def verdict(r):
         return ("disagree", "Index strands Charleston (and Bandon), but Charleston boats used Winchester Bay ice at 23.4 nm.")
     if k == "E3a": return ("can't tell", "Index: none stranded (Chinook hoist 4.6 nm). No documented backup; Ilwaco landings only as CLW group crab-only (0.87x, 4 months withheld); Chinook hoist state in 2024 undocumented.")
     if k == "E3b": return ("can't tell", "Index: none stranded (Astoria ice 11.1 nm). No documented backup; group-level crab-only landings can't isolate Ilwaco.")
+    if k == "E4" and r.run.startswith("s4"):
+        return ("agree", f"s4: Point Arena (no moorage) can only use its own hoist, so the index strands Point Arena (${r.predicted_stranded_low/1e6:.2f}M) at every threshold; the pier closed to all vessels and the fleet missed the opener.")
     if k == "E4":
         return ("agree", "Index strands Point Arena ($0.58M): no hoist within threshold; fleet missed the crab opener.") if T <= 30 else \
                ("disagree", "Index says Noyo hoist (34.5 nm) covers Point Arena; the harbor closed to all vessels and the fleet missed the opener. No-moorage launch hoist is not substitutable by a vessel run.")

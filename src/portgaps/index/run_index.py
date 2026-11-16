@@ -24,25 +24,34 @@ RUNS = {
     "s1_not_found_as_available": dict(working=("available", "not_found"), drop_key=None),
     "s2_no_marina_only": dict(working=("available",), drop_key="marina_only"),
     "s3_no_heavily_withheld": dict(working=("available",), drop_key="heavily_withheld"),
+    # T3.4 / R3: no-moorage launch-hoist harbors cannot substitute hoist
+    "s4_no_moorage_hoist_no_substitute": dict(working=("available",), drop_key=None, own_hoist_only=True),
 }
 
 DOCUMENTED_BACKUPS = [
-    # (harbor that lost or lacked the service, backup harbor, service, mode, what the inventory says)
-    ("CA-crescent-city", "OR-brookings", "ice", "truck",
+    # (harbor that lost or lacked the service, backup harbor, service, mode, run_type, what the inventory says)
+    # run_type (T3.4 / R4, per docs/review_index_t33.md F5):
+    #   documented = the inventory documents this backup being used;
+    #   nearest_facility_distance = distance to the nearest facility, NOT a documented run;
+    #   not_documented = candidate backup, use not documented in the inventory.
+    ("CA-crescent-city", "OR-brookings", "ice", "truck", "documented",
      "Oct 2024-Aug 2025 closure: ice trucked from Pacific Seafood's Brookings plant (facilities.csv notes)"),
-    ("CA-santa-barbara", "CA-channel-islands", "ice", "truck",
+    ("CA-santa-barbara", "CA-channel-islands", "ice", "truck", "documented",
      "Ice House overhaul (<4 weeks): ice deliveries from Oxnard (facilities.csv notes); Oxnard = Channel Islands/Port Hueneme"),
-    ("CA-santa-barbara", "CA-port-hueneme", "ice", "truck", "as above (Oxnard)"),
-    ("CA-trinidad", "CA-humboldt-bay", "fuel", "truck",
+    ("CA-santa-barbara", "CA-port-hueneme", "ice", "truck", "documented", "as above (Oxnard)"),
+    ("CA-trinidad", "CA-humboldt-bay", "fuel", "truck", "documented",
      "Pier fuel dock removed (2010 profile): nearest vendor Renner Petroleum, McKinleyville (road)"),
-    ("CA-point-arena", "CA-noyo-harbor", "hoist_crane", "unknown",
-     "Hoist out 2025-10-18 to 2026-01-29; nearest harbor with a hoist (no documented run; T3.3 validates)"),
-    ("OR-charleston", "OR-winchester-bay", "ice", "unknown",
-     "Ice plant fire 2019-12-20 to 2020-09-12; backup used not documented in the inventory"),
-    ("OR-charleston", "OR-newport", "ice", "unknown", "as above"),
-    ("WA-ilwaco", "WA-chinook", "hoist_crane", "unknown",
+    ("CA-point-arena", "CA-noyo-harbor", "hoist_crane", "none", "nearest_facility_distance",
+     "Hoist out 2025-10-18 to 2026-01-29; Noyo = nearest harbor with a hoist, NOT a run: the pier closed to all "
+     "vessels and the fleet missed the 2026-01-12 crab opener (no moorage; T3.3 E4)"),
+    ("OR-charleston", "OR-winchester-bay", "ice", "unknown", "documented",
+     "Ice plant fire 2019-12-20 to 2020-09-12; Charleston boats used Winchester Bay's ice plant (facilities.csv "
+     "OR-charleston 2019-12-20 row: 'Interim ice from Hallmark Fisheries and Winchester Bay'; OR-winchester-bay 2020-03-03 row)"),
+    ("OR-charleston", "OR-newport", "ice", "unknown", "not_documented", "as above; Newport use not documented"),
+    ("WA-ilwaco", "WA-chinook", "hoist_crane", "unknown", "not_documented",
      "Ilwaco Landing dock and cranes closed 2024-01-22; backup used not documented in the inventory"),
-    ("WA-ilwaco", "OR-astoria", "ice", "unknown", "Ilwaco ice closed 2024-01-22; backup used not documented"),
+    ("WA-ilwaco", "OR-astoria", "ice", "unknown", "nearest_facility_distance",
+     "Ilwaco ice closed 2024-01-22; Astoria = nearest harbor with ice, NOT a documented run (backup used not documented)"),
 ]
 
 
@@ -88,7 +97,8 @@ def main() -> None:
         drop = drops[spec["drop_key"]] if spec["drop_key"] else set()
         for T in C.THRESHOLDS_NM:
             allruns.append(run(cur, D, hv, units, threshold=T, working=spec["working"],
-                               drop=drop, run_name=name))
+                               drop=drop, run_name=name,
+                               own_hoist_only=set(C.NO_MOORAGE_LAUNCH_HOIST) if spec.get("own_hoist_only") else set()))
     allr = pd.concat(allruns, ignore_index=True)
 
     # ---- intertidal / shallow-route flags --------------------------------
@@ -233,8 +243,8 @@ def main() -> None:
 
     # ---- documented backup runs -------------------------------------------
     bk = []
-    for h, b, s, mode, note in DOCUMENTED_BACKUPS:
-        bk.append({"harbor": h, "backup_harbor": b, "service": s, "mode": mode,
+    for h, b, s, mode, rtype, note in DOCUMENTED_BACKUPS:
+        bk.append({"harbor": h, "backup_harbor": b, "service": s, "mode": mode, "run_type": rtype,
                    "sea_nm_model": round(D.loc[h, b] / C.CHART_FACTOR, 1),
                    "charted_equiv_nm": round(D.loc[h, b], 1),
                    "backup_current_status": st[(b, s)], "inventory_note": note})
@@ -271,6 +281,24 @@ def main() -> None:
                 drops["marina_only"] == set(C.MARINA_ONLY) and drops["heavily_withheld"] ==
                 {"CA-vallejo", "CA-avalon", "CA-huntington-harbour", "CA-port-hueneme"},
                 f"s3 = {sorted(drops['heavily_withheld'])}"))
+    # C10 (T3.3 F3 / R4): independent recompute. review/t33_indep.py imports nothing
+    # from portgaps and rebuilds status (tie rule), distances, access, unit values and
+    # the shared-unit arithmetic (incl. the non-inventory rule) from the processed
+    # files, for every run x threshold x facility; it must match index_sensitivity.csv.
+    import os, subprocess, sys, tempfile
+    work = tempfile.mkdtemp(prefix="c10_")
+    proc = subprocess.run([sys.executable, "-I", str(C.ROOT / "src/portgaps/review/t33_indep.py"), str(C.ROOT)],
+                          env={**os.environ, "T33_WORK": work}, capture_output=True, text=True)
+    try:
+        ind = json.load(open(os.path.join(work, "indep_summary.json")))
+    except (OSError, ValueError):
+        ind = {"compared": 0, "mismatches": -1, "only_index": -1, "only_indep": -1, "error": proc.stderr[-300:]}
+    n_sens = int(sens.stranded_low.notna().sum())
+    ok10 = proc.returncode == 0 and ind["mismatches"] == 0 and ind["only_index"] == 0 and ind["only_indep"] == 0 \
+        and ind["compared"] == n_sens
+    chk.append(("C10 independent recompute (review/t33_indep.py, no portgaps imports) matches every run x threshold x facility row",
+                ok10, f"{ind['compared']:,}/{n_sens:,} rows compared; mismatches {ind['mismatches']}; "
+                      f"only in index {ind['only_index']}; only in recompute {ind['only_indep']}"))
     pd.DataFrame(chk, columns=["check", "pass", "detail"]).to_csv(C.TABLES / "index_checks.csv", index=False)
     print(pd.DataFrame(chk, columns=["check", "pass", "detail"]).to_string())
 

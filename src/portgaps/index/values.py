@@ -5,8 +5,10 @@ Value of a harbor = mean annual all-species ex-vessel value, 2019-2024, nominal.
 * CA: harbor-level panel (CDFW MFDE). Confidential months are left out, so the
   value is a lower bound, flagged; same lower and upper.
 * OR: harbor-level where ODFW publishes it (Newport, Charleston). Other harbors
-  take their 2016-2024 ODFW table unit. A unit with one inventory harbor is used
-  whole (flag unit_level). A unit shared by inventory harbors is never split.
+  take their 2016-2024 ODFW table unit (flag unit_level when the table holds one
+  inventory harbor). A table that also holds non-inventory ports gives upper =
+  whole table, lower = own FOSS value else 0 (T3.4 / F2). A unit shared by
+  inventory harbors is never split.
 * WA: unit = PacFIN ALL005 group (annual, all species); sub-blocks = FOSS
   annual port values.
 
@@ -18,8 +20,14 @@ upper = the whole unit value. For a set of cut-off harbors, `set_value` returns
   lower = per unit: the whole unit if every inventory harbor in it is cut off
           and it holds no non-inventory ports; otherwise the sum of FOSS
           sub-blocks whose harbors are all cut off (capped at the unit value).
+
+T3.4 (F2): the non-inventory test applies to every ODFW table / PacFIN group,
+including units with a single inventory harbor (Garibaldi, Depoe Bay). Such a
+harbor's own lower value is its FOSS sub-block, else $0.
 """
 from __future__ import annotations
+
+import re
 
 import pandas as pd
 
@@ -33,6 +41,35 @@ def _mean_years(df: pd.DataFrame, col: str = "value_usd") -> float:
     return float(s.mean())
 
 
+def _codes(text: str) -> set[str]:
+    """Agency port codes in a text field: CDFW 3-digit codes and PacFIN 2-3
+    letter codes. For a PacFIN group ('PacFIN group CLW (ports LWC;OCR)') only
+    the member ports in brackets count."""
+    m = re.search(r"\(ports ([^)]*)\)", text)
+    if m:
+        text = m.group(1)
+    return set(re.findall(r"\b\d{3}\b", text)) | set(re.findall(r"(?<![A-Za-z])[A-Z]{2,3}(?![A-Za-z])", text))
+
+
+def derive_noninventory_units() -> dict[str, list[str]]:
+    """unit_id -> agency codes in the unit that belong to no inventory harbor.
+    Unit codes from outputs/tables/t21_units.csv; inventory harbors' codes from
+    the 'agency code(s)' and 'PacFIN code' columns of docs/port_crosswalk.md."""
+    units = pd.read_csv(C.TABLES / "t21_units.csv", dtype=str).fillna("")
+    cw = {}
+    for line in open(C.ROOT / "docs" / "port_crosswalk.md", encoding="utf-8"):
+        if re.match(r"^\| (CA|OR|WA)-", line):
+            c = [x.strip() for x in line.strip().strip("|").split("|")]
+            cw[c[0]] = c
+    out = {}
+    for r in units.itertuples():
+        have = set().union(*[_codes(cw[m][2]) | _codes(cw[m][3]) for m in r.port_ids.split(";")])
+        extra = sorted(_codes(r.agency_codes) - have)
+        if extra:
+            out[r.unit_id] = extra
+    return out
+
+
 def build_values() -> tuple[pd.DataFrame, dict]:
     ports = pd.read_csv(C.PROC / "ports.csv")
     bridge = pd.read_csv(C.PROC / "port_unit_bridge.csv")
@@ -44,6 +81,9 @@ def build_values() -> tuple[pd.DataFrame, dict]:
     br = bridge[(bridge.valid_from <= f"{y0}-01") & (bridge.valid_to >= f"{y1}-12")]
     assert br.port_id.is_unique and len(br) == len(ports), "one value unit per harbor"
     unit_of = dict(zip(br.port_id, br.unit_id))
+    derived = derive_noninventory_units()
+    assert set(derived) == C.UNITS_WITH_NONINVENTORY_PORTS, (
+        "config.UNITS_WITH_NONINVENTORY_PORTS out of date", sorted(set(derived) ^ C.UNITS_WITH_NONINVENTORY_PORTS))
 
     units: dict[str, dict] = {}
     for uid, g in br.groupby("unit_id"):
@@ -92,9 +132,9 @@ def build_values() -> tuple[pd.DataFrame, dict]:
         uid = unit_of[p.port_id]
         u = units[uid]
         shared = len(u["members"]) > 1
-        if not shared:
+        if not shared and not u["noninv"]:
             low = high = u["value"]
-        else:
+        else:   # shared unit, or a unit holding non-inventory ports: own FOSS value, else 0
             low = sum(b["value"] for b in u["blocks"] if b["members"] == [p.port_id])
             low = min(low, u["value"])
             high = u["value"]
@@ -127,9 +167,7 @@ def set_value(cut: set[str], units: dict, unit_of: dict) -> tuple[float, float]:
         u = units[uid]
         mem = set(u["members"])
         high += u["value"]
-        if len(mem) == 1:
-            low += u["value"]
-        elif mem <= cut and not u["noninv"]:
+        if mem <= cut and not u["noninv"]:
             low += u["value"]
         else:
             low += min(u["value"], sum(b["value"] for b in u["blocks"] if set(b["members"]) <= cut))

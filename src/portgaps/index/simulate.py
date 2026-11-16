@@ -18,11 +18,14 @@ from .values import set_value
 
 def load_status() -> pd.DataFrame:
     f = pd.read_csv(C.PROC / "facilities.csv", dtype={"as_of_date": str})
-    # current status = latest as_of_date row per port x service (string sort;
-    # docs/data_dictionary.md section 5)
-    cur = (f.assign(_k=f.as_of_date).sort_values("_k", kind="mergesort")
+    # current status = latest as_of_date row per port x service (string sort);
+    # tie rule (T3.4 / F1): on the same as_of_date the later-appended row
+    # (higher file line) wins. Applied with an explicit file-line key, not by
+    # sort stability. docs/data_dictionary.md section 5.
+    f["_line"] = range(2, len(f) + 2)          # 1-based file line (header = 1)
+    cur = (f.sort_values(["port_id", "service", "as_of_date", "_line"])
              .groupby(["port_id", "service"], as_index=False).tail(1)
-             .drop(columns="_k").reset_index(drop=True))
+             .drop(columns="_line").reset_index(drop=True))
     assert len(cur) == 58 * 4
     return cur
 
@@ -40,7 +43,11 @@ def load_distance(port_ids: list[str]) -> pd.DataFrame:
 
 def run(cur: pd.DataFrame, D: pd.DataFrame, hv: pd.DataFrame, units: dict, *,
         threshold: float, working: tuple[str, ...] = ("available",),
-        drop: set[str] = frozenset(), run_name: str = "main") -> pd.DataFrame:
+        drop: set[str] = frozenset(), run_name: str = "main",
+        own_hoist_only: set[str] = frozenset()) -> pd.DataFrame:
+    """own_hoist_only (run s4, T3.4 / R3): for these harbors hoist_crane access
+    comes only from their own hoist; no other hoist substitutes at any distance.
+    Their own hoist can still serve other harbors."""
     keep = [p for p in D.index if p not in drop]
     Dk = D.loc[keep, keep]
     unit_of = dict(zip(hv.port_id, hv.unit_id))
@@ -52,6 +59,9 @@ def run(cur: pd.DataFrame, D: pd.DataFrame, hv: pd.DataFrame, units: dict, *,
         conf = {p: st.loc[(p, s), "confidence"] for p in keep}
         fac = [p for p in keep if stat[p] in working]
         reach = Dk.loc[:, fac].values <= threshold + 1e-9          # harbors x facilities
+        own_only = set(own_hoist_only) & set(keep) if s == "hoist_crane" else set()
+        for h in own_only:
+            reach[keep.index(h), :] = [f == h for f in fac]
         n_reach = reach.sum(axis=1)
         has = n_reach > 0
         for j, g in enumerate(fac):
@@ -61,7 +71,7 @@ def run(cur: pd.DataFrame, D: pd.DataFrame, hv: pd.DataFrame, units: dict, *,
             # does any cut harbor's lost access rest on a missing-evidence cell?
             nf_backup = lc_backup = it_pairs = 0
             for h in cut:
-                near = [p for p in keep if p != g and Dk.loc[h, p] <= threshold + 1e-9]
+                near = [] if h in own_only else [p for p in keep if p != g and Dk.loc[h, p] <= threshold + 1e-9]
                 if any(stat[p] == "not_found" for p in near):
                     nf_backup += 1
                 if any(stat[p] in ("not_available", "closed") and conf[p] == "low" for p in near):

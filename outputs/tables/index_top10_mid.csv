@@ -9,26 +9,26 @@ cold_storage,7,CA-bodega-bay|cold_storage,Bodega Bay (Spud Point),CA,9079330,907
 cold_storage,8,WA-neah-bay|cold_storage,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,low,low_conf_cell;backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,5.0
 fuel,1,CA-humboldt-bay|fuel,Humboldt Bay (Eureka / Fields Landing / King Salmon),CA,11834451,11834451,2,CA-trinidad;CA-humboldt-bay,high,backup_lowconf_absence_x2;value_lower_bound_withheld,1.0
 fuel,2,CA-bodega-bay|fuel,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,high,,2.0
-fuel,3,OR-garibaldi|fuel,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,medium,,3.0
-fuel,4,CA-noyo-harbor|fuel,Noyo Harbor (Fort Bragg),CA,7022492,7022492,2,CA-noyo-harbor;CA-point-arena,low,low_conf_cell;backup_not_found_x2;value_lower_bound_withheld,5.0
-fuel,5,CA-shelter-cove|fuel,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,low,low_conf_cell,4.0
+fuel,3,CA-noyo-harbor|fuel,Noyo Harbor (Fort Bragg),CA,7022492,7022492,2,CA-noyo-harbor;CA-point-arena,low,low_conf_cell;backup_not_found_x2;value_lower_bound_withheld,5.0
+fuel,4,CA-shelter-cove|fuel,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,low,low_conf_cell,3.0
+fuel,5,OR-garibaldi|fuel,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,medium,,4.0
 hoist_crane,1,WA-westport|hoist_crane,Westport (Port of Grays Harbor Westport Marina),WA,65733333,71975266,2,WA-nahcotta;WA-westport,low,low_conf_cell;backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld;route_willapa_unverified,5.0
 hoist_crane,2,CA-san-diego-bay|hoist_crane,San Diego Bay (Tuna Harbor / Driscoll's Wharf),CA,11188264,11188264,2,CA-mission-bay;CA-san-diego-bay,high,backup_not_found_x2,5.0
 hoist_crane,3,CA-bodega-bay|hoist_crane,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,high,,1.0
-hoist_crane,4,OR-garibaldi|hoist_crane,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,low,low_conf_cell,2.0
-hoist_crane,5,WA-neah-bay|hoist_crane,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,medium,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,5.0
-hoist_crane,6,WA-seattle|hoist_crane,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5600000,33513276,2,WA-seattle;WA-everett,high,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,5.0
-hoist_crane,7,WA-port-angeles|hoist_crane,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,high,backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,5.0
-hoist_crane,8,CA-los-angeles-long-beach|hoist_crane,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,794786,794786,1,CA-marina-del-rey,high,backup_not_found_x1;value_lower_bound_withheld,5.0
-hoist_crane,9,CA-san-francisco|hoist_crane,San Francisco (Fisherman's Wharf / Pier 45),CA,437452,437452,1,CA-vallejo,low,low_conf_cell;backup_not_found_x1;value_lower_bound_withheld;heavily_withheld_harbor,5.0
+hoist_crane,4,WA-neah-bay|hoist_crane,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,medium,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,5.0
+hoist_crane,5,WA-seattle|hoist_crane,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5600000,33513276,2,WA-seattle;WA-everett,high,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,5.0
+hoist_crane,6,WA-port-angeles|hoist_crane,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,high,backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,5.0
+hoist_crane,7,CA-los-angeles-long-beach|hoist_crane,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,794786,794786,1,CA-marina-del-rey,high,backup_not_found_x1;value_lower_bound_withheld,5.0
+hoist_crane,8,CA-san-francisco|hoist_crane,San Francisco (Fisherman's Wharf / Pier 45),CA,437452,437452,1,CA-vallejo,low,low_conf_cell;backup_not_found_x1;value_lower_bound_withheld;heavily_withheld_harbor,5.0
+hoist_crane,9,OR-garibaldi|hoist_crane,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,low,low_conf_cell,3.0
 hoist_crane,10,OR-florence|hoist_crane,Florence (Port of Siuslaw),OR,0,6328146,1,OR-florence,medium,backup_lowconf_absence_x1;value_range_shared_unit,4.0
 ice,1,WA-westport|ice,Westport (Port of Grays Harbor Westport Marina),WA,71975266,71975266,4,WA-tokeland;WA-bay-center;WA-nahcotta;WA-westport,medium,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld;route_willapa_unverified,6.0
 ice,2,OR-astoria|ice,Astoria (Port of Astoria West/East Basins),OR,65429621,66800874,4,OR-astoria;OR-warrenton;WA-ilwaco;WA-chinook,medium,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld,6.0
-ice,3,OR-newport|ice,Newport (Port of Newport commercial marina),OR,60736200,60736200,2,OR-depoe-bay;OR-newport,medium,backup_not_found_x2,6.0
+ice,3,OR-newport|ice,Newport (Port of Newport commercial marina),OR,60275445,60736200,2,OR-depoe-bay;OR-newport,medium,backup_not_found_x2,6.0
 ice,4,WA-bellingham|ice,Bellingham (Port of Bellingham Squalicum Harbor),WA,39716667,52221897,4,WA-la-conner;WA-anacortes;WA-bellingham;WA-blaine,low,low_conf_cell;backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld;route_portage_bar,6.0
 ice,5,CA-los-angeles-long-beach|ice,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,26440082,26440082,7,CA-marina-del-rey;CA-redondo-beach;CA-los-angeles-long-beach;CA-huntington-harbour;CA-newport-beach;CA-avalon;CA-dana-point,low,low_conf_cell;backup_not_found_x7;value_lower_bound_withheld;heavily_withheld_harbor,6.0
 ice,6,CA-humboldt-bay|ice,Humboldt Bay (Eureka / Fields Landing / King Salmon),CA,11834451,11834451,2,CA-trinidad;CA-humboldt-bay,medium,backup_lowconf_absence_x2;value_lower_bound_withheld,1.0
 ice,7,CA-san-diego-bay|ice,San Diego Bay (Tuna Harbor / Driscoll's Wharf),CA,11188264,11188264,2,CA-mission-bay;CA-san-diego-bay,low,low_conf_cell;backup_not_found_x2,6.0
 ice,8,CA-bodega-bay|ice,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,high,,2.0
-ice,9,OR-garibaldi|ice,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,low,low_conf_cell,3.0
-ice,10,CA-noyo-harbor|ice,Noyo Harbor (Fort Bragg),CA,7022492,7022492,2,CA-noyo-harbor;CA-point-arena,medium,backup_not_found_x2;value_lower_bound_withheld,6.0
+ice,9,CA-noyo-harbor|ice,Noyo Harbor (Fort Bragg),CA,7022492,7022492,2,CA-noyo-harbor;CA-point-arena,medium,backup_not_found_x2;value_lower_bound_withheld,6.0
+ice,10,WA-neah-bay|ice,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,medium,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,6.0

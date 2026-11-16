@@ -1,7 +1,7 @@
 threshold_nm,facility_id,rank_service,stranded_low,stranded_high,dependency_route_flags,kind,service,harbor,access_only_via,route_issue
-10,WA-nahcotta|fuel,39.0,0.0,71975266.0,WA-bay-center~WA-nahcotta:willapa_unverified,dependency (cut-off harbor reached this facility via flagged route),,,,
+10,WA-nahcotta|fuel,37.0,0.0,71975266.0,WA-bay-center~WA-nahcotta:willapa_unverified,dependency (cut-off harbor reached this facility via flagged route),,,,
 15,WA-nahcotta|fuel,6.0,11616667.0,71975266.0,WA-tokeland~WA-nahcotta:willapa_unverified;WA-bay-center~WA-nahcotta:willapa_unverified,dependency (cut-off harbor reached this facility via flagged route),,,,
-20,WA-nahcotta|fuel,24.0,0.0,71975266.0,WA-bay-center~WA-nahcotta:willapa_unverified,dependency (cut-off harbor reached this facility via flagged route),,,,
+20,WA-nahcotta|fuel,23.0,0.0,71975266.0,WA-bay-center~WA-nahcotta:willapa_unverified,dependency (cut-off harbor reached this facility via flagged route),,,,
 20,WA-westport|ice,1.0,65733333.0,71975266.0,WA-tokeland~WA-westport:willapa_unverified,dependency (cut-off harbor reached this facility via flagged route),,,,
 20,WA-westport|hoist_crane,1.0,65733333.0,71975266.0,WA-tokeland~WA-westport:willapa_unverified,dependency (cut-off harbor reached this facility via flagged route),,,,
 20,WA-westport|cold_storage,1.0,65733333.0,71975266.0,WA-tokeland~WA-westport:willapa_unverified,dependency (cut-off harbor reached this facility via flagged route),,,,

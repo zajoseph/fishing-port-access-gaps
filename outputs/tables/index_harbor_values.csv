@@ -31,8 +31,8 @@ CA-mission-bay,Mission Bay,CA,CA-mission-bay,CA-mission-bay,N,2310304,2310304,23
 CA-san-diego-bay,San Diego Bay (Tuna Harbor / Driscoll's Wharf),CA,CA-san-diego-bay,CA-san-diego-bay,N,8877959,8877959,8877959,,,CDFW MFDE harbor panel,N,N,0.0,0.0,N,N
 OR-astoria,Astoria (Port of Astoria West/East Basins),OR,OR-ODFW-astoria,OR-astoria;OR-warrenton,Y,49166667,49179621,49179621,"FOSS Astoria, OR",6,ODFW FTR205 port table,N,N,0.0,0.0,N,N
 OR-warrenton,Warrenton (City Mooring Basin; Hammond Marina),OR,OR-ODFW-astoria,OR-astoria;OR-warrenton,Y,0,49179621,49179621,,,ODFW FTR205 port table,N,N,0.0,0.0,N,N
-OR-garibaldi,Garibaldi (Port of Garibaldi),OR,OR-ODFW-gearhart-garibaldi,OR-garibaldi,N,8231912,8231912,8231912,,,ODFW FTR205 port table,Y,N,0.0,0.0,N,N
-OR-depoe-bay,Depoe Bay (City harbor),OR,OR-ODFW-netarts-depoe-bay,OR-depoe-bay,N,460756,460756,460756,,,ODFW FTR205 port table,Y,N,0.0,0.0,N,N
+OR-garibaldi,Garibaldi (Port of Garibaldi),OR,OR-ODFW-gearhart-garibaldi,OR-garibaldi,N,0,8231912,8231912,,,ODFW FTR205 port table,Y,N,0.0,0.0,N,N
+OR-depoe-bay,Depoe Bay (City harbor),OR,OR-ODFW-netarts-depoe-bay,OR-depoe-bay,N,0,460756,460756,,,ODFW FTR205 port table,Y,N,0.0,0.0,N,N
 OR-newport,Newport (Port of Newport commercial marina),OR,OR-newport,OR-newport,N,60275445,60275445,60275445,,,ODFW FTR205 port table,N,N,0.0,0.0,N,N
 OR-florence,Florence (Port of Siuslaw),OR,OR-ODFW-waldport-winchester-bay,OR-florence;OR-winchester-bay,Y,0,6328146,6328146,,,ODFW FTR205 port table,N,N,0.0,0.0,N,N
 OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,OR-ODFW-waldport-winchester-bay,OR-florence;OR-winchester-bay,Y,6116667,6328146,6328146,"FOSS Winchester Bay, OR",6,ODFW FTR205 port table,N,N,0.0,0.0,N,N

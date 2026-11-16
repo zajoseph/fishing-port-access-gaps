@@ -8,3 +8,4 @@ C6 main run facilities = current 'available' cells,True,117 per threshold
 C7 bound run facilities = available + not_found,True,207
 C8 distance matrix symmetric,True,
 C9 drop runs remove exactly the listed harbors,True,"s3 = ['CA-avalon', 'CA-huntington-harbour', 'CA-port-hueneme', 'CA-vallejo']"
+"C10 independent recompute (review/t33_indep.py, no portgaps imports) matches every run x threshold x facility row",True,"7,968/7,968 rows compared; mismatches 0; only in index 0; only in recompute 0"
