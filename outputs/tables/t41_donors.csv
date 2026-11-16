@@ -1,0 +1,59 @@
+scheme,unit_id,excluded_reason
+all,CA-avalon,heavily withheld (60% of pre months null)
+all,CA-berkeley,"null month(s) in 2024-10..2025-12: [202411, 202503, 202511, 202512]"
+all,CA-humboldt-bay,possible receiver (spillover buffer; user answer)
+all,CA-huntington-harbour,heavily withheld (50% of pre months null)
+all,CA-marina-del-rey,heavily withheld (31% of pre months null)
+all,CA-newport-beach,null month(s) in 2024-10..2025-12: [202504]
+all,CA-point-arena,own facility outage in window (hoist 2025-10-18 to 2026-01-29)
+all,CA-port-hueneme,heavily withheld (37% of pre months null)
+all,CA-redondo-beach,"null month(s) in 2024-10..2025-12: [202501, 202502]"
+all,CA-trinidad,possible receiver (spillover buffer; user answer)
+all,CA-vallejo,heavily withheld (63% of pre months null)
+crab,CA-avalon,heavily withheld (60% of pre months null)
+crab,CA-berkeley,"null month(s) in 2024-10..2025-12: [202411, 202503, 202511, 202512]"
+crab,CA-channel-islands,crab donor screen: mean annual pre crab $0 < $100k
+crab,CA-dana-point,crab donor screen: mean annual pre crab $0 < $100k
+crab,CA-humboldt-bay,possible receiver (spillover buffer; user answer)
+crab,CA-huntington-harbour,heavily withheld (50% of pre months null)
+crab,CA-los-angeles-long-beach,crab donor screen: mean annual pre crab $0 < $100k
+crab,CA-marina-del-rey,heavily withheld (31% of pre months null)
+crab,CA-mission-bay,crab donor screen: mean annual pre crab $0 < $100k
+crab,CA-monterey,null crab month(s) in 2024-10..2025-12: [202504]
+crab,CA-morro-bay,"null crab month(s) in 2024-10..2025-12: [202501, 202504]"
+crab,CA-moss-landing,"null crab month(s) in 2024-10..2025-12: [202505, 202506]"
+crab,CA-newport-beach,null month(s) in 2024-10..2025-12: [202504]
+crab,CA-noyo-harbor,null crab month(s) in 2024-10..2025-12: [202507]
+crab,CA-oceanside,crab donor screen: mean annual pre crab $0 < $100k
+crab,CA-point-arena,own facility outage in window (hoist 2025-10-18 to 2026-01-29)
+crab,CA-port-hueneme,heavily withheld (37% of pre months null)
+crab,CA-port-san-luis,null crab month(s) in 2024-10..2025-12: [202502]
+crab,CA-redondo-beach,"null month(s) in 2024-10..2025-12: [202501, 202502]"
+crab,CA-san-diego-bay,crab donor screen: mean annual pre crab $0 < $100k
+crab,CA-santa-barbara,crab donor screen: mean annual pre crab $0 < $100k
+crab,CA-santa-cruz,"null crab month(s) in 2024-10..2025-12: [202502, 202503, 202504, 202505, 202506]"
+crab,CA-trinidad,possible receiver (spillover buffer; user answer)
+crab,CA-vallejo,heavily withheld (63% of pre months null)
+crab,CA-ventura,crab donor screen: mean annual pre crab $0 < $100k
+all,CA-bodega-bay,
+all,CA-channel-islands,
+all,CA-dana-point,
+all,CA-los-angeles-long-beach,
+all,CA-mission-bay,
+all,CA-monterey,
+all,CA-morro-bay,
+all,CA-moss-landing,
+all,CA-noyo-harbor,
+all,CA-oceanside,
+all,CA-pillar-point,
+all,CA-port-san-luis,
+all,CA-san-diego-bay,
+all,CA-san-francisco,
+all,CA-santa-barbara,
+all,CA-santa-cruz,
+all,CA-shelter-cove,
+all,CA-ventura,
+crab,CA-bodega-bay,
+crab,CA-pillar-point,
+crab,CA-san-francisco,
+crab,CA-shelter-cove,
