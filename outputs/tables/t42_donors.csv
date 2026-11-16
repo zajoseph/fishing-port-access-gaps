@@ -1,0 +1,23 @@
+pool,scheme,unit_id,inventory_harbors_nm,nearest_nm,excluded_reason,used,notes
+main_OR,all,OR-ODFW-astoria,OR-warrenton 193.9; OR-astoria 195.1,193.9,,True,
+main_OR,all,OR-ODFW-gearhart-garibaldi,OR-garibaldi 145.0,145,,True,
+main_OR,all,OR-ODFW-netarts-depoe-bay,OR-depoe-bay 94.3,94.3,,True,
+main_OR,all,OR-newport,OR-newport 82.9,82.9,,True,
+main_OR,all,OR-ODFW-waldport-winchester-bay,OR-winchester-bay 23.4; OR-florence 48.0,23.4,receiver: documented backup Winchester Bay (23.4 nm); used as the shift-test unit,False,
+main_OR,all,OR-charleston,,,treated unit,False,
+main_OR,all,OR-ODFW-bandon-port-orford,OR-bandon 17.7; OR-port-orford 44.4,17.7,possible receiver: harbor within 40 nm (OR-bandon 17.7 nm),False,
+main_OR,all,OR-ODFW-gold-beach-brookings,OR-gold-beach 64.2; OR-brookings 90.5,64.2,,True,
+check_northern_CA,all,CA-crescent-city,CA-crescent-city 108.9,108.90122,own ice closure from 2024-10 (T4.1 case) inside the after-window,False,
+check_northern_CA,all,CA-trinidad,CA-trinidad 152.1,152.10788,"null month(s) in 2019-12..2024-12: [202004, 202005, 202006, 202104, 202105, 202106, 202203, 202204, 202306, 202405, 202406]",False,
+check_northern_CA,all,CA-humboldt-bay,CA-humboldt-bay 174.1,174.0679,,True,partial_confidential months (lower bound): 76
+check_northern_CA,all,CA-noyo-harbor,CA-noyo-harbor 260.4,260.36886,,True,
+check_northern_CA,all,CA-shelter-cove,CA-shelter-cove 222.4,222.43676,,True,
+check_northern_CA,all,CA-point-arena,CA-point-arena 292.3,292.2632,heavily withheld (34% of pre months null),False,
+main_OR,crab,OR-ODFW-astoria,,,,True,"pre mean annual crab $13,260,408"
+main_OR,crab,OR-ODFW-gearhart-garibaldi,,,,True,"pre mean annual crab $3,001,509"
+main_OR,crab,OR-ODFW-netarts-depoe-bay,,,,True,"pre mean annual crab $116,940"
+main_OR,crab,OR-newport,,,,True,"pre mean annual crab $23,241,132"
+main_OR,crab,OR-ODFW-gold-beach-brookings,,,,True,"pre mean annual crab $6,414,249"
+check_northern_CA,crab,CA-humboldt-bay,,,"null crab month(s): [201607, 201611, 201707, 201801, 201904, 202007, 202205, 202212, 202406, 202407]",False,"pre mean annual crab $8,111,928"
+check_northern_CA,crab,CA-noyo-harbor,,,"null crab month(s): [201611, 201612, 201707, 201711, 201912, 202007, 202105]",False,"pre mean annual crab $3,891,800"
+check_northern_CA,crab,CA-shelter-cove,,,"null crab month(s): [201606, 201704, 201706, 201707, 201902, 202001, 202007]",False,"pre mean annual crab $192,006"
