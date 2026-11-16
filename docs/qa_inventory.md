@@ -246,11 +246,13 @@ The two screens don't select the same kind of harbor at the margin. No ports wer
 
 ## T3.2b verification, 2026-11
 
-*Interim (2026-11-14). Calls pending.* T3.2b appends dated rows to `data/processed/facilities.csv`. It never edits or deletes existing rows and adds no columns. New rows start their notes with "T3.2b (2026-11-14):". Phone and email answers will use `source_type = other` and notes "phone/email with <role>, YYYY-MM-DD".
+*Final (2026-11-16). Public-source pass only. Phone checks were not made, by user decision (2026-11-16).* T3.2b appended dated rows to `data/processed/facilities.csv`. It never edited or deleted existing rows and added no columns. New rows start their notes with "T3.2b (2026-11-14):".
 
 - **Rows:** 270 → 272.
   - WA-westport hoist_crane: available, low, 2026-11 (operator job posting, undated).
   - CA-port-hueneme cold_storage: not_found, low, 2026-11 (port-facts page). This row supersedes the 2026-05 available/low row.
 - **QA:** `qa_inventory_t13.py` reruns at 8/8 PASS with 272 rows.
 - **Join:** `build_join_t22.py` was rerun, so `port_month.csv` current_status columns are refreshed. Reconciliation is unchanged.
-- **Cells checked:** 42 (`outputs/tables/t32b_verification_log.csv`). 2 were resolved from public sources and 40 are on `docs/t32b_call_sheet.md`.
+- **Cells checked:** 42 (`outputs/tables/t32b_verification_log.csv`). 2 were resolved from public sources. 40 remain unverified (blank `new_row_line` in the log; listed in the `docs/methods/failure_index.md` addendum). These are still not_found or low-confidence cells.
+- **Unchecked:** target ranks 41–97 in `outputs/tables/t32b_targets.csv`.
+- **Call sheet:** `docs/t32b_call_sheet.md` is kept for any later phone checks. Answers would be added as rows with `source_type = other` and notes "phone/email with <role>, YYYY-MM-DD", via `src/portgaps/clean/verify_t32b.py`.
