@@ -2469,136 +2469,136 @@ CA-channel-islands,CA,2026-07,,,,,,,,not_in_source,no_observation,no_observation
 CA-channel-islands,CA,2026-08,,,,,,,,not_in_source,no_observation,no_observation,no_observation,no_observation,available,not_found,available,not_found
 CA-channel-islands,CA,2026-09,,,,,,,,not_in_source,no_observation,no_observation,no_observation,no_observation,available,not_found,available,not_found
 CA-channel-islands,CA,2026-10,,,,,,,,not_in_source,no_observation,no_observation,no_observation,no_observation,available,not_found,available,not_found
-CA-port-hueneme,CA,2016-01,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2016-02,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2016-03,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2016-04,CA-port-hueneme,harbor,all,N,1,7959,92011,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2016-05,CA-port-hueneme,harbor,all,N,1,156036,225318,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2016-06,CA-port-hueneme,harbor,all,N,1,3206211,1677395,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2016-07,CA-port-hueneme,harbor,all,N,1,3101383,1595790,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2016-08,CA-port-hueneme,harbor,all,N,1,1152373,646897,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2016-09,CA-port-hueneme,harbor,all,N,1,3538665,1819747,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2016-10,CA-port-hueneme,harbor,all,N,1,1236275,679458,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2016-11,CA-port-hueneme,harbor,all,N,1,2887872,1253212,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2016-12,CA-port-hueneme,harbor,all,N,1,1914175,951323,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2017-01,CA-port-hueneme,harbor,all,N,1,491200,219275,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2017-02,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2017-03,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2017-04,CA-port-hueneme,harbor,all,N,1,3511630,1804244,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2017-05,CA-port-hueneme,harbor,all,N,1,573164,360968,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2017-06,CA-port-hueneme,harbor,all,N,1,1471651,798239,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2017-07,CA-port-hueneme,harbor,all,N,1,472681,286524,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2017-08,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2017-09,CA-port-hueneme,harbor,all,N,1,72724,89035,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2017-10,CA-port-hueneme,harbor,all,N,1,2342149,1258082,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2017-11,CA-port-hueneme,harbor,all,N,1,12819702,6403220,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2017-12,CA-port-hueneme,harbor,all,N,1,14178390,7072219,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2018-01,CA-port-hueneme,harbor,all,N,1,2826278,1410716,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2018-02,CA-port-hueneme,harbor,all,N,1,474237,395510,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2018-03,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2018-04,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2018-05,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2018-06,CA-port-hueneme,harbor,all,N,1,76572,219617,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2018-07,CA-port-hueneme,harbor,all,N,1,291405,277896,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2018-08,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2018-09,CA-port-hueneme,harbor,all,N,1,30616,121252,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2018-10,CA-port-hueneme,harbor,all,N,1,735347,518693,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2018-11,CA-port-hueneme,harbor,all,N,1,5289057,2618690,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2018-12,CA-port-hueneme,harbor,all,N,1,3969037,1983996,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2019-01,CA-port-hueneme,harbor,all,N,1,1088535,528490,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2019-02,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2019-03,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2019-04,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2019-05,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2019-06,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2019-07,CA-port-hueneme,harbor,all,N,1,43811,114484,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2019-08,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2019-09,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2019-10,CA-port-hueneme,harbor,all,N,1,193319,159815,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2019-11,CA-port-hueneme,harbor,all,N,1,942034,465306,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2019-12,CA-port-hueneme,harbor,all,N,1,885379,441291,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2020-01,CA-port-hueneme,harbor,all,N,1,489161,243578,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2020-02,CA-port-hueneme,harbor,all,N,1,383891,291564,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2020-03,CA-port-hueneme,harbor,all,N,1,154272,147018,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2020-04,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2020-05,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2020-06,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2020-07,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2020-08,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2020-09,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2020-10,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2020-11,CA-port-hueneme,harbor,all,N,1,0,0,no_record_zero,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2020-12,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2021-01,CA-port-hueneme,harbor,all,N,1,207277,125556,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2021-02,CA-port-hueneme,harbor,all,N,1,167904,192331,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2021-03,CA-port-hueneme,harbor,all,N,1,449148,350817,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2021-04,CA-port-hueneme,harbor,all,N,1,1048467,709112,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2021-05,CA-port-hueneme,harbor,all,N,1,108621,139985,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2021-06,CA-port-hueneme,harbor,all,N,1,519035,380774,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2021-07,CA-port-hueneme,harbor,all,N,1,783566,504947,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2021-08,CA-port-hueneme,harbor,all,N,1,25288,53929,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2021-09,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2021-10,CA-port-hueneme,harbor,all,N,1,61895,69794,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2021-11,CA-port-hueneme,harbor,all,N,1,3754400,2220029,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2021-12,CA-port-hueneme,harbor,all,N,1,5506116,3261482,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2022-01,CA-port-hueneme,harbor,all,N,1,5865172,3493689,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2022-02,CA-port-hueneme,harbor,all,N,1,4213896,2532796,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2022-03,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2022-04,CA-port-hueneme,harbor,all,N,1,178277,150069,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2022-05,CA-port-hueneme,harbor,all,N,1,727395,456681,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2022-06,CA-port-hueneme,harbor,all,N,1,59848,63098,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2022-07,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2022-08,CA-port-hueneme,harbor,all,N,1,1219208,737610,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2022-09,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2022-10,CA-port-hueneme,harbor,all,N,1,7099786,4205161,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2022-11,CA-port-hueneme,harbor,all,N,1,14509219,8573351,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2022-12,CA-port-hueneme,harbor,all,N,1,11614315,6949583,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2023-01,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2023-02,CA-port-hueneme,harbor,all,N,1,0,0,no_record_zero,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2023-03,CA-port-hueneme,harbor,all,N,1,0,0,no_record_zero,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2023-04,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2023-05,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2023-06,CA-port-hueneme,harbor,all,N,1,0,0,no_record_zero,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2023-07,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2023-08,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2023-09,CA-port-hueneme,harbor,all,N,1,0,0,no_record_zero,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2023-10,CA-port-hueneme,harbor,all,N,1,290257,200014,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2023-11,CA-port-hueneme,harbor,all,N,1,2899332,1732980,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2023-12,CA-port-hueneme,harbor,all,N,1,4687295,2706099,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2024-01,CA-port-hueneme,harbor,all,N,1,4602041,1767441,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2024-02,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2024-03,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2024-04,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2024-05,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2024-06,CA-port-hueneme,harbor,all,N,1,174051,118805,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2024-07,CA-port-hueneme,harbor,all,N,1,2022555,1205517,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2024-08,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2024-09,CA-port-hueneme,harbor,all,N,1,0,0,no_record_zero,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2024-10,CA-port-hueneme,harbor,all,N,1,3540499,2101637,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2024-11,CA-port-hueneme,harbor,all,N,1,11443973,6761040,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2024-12,CA-port-hueneme,harbor,all,N,1,11645351,5686974,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2025-01,CA-port-hueneme,harbor,all,N,1,2969299,1148178,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2025-02,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2025-03,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2025-04,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2025-05,CA-port-hueneme,harbor,all,N,1,392914,180602,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
-CA-port-hueneme,CA,2025-06,CA-port-hueneme,harbor,all,N,1,472748,221136,none,no_observation,no_observation,available,no_observation,available,available,available,available
-CA-port-hueneme,CA,2025-07,CA-port-hueneme,harbor,all,N,1,1107786,552709,none,no_observation,no_observation,available,no_observation,available,available,available,available
-CA-port-hueneme,CA,2025-08,CA-port-hueneme,harbor,all,N,1,2595945,1258651,none,no_observation,no_observation,available,no_observation,available,available,available,available
-CA-port-hueneme,CA,2025-09,CA-port-hueneme,harbor,all,N,1,2039790,1024174,none,no_observation,no_observation,available,no_observation,available,available,available,available
-CA-port-hueneme,CA,2025-10,CA-port-hueneme,harbor,all,N,1,7071481,3556185,none,no_observation,no_observation,available,no_observation,available,available,available,available
-CA-port-hueneme,CA,2025-11,CA-port-hueneme,harbor,all,N,1,7123351,3553163,none,no_observation,no_observation,available,no_observation,available,available,available,available
-CA-port-hueneme,CA,2025-12,CA-port-hueneme,harbor,all,N,1,5364052,2566928,none,no_observation,no_observation,available,no_observation,available,available,available,available
-CA-port-hueneme,CA,2026-01,,,,,,,,not_in_source,no_observation,no_observation,available,no_observation,available,available,available,available
-CA-port-hueneme,CA,2026-02,,,,,,,,not_in_source,no_observation,no_observation,available,no_observation,available,available,available,available
-CA-port-hueneme,CA,2026-03,,,,,,,,not_in_source,no_observation,no_observation,available,no_observation,available,available,available,available
-CA-port-hueneme,CA,2026-04,,,,,,,,not_in_source,no_observation,no_observation,available,no_observation,available,available,available,available
-CA-port-hueneme,CA,2026-05,,,,,,,,not_in_source,available,available,available,available,available,available,available,available
-CA-port-hueneme,CA,2026-06,,,,,,,,not_in_source,available,available,available,available,available,available,available,available
-CA-port-hueneme,CA,2026-07,,,,,,,,not_in_source,available,available,available,available,available,available,available,available
-CA-port-hueneme,CA,2026-08,,,,,,,,not_in_source,available,available,available,available,available,available,available,available
-CA-port-hueneme,CA,2026-09,,,,,,,,not_in_source,available,available,available,available,available,available,available,available
-CA-port-hueneme,CA,2026-10,,,,,,,,not_in_source,available,available,available,available,available,available,available,available
+CA-port-hueneme,CA,2016-01,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2016-02,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2016-03,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2016-04,CA-port-hueneme,harbor,all,N,1,7959,92011,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2016-05,CA-port-hueneme,harbor,all,N,1,156036,225318,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2016-06,CA-port-hueneme,harbor,all,N,1,3206211,1677395,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2016-07,CA-port-hueneme,harbor,all,N,1,3101383,1595790,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2016-08,CA-port-hueneme,harbor,all,N,1,1152373,646897,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2016-09,CA-port-hueneme,harbor,all,N,1,3538665,1819747,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2016-10,CA-port-hueneme,harbor,all,N,1,1236275,679458,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2016-11,CA-port-hueneme,harbor,all,N,1,2887872,1253212,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2016-12,CA-port-hueneme,harbor,all,N,1,1914175,951323,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2017-01,CA-port-hueneme,harbor,all,N,1,491200,219275,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2017-02,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2017-03,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2017-04,CA-port-hueneme,harbor,all,N,1,3511630,1804244,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2017-05,CA-port-hueneme,harbor,all,N,1,573164,360968,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2017-06,CA-port-hueneme,harbor,all,N,1,1471651,798239,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2017-07,CA-port-hueneme,harbor,all,N,1,472681,286524,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2017-08,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2017-09,CA-port-hueneme,harbor,all,N,1,72724,89035,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2017-10,CA-port-hueneme,harbor,all,N,1,2342149,1258082,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2017-11,CA-port-hueneme,harbor,all,N,1,12819702,6403220,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2017-12,CA-port-hueneme,harbor,all,N,1,14178390,7072219,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2018-01,CA-port-hueneme,harbor,all,N,1,2826278,1410716,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2018-02,CA-port-hueneme,harbor,all,N,1,474237,395510,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2018-03,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2018-04,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2018-05,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2018-06,CA-port-hueneme,harbor,all,N,1,76572,219617,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2018-07,CA-port-hueneme,harbor,all,N,1,291405,277896,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2018-08,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2018-09,CA-port-hueneme,harbor,all,N,1,30616,121252,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2018-10,CA-port-hueneme,harbor,all,N,1,735347,518693,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2018-11,CA-port-hueneme,harbor,all,N,1,5289057,2618690,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2018-12,CA-port-hueneme,harbor,all,N,1,3969037,1983996,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2019-01,CA-port-hueneme,harbor,all,N,1,1088535,528490,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2019-02,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2019-03,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2019-04,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2019-05,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2019-06,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2019-07,CA-port-hueneme,harbor,all,N,1,43811,114484,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2019-08,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2019-09,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2019-10,CA-port-hueneme,harbor,all,N,1,193319,159815,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2019-11,CA-port-hueneme,harbor,all,N,1,942034,465306,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2019-12,CA-port-hueneme,harbor,all,N,1,885379,441291,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2020-01,CA-port-hueneme,harbor,all,N,1,489161,243578,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2020-02,CA-port-hueneme,harbor,all,N,1,383891,291564,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2020-03,CA-port-hueneme,harbor,all,N,1,154272,147018,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2020-04,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2020-05,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2020-06,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2020-07,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2020-08,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2020-09,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2020-10,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2020-11,CA-port-hueneme,harbor,all,N,1,0,0,no_record_zero,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2020-12,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2021-01,CA-port-hueneme,harbor,all,N,1,207277,125556,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2021-02,CA-port-hueneme,harbor,all,N,1,167904,192331,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2021-03,CA-port-hueneme,harbor,all,N,1,449148,350817,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2021-04,CA-port-hueneme,harbor,all,N,1,1048467,709112,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2021-05,CA-port-hueneme,harbor,all,N,1,108621,139985,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2021-06,CA-port-hueneme,harbor,all,N,1,519035,380774,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2021-07,CA-port-hueneme,harbor,all,N,1,783566,504947,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2021-08,CA-port-hueneme,harbor,all,N,1,25288,53929,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2021-09,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2021-10,CA-port-hueneme,harbor,all,N,1,61895,69794,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2021-11,CA-port-hueneme,harbor,all,N,1,3754400,2220029,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2021-12,CA-port-hueneme,harbor,all,N,1,5506116,3261482,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2022-01,CA-port-hueneme,harbor,all,N,1,5865172,3493689,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2022-02,CA-port-hueneme,harbor,all,N,1,4213896,2532796,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2022-03,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2022-04,CA-port-hueneme,harbor,all,N,1,178277,150069,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2022-05,CA-port-hueneme,harbor,all,N,1,727395,456681,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2022-06,CA-port-hueneme,harbor,all,N,1,59848,63098,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2022-07,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2022-08,CA-port-hueneme,harbor,all,N,1,1219208,737610,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2022-09,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2022-10,CA-port-hueneme,harbor,all,N,1,7099786,4205161,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2022-11,CA-port-hueneme,harbor,all,N,1,14509219,8573351,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2022-12,CA-port-hueneme,harbor,all,N,1,11614315,6949583,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2023-01,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2023-02,CA-port-hueneme,harbor,all,N,1,0,0,no_record_zero,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2023-03,CA-port-hueneme,harbor,all,N,1,0,0,no_record_zero,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2023-04,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2023-05,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2023-06,CA-port-hueneme,harbor,all,N,1,0,0,no_record_zero,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2023-07,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2023-08,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2023-09,CA-port-hueneme,harbor,all,N,1,0,0,no_record_zero,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2023-10,CA-port-hueneme,harbor,all,N,1,290257,200014,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2023-11,CA-port-hueneme,harbor,all,N,1,2899332,1732980,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2023-12,CA-port-hueneme,harbor,all,N,1,4687295,2706099,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2024-01,CA-port-hueneme,harbor,all,N,1,4602041,1767441,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2024-02,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2024-03,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2024-04,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2024-05,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2024-06,CA-port-hueneme,harbor,all,N,1,174051,118805,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2024-07,CA-port-hueneme,harbor,all,N,1,2022555,1205517,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2024-08,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2024-09,CA-port-hueneme,harbor,all,N,1,0,0,no_record_zero,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2024-10,CA-port-hueneme,harbor,all,N,1,3540499,2101637,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2024-11,CA-port-hueneme,harbor,all,N,1,11443973,6761040,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2024-12,CA-port-hueneme,harbor,all,N,1,11645351,5686974,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2025-01,CA-port-hueneme,harbor,all,N,1,2969299,1148178,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2025-02,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2025-03,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2025-04,CA-port-hueneme,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2025-05,CA-port-hueneme,harbor,all,N,1,392914,180602,none,no_observation,no_observation,no_observation,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2025-06,CA-port-hueneme,harbor,all,N,1,472748,221136,none,no_observation,no_observation,available,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2025-07,CA-port-hueneme,harbor,all,N,1,1107786,552709,none,no_observation,no_observation,available,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2025-08,CA-port-hueneme,harbor,all,N,1,2595945,1258651,none,no_observation,no_observation,available,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2025-09,CA-port-hueneme,harbor,all,N,1,2039790,1024174,none,no_observation,no_observation,available,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2025-10,CA-port-hueneme,harbor,all,N,1,7071481,3556185,none,no_observation,no_observation,available,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2025-11,CA-port-hueneme,harbor,all,N,1,7123351,3553163,none,no_observation,no_observation,available,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2025-12,CA-port-hueneme,harbor,all,N,1,5364052,2566928,none,no_observation,no_observation,available,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2026-01,,,,,,,,not_in_source,no_observation,no_observation,available,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2026-02,,,,,,,,not_in_source,no_observation,no_observation,available,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2026-03,,,,,,,,not_in_source,no_observation,no_observation,available,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2026-04,,,,,,,,not_in_source,no_observation,no_observation,available,no_observation,available,available,available,not_found
+CA-port-hueneme,CA,2026-05,,,,,,,,not_in_source,available,available,available,available,available,available,available,not_found
+CA-port-hueneme,CA,2026-06,,,,,,,,not_in_source,available,available,available,available,available,available,available,not_found
+CA-port-hueneme,CA,2026-07,,,,,,,,not_in_source,available,available,available,available,available,available,available,not_found
+CA-port-hueneme,CA,2026-08,,,,,,,,not_in_source,available,available,available,available,available,available,available,not_found
+CA-port-hueneme,CA,2026-09,,,,,,,,not_in_source,available,available,available,available,available,available,available,not_found
+CA-port-hueneme,CA,2026-10,,,,,,,,not_in_source,available,available,available,available,available,available,available,not_found
 CA-marina-del-rey,CA,2016-01,CA-marina-del-rey,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,not_found,not_found,not_found
 CA-marina-del-rey,CA,2016-02,CA-marina-del-rey,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,not_found,not_found,not_found
 CA-marina-del-rey,CA,2016-03,CA-marina-del-rey,harbor,all,N,1,,,confidential,no_observation,no_observation,no_observation,no_observation,available,not_found,not_found,not_found
@@ -6109,136 +6109,136 @@ WA-nahcotta,WA,2026-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,59569,32654
 WA-nahcotta,WA,2026-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,137965,890629,none,available,no_observation,no_observation,no_observation,available,not_found,not_found,not_found
 WA-nahcotta,WA,2026-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,72995,423248,none,available,no_observation,no_observation,no_observation,available,not_found,not_found,not_found
 WA-nahcotta,WA,2026-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,0,0,none,available,no_observation,no_observation,no_observation,available,not_found,not_found,not_found
-WA-westport,WA,2016-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,5836738,18464772,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2016-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1570287,7255477,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2016-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,505233,2404775,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2016-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,281045,1224520,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2016-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,51720,222346,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2016-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,50177,192675,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2016-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,44070,167300,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2016-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,31306,126896,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2016-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,43960,186876,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2016-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,72400,291319,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2016-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,494651,1531779,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2016-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1259655,3826754,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2017-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,7264496,21055924,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2017-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,3189273,9470374,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2017-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,798073,3268708,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2017-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,342797,1782681,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2017-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,130800,719684,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2017-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,61796,273043,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2017-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,58445,200188,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2017-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,45768,179796,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2017-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,27007,145928,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2017-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2017-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,4960,20264,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2017-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1359481,6798180,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2018-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2018-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,47377,158852,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2018-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,51037,255032,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2018-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,216626,1702055,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2018-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,128948,877195,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2018-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,98789,431541,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2018-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,48590,184511,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2018-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,50927,228384,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2018-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,26169,119086,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2018-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2018-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2018-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2019-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,5597030,15389341,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2019-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1182163,4688341,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2019-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,411118,1536715,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2019-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,187261,1434412,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2019-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,125531,966230,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2019-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,81836,377452,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2019-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,107101,453028,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2019-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,116580,519091,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2019-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,39926,168022,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2019-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,23876,90904,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2019-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2019-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1059365,78042,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2020-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,3641772,11611896,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2020-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,3281735,11242329,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2020-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,682110,2231865,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2020-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,319538,1413067,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2020-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,176105,1111546,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2020-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,121188,476653,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2020-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,104984,367761,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2020-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,134019,392070,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2020-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,31658,145730,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2020-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2020-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,8598,30719,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2020-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,429394,72711,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2021-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,925258,10618,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2021-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,4726468,18249113,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2021-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,3222739,14771471,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2021-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,824926,5523916,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2021-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,151590,1302728,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2021-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,90169,523636,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2021-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,78948,497009,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2021-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,96937,632991,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2021-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,53087,343318,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2021-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2021-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,508254,59741,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2021-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,3809808,10787420,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2022-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,7186982,36306503,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2022-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1708384,10231693,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2022-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,594851,3900261,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2022-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,255935,1484510,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2022-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,148239,949661,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2022-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,114288,733459,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2022-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,71452,396338,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2022-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,75089,378106,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2022-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,23347,126833,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2022-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2022-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2022-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2023-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2023-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,10414880,20479725,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2023-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,5953958,15355091,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2023-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,2097191,7536863,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2023-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,954183,3517338,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2023-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,295706,1108761,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2023-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,105646,523841,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2023-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,111069,491466,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2023-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,64507,299174,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2023-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2023-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,5842,20062,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2023-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2024-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2024-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,11205149,36997342,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2024-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,2068399,8310378,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2024-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,674835,3655489,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2024-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,244537,1358741,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2024-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,133953,665186,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2024-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,167816,764179,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2024-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,171939,957757,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2024-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,72091,413419,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2024-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2024-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2024-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2025-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,4607176,11944067,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2025-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,5464003,32673235,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2025-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,2887593,18783852,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2025-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,736961,4572708,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2025-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,188275,1331632,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2025-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,118035,662196,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2025-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,104653,524032,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2025-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,114354,597689,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2025-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,48149,262635,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2025-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2025-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1139569,40592,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2025-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1355137,226157,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2026-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,6376342,27681730,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2026-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1092853,7361387,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2026-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,399345,3446889,none,no_observation,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2026-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,163385,1620299,none,available,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2026-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,104918,880882,none,available,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2026-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,74472,406245,none,available,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2026-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,59569,326541,none,available,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2026-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,137965,890629,none,available,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2026-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,72995,423248,none,available,no_observation,no_observation,no_observation,available,available,not_found,available
-WA-westport,WA,2026-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,0,0,none,available,no_observation,no_observation,no_observation,available,available,not_found,available
+WA-westport,WA,2016-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,5836738,18464772,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2016-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1570287,7255477,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2016-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,505233,2404775,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2016-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,281045,1224520,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2016-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,51720,222346,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2016-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,50177,192675,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2016-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,44070,167300,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2016-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,31306,126896,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2016-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,43960,186876,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2016-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,72400,291319,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2016-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,494651,1531779,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2016-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1259655,3826754,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2017-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,7264496,21055924,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2017-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,3189273,9470374,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2017-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,798073,3268708,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2017-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,342797,1782681,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2017-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,130800,719684,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2017-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,61796,273043,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2017-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,58445,200188,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2017-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,45768,179796,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2017-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,27007,145928,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2017-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2017-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,4960,20264,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2017-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1359481,6798180,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2018-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2018-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,47377,158852,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2018-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,51037,255032,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2018-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,216626,1702055,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2018-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,128948,877195,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2018-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,98789,431541,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2018-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,48590,184511,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2018-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,50927,228384,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2018-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,26169,119086,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2018-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2018-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2018-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2019-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,5597030,15389341,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2019-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1182163,4688341,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2019-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,411118,1536715,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2019-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,187261,1434412,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2019-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,125531,966230,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2019-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,81836,377452,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2019-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,107101,453028,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2019-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,116580,519091,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2019-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,39926,168022,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2019-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,23876,90904,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2019-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2019-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1059365,78042,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2020-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,3641772,11611896,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2020-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,3281735,11242329,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2020-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,682110,2231865,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2020-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,319538,1413067,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2020-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,176105,1111546,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2020-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,121188,476653,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2020-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,104984,367761,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2020-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,134019,392070,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2020-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,31658,145730,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2020-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2020-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,8598,30719,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2020-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,429394,72711,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2021-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,925258,10618,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2021-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,4726468,18249113,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2021-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,3222739,14771471,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2021-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,824926,5523916,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2021-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,151590,1302728,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2021-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,90169,523636,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2021-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,78948,497009,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2021-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,96937,632991,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2021-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,53087,343318,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2021-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2021-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,508254,59741,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2021-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,3809808,10787420,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2022-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,7186982,36306503,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2022-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1708384,10231693,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2022-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,594851,3900261,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2022-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,255935,1484510,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2022-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,148239,949661,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2022-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,114288,733459,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2022-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,71452,396338,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2022-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,75089,378106,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2022-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,23347,126833,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2022-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2022-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2022-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2023-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2023-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,10414880,20479725,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2023-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,5953958,15355091,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2023-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,2097191,7536863,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2023-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,954183,3517338,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2023-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,295706,1108761,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2023-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,105646,523841,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2023-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,111069,491466,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2023-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,64507,299174,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2023-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2023-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,5842,20062,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2023-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2024-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2024-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,11205149,36997342,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2024-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,2068399,8310378,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2024-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,674835,3655489,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2024-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,244537,1358741,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2024-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,133953,665186,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2024-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,167816,764179,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2024-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,171939,957757,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2024-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,72091,413419,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2024-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2024-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2024-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2025-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,4607176,11944067,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2025-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,5464003,32673235,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2025-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,2887593,18783852,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2025-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,736961,4572708,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2025-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,188275,1331632,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2025-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,118035,662196,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2025-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,104653,524032,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2025-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,114354,597689,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2025-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,48149,262635,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2025-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,,,pacfin_confidential,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2025-11,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1139569,40592,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2025-12,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1355137,226157,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2026-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,6376342,27681730,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2026-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1092853,7361387,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2026-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,399345,3446889,none,no_observation,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2026-04,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,163385,1620299,none,available,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2026-05,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,104918,880882,none,available,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2026-06,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,74472,406245,none,available,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2026-07,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,59569,326541,none,available,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2026-08,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,137965,890629,none,available,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2026-09,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,72995,423248,none,available,no_observation,no_observation,no_observation,available,available,available,available
+WA-westport,WA,2026-10,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,0,0,none,available,no_observation,no_observation,no_observation,available,available,available,available
 WA-la-push,WA,2016-01,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,5836738,18464772,none,no_observation,no_observation,no_observation,no_observation,available,not_found,not_found,not_found
 WA-la-push,WA,2016-02,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,1570287,7255477,none,no_observation,no_observation,no_observation,no_observation,available,not_found,not_found,not_found
 WA-la-push,WA,2016-03,WA-PACFIN-CWA,agency_group,Dungeness crab,Y,5,505233,2404775,none,no_observation,no_observation,no_observation,no_observation,available,not_found,not_found,not_found

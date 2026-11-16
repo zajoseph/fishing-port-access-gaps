@@ -1,27 +1,26 @@
 service,rank_service,facility_id,harbor_name,state,stranded_low,stranded_high,n_harbors_cut_off,harbors_cut_off,cell_confidence,confidence_flags,rank_if_not_found_available
 cold_storage,1,WA-westport|cold_storage,Westport (Port of Grays Harbor Westport Marina),WA,71975266,71975266,4,WA-tokeland;WA-bay-center;WA-nahcotta;WA-westport,medium,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld;route_willapa_unverified,5.0
 cold_storage,2,OR-astoria|cold_storage,Astoria (Port of Astoria West/East Basins),OR,65429621,66800874,4,OR-astoria;OR-warrenton;WA-ilwaco;WA-chinook,medium,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld,5.0
-cold_storage,3,CA-port-hueneme|cold_storage,Port Hueneme,CA,46469530,46469530,4,CA-santa-barbara;CA-ventura;CA-channel-islands;CA-port-hueneme,low,low_conf_cell;backup_not_found_x4;value_lower_bound_withheld;heavily_withheld_harbor,5.0
-cold_storage,4,WA-bellingham|cold_storage,Bellingham (Port of Bellingham Squalicum Harbor),WA,39716667,52221897,4,WA-la-conner;WA-anacortes;WA-bellingham;WA-blaine,high,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld;route_portage_bar,5.0
-cold_storage,5,OR-charleston|cold_storage,Charleston (Port of Coos Bay Charleston Marina),OR,31026002,36022583,3,OR-winchester-bay;OR-charleston;OR-bandon,medium,backup_lowconf_absence_x3;value_range_shared_unit,2.0
-cold_storage,6,CA-los-angeles-long-beach|cold_storage,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,26440082,26440082,7,CA-marina-del-rey;CA-redondo-beach;CA-los-angeles-long-beach;CA-huntington-harbour;CA-newport-beach;CA-avalon;CA-dana-point,medium,backup_not_found_x7;value_lower_bound_withheld;heavily_withheld_harbor,5.0
-cold_storage,7,OR-brookings|cold_storage,Brookings (Port of Brookings Harbor),OR,25251642,25251642,3,CA-crescent-city;OR-gold-beach;OR-brookings,medium,backup_lowconf_absence_x2;value_range_shared_unit;value_lower_bound_withheld,3.0
-cold_storage,8,CA-bodega-bay|cold_storage,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,medium,,4.0
-cold_storage,9,WA-neah-bay|cold_storage,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,low,low_conf_cell;backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,5.0
+cold_storage,3,WA-bellingham|cold_storage,Bellingham (Port of Bellingham Squalicum Harbor),WA,39716667,52221897,4,WA-la-conner;WA-anacortes;WA-bellingham;WA-blaine,high,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld;route_portage_bar,5.0
+cold_storage,4,OR-charleston|cold_storage,Charleston (Port of Coos Bay Charleston Marina),OR,31026002,36022583,3,OR-winchester-bay;OR-charleston;OR-bandon,medium,backup_lowconf_absence_x3;value_range_shared_unit,2.0
+cold_storage,5,CA-los-angeles-long-beach|cold_storage,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,26440082,26440082,7,CA-marina-del-rey;CA-redondo-beach;CA-los-angeles-long-beach;CA-huntington-harbour;CA-newport-beach;CA-avalon;CA-dana-point,medium,backup_not_found_x7;value_lower_bound_withheld;heavily_withheld_harbor,5.0
+cold_storage,6,OR-brookings|cold_storage,Brookings (Port of Brookings Harbor),OR,25251642,25251642,3,CA-crescent-city;OR-gold-beach;OR-brookings,medium,backup_lowconf_absence_x2;value_range_shared_unit;value_lower_bound_withheld,3.0
+cold_storage,7,CA-bodega-bay|cold_storage,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,medium,,4.0
+cold_storage,8,WA-neah-bay|cold_storage,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,low,low_conf_cell;backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,5.0
 fuel,1,CA-humboldt-bay|fuel,Humboldt Bay (Eureka / Fields Landing / King Salmon),CA,11834451,11834451,2,CA-trinidad;CA-humboldt-bay,high,backup_lowconf_absence_x2;value_lower_bound_withheld,1.0
 fuel,2,CA-bodega-bay|fuel,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,high,,2.0
 fuel,3,OR-garibaldi|fuel,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,medium,,3.0
 fuel,4,CA-noyo-harbor|fuel,Noyo Harbor (Fort Bragg),CA,7022492,7022492,2,CA-noyo-harbor;CA-point-arena,low,low_conf_cell;backup_not_found_x2;value_lower_bound_withheld,5.0
 fuel,5,CA-shelter-cove|fuel,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,low,low_conf_cell,4.0
-hoist_crane,1,CA-san-diego-bay|hoist_crane,San Diego Bay (Tuna Harbor / Driscoll's Wharf),CA,11188264,11188264,2,CA-mission-bay;CA-san-diego-bay,high,backup_not_found_x2,5.0
-hoist_crane,2,CA-bodega-bay|hoist_crane,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,high,,1.0
-hoist_crane,3,OR-garibaldi|hoist_crane,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,low,low_conf_cell,2.0
-hoist_crane,4,WA-neah-bay|hoist_crane,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,medium,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,5.0
-hoist_crane,5,WA-seattle|hoist_crane,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5600000,33513276,2,WA-seattle;WA-everett,high,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,5.0
-hoist_crane,6,WA-port-angeles|hoist_crane,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,high,backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,5.0
-hoist_crane,7,CA-los-angeles-long-beach|hoist_crane,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,794786,794786,1,CA-marina-del-rey,high,backup_not_found_x1;value_lower_bound_withheld,5.0
-hoist_crane,8,CA-san-francisco|hoist_crane,San Francisco (Fisherman's Wharf / Pier 45),CA,437452,437452,1,CA-vallejo,low,low_conf_cell;backup_not_found_x1;value_lower_bound_withheld;heavily_withheld_harbor,5.0
-hoist_crane,9,WA-chinook|hoist_crane,Chinook (Port of Chinook),WA,0,71975266,2,WA-tokeland;WA-bay-center,medium,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld;route_willapa_unverified,5.0
+hoist_crane,1,WA-westport|hoist_crane,Westport (Port of Grays Harbor Westport Marina),WA,65733333,71975266,2,WA-nahcotta;WA-westport,low,low_conf_cell;backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld;route_willapa_unverified,5.0
+hoist_crane,2,CA-san-diego-bay|hoist_crane,San Diego Bay (Tuna Harbor / Driscoll's Wharf),CA,11188264,11188264,2,CA-mission-bay;CA-san-diego-bay,high,backup_not_found_x2,5.0
+hoist_crane,3,CA-bodega-bay|hoist_crane,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,high,,1.0
+hoist_crane,4,OR-garibaldi|hoist_crane,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,low,low_conf_cell,2.0
+hoist_crane,5,WA-neah-bay|hoist_crane,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,medium,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,5.0
+hoist_crane,6,WA-seattle|hoist_crane,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5600000,33513276,2,WA-seattle;WA-everett,high,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,5.0
+hoist_crane,7,WA-port-angeles|hoist_crane,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,high,backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,5.0
+hoist_crane,8,CA-los-angeles-long-beach|hoist_crane,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,794786,794786,1,CA-marina-del-rey,high,backup_not_found_x1;value_lower_bound_withheld,5.0
+hoist_crane,9,CA-san-francisco|hoist_crane,San Francisco (Fisherman's Wharf / Pier 45),CA,437452,437452,1,CA-vallejo,low,low_conf_cell;backup_not_found_x1;value_lower_bound_withheld;heavily_withheld_harbor,5.0
 hoist_crane,10,OR-florence|hoist_crane,Florence (Port of Siuslaw),OR,0,6328146,1,OR-florence,medium,backup_lowconf_absence_x1;value_range_shared_unit,4.0
 ice,1,WA-westport|ice,Westport (Port of Grays Harbor Westport Marina),WA,71975266,71975266,4,WA-tokeland;WA-bay-center;WA-nahcotta;WA-westport,medium,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld;route_willapa_unverified,6.0
 ice,2,OR-astoria|ice,Astoria (Port of Astoria West/East Basins),OR,65429621,66800874,4,OR-astoria;OR-warrenton;WA-ilwaco;WA-chinook,medium,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld,6.0
