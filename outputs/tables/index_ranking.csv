@@ -46,63 +46,63 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 10,fuel,CA-san-diego-bay|fuel,CA-san-diego-bay,San Diego Bay (Tuna Harbor / Driscoll's Wharf),CA,8877959,8877959,1,CA-san-diego-bay,13,45,24,available,low,2026-11,low_conf_cell,0,0,0,0,0,,3
 10,hoist_crane,CA-san-diego-bay|hoist_crane,CA-san-diego-bay,San Diego Bay (Tuna Harbor / Driscoll's Wharf),CA,8877959,8877959,1,CA-san-diego-bay,12,45,17,available,high,2026-11,,0,0,0,0,0,,21
 10,ice,CA-san-diego-bay|ice,CA-san-diego-bay,San Diego Bay (Tuna Harbor / Driscoll's Wharf),CA,8877959,8877959,1,CA-san-diego-bay,15,45,16,available,low,2026-11,low_conf_cell,0,0,0,0,0,,31
-10,fuel,OR-garibaldi|fuel,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,14,48,25,available,medium,2023-12,,0,0,0,0,0,,3
-10,hoist_crane,OR-garibaldi|hoist_crane,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,13,48,18,available,low,2026-11,low_conf_cell,0,0,0,0,0,,21
-10,ice,OR-garibaldi|ice,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,16,48,17,available,low,2026-11,low_conf_cell,0,0,0,0,0,,31
-10,fuel,CA-moss-landing|fuel,CA-moss-landing,Moss Landing,CA,6538613,6538613,1,CA-moss-landing,15,51,26,available,medium,2022-06,,0,0,0,0,0,,3
-10,hoist_crane,CA-moss-landing|hoist_crane,CA-moss-landing,Moss Landing,CA,6538613,6538613,1,CA-moss-landing,14,51,19,available,medium,2025-11-25,,0,0,0,0,0,,21
-10,fuel,CA-noyo-harbor|fuel,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,16,53,27,available,low,2025-10,low_conf_cell,0,0,0,0,0,,3
-10,hoist_crane,CA-noyo-harbor|hoist_crane,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,15,53,20,available,high,2026-02-24,,0,0,0,0,0,,21
-10,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,17,53,18,available,medium,2026-02-24,,0,0,0,0,0,,31
-10,fuel,CA-monterey|fuel,CA-monterey,Monterey,CA,6259505,6259505,1,CA-monterey,17,56,30,available,medium,2026-11,,0,0,0,0,0,,3
-10,hoist_crane,CA-monterey|hoist_crane,CA-monterey,Monterey,CA,6259505,6259505,1,CA-monterey,16,56,22,available,high,2026-11,,0,0,0,0,0,,21
-10,fuel,OR-winchester-bay|fuel,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,6116667,6328146,1,OR-winchester-bay,18,58,28,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,3
-10,ice,OR-winchester-bay|ice,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,6116667,6328146,1,OR-winchester-bay,18,58,19,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,31
-10,fuel,WA-blaine|fuel,WA-blaine,Blaine (Port of Bellingham Blaine Harbor),WA,5483333,52221897,1,WA-blaine,19,60,6,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
-10,fuel,WA-seattle|fuel,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5466667,33513276,1,WA-seattle,20,61,12,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
-10,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5466667,33513276,1,WA-seattle,17,61,5,available,high,2026-01-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,21
-10,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,8,63,4,available,low,2026-11,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,48
-10,fuel,WA-neah-bay|fuel,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,21,63,7,available,medium,2026-11,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
-10,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,18,63,3,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,21
-10,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,19,63,5,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,31
-10,fuel,OR-port-orford|fuel,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,22,67,31,available,low,2026-11,low_conf_cell;value_range_shared_unit,0,0,1,0,0,,3
-10,hoist_crane,OR-port-orford|hoist_crane,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,19,67,23,available,high,2026-08-07,value_range_shared_unit,0,0,1,0,0,,21
-10,ice,OR-port-orford|ice,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,20,67,20,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,31
-10,fuel,CA-mission-bay|fuel,CA-mission-bay,Mission Bay,CA,2310304,2310304,1,CA-mission-bay,23,70,33,available,high,2026-03-06,,0,0,0,0,0,,3
-10,fuel,CA-morro-bay|fuel,CA-morro-bay,Morro Bay,CA,2266786,2266786,1,CA-morro-bay,24,71,34,available,low,2026-11,low_conf_cell,0,0,0,0,0,,3
-10,hoist_crane,CA-morro-bay|hoist_crane,CA-morro-bay,Morro Bay,CA,2266786,2266786,1,CA-morro-bay,20,71,25,available,medium,2026-03,,0,0,0,0,0,,21
-10,ice,CA-morro-bay|ice,CA-morro-bay,Morro Bay,CA,2266786,2266786,1,CA-morro-bay,21,71,21,available,high,2026-03,,0,0,0,0,0,,31
-10,fuel,CA-santa-cruz|fuel,CA-santa-cruz,Santa Cruz,CA,2252974,2252974,1,CA-santa-cruz,25,74,35,available,high,2026-01-15,value_lower_bound_withheld,1,0,0,0,0,,3
-10,fuel,CA-dana-point|fuel,CA-dana-point,Dana Point Harbor,CA,2220589,2220589,1,CA-dana-point,26,75,36,available,high,2025-12-03,value_lower_bound_withheld,1,0,0,0,0,,3
-10,fuel,CA-oceanside|fuel,CA-oceanside,Oceanside Harbor,CA,1980014,1980014,1,CA-oceanside,27,76,37,available,medium,2026-11,,0,0,0,0,0,,3
-10,hoist_crane,CA-trinidad|hoist_crane,CA-trinidad,Trinidad,CA,1919756,1919756,1,CA-trinidad,21,77,26,available,medium,2010-08,value_lower_bound_withheld,1,0,0,0,0,,21
-10,fuel,CA-port-san-luis|fuel,CA-port-san-luis,Port San Luis (Avila Beach),CA,1526630,1526630,1,CA-port-san-luis,28,78,38,available,high,2025-09-26,,0,0,0,0,0,,3
-10,hoist_crane,CA-port-san-luis|hoist_crane,CA-port-san-luis,Port San Luis (Avila Beach),CA,1526630,1526630,1,CA-port-san-luis,22,78,27,available,high,2021-03-25,,0,0,0,0,0,,21
-10,ice,CA-port-san-luis|ice,CA-port-san-luis,Port San Luis (Avila Beach),CA,1526630,1526630,1,CA-port-san-luis,22,78,22,available,medium,2026-09-08,,0,0,0,0,0,,31
-10,fuel,WA-port-angeles|fuel,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,29,81,8,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
-10,hoist_crane,WA-port-angeles|hoist_crane,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,23,81,4,available,high,2026-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,21
-10,fuel,WA-port-townsend|fuel,WA-port-townsend,"Port Townsend (Boat Haven, Port of Port Townsend)",WA,1250000,52221897,1,WA-port-townsend,30,83,9,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
-10,fuel,CA-newport-beach|fuel,CA-newport-beach,Newport Beach,CA,1032334,1032334,1,CA-newport-beach,31,84,39,available,low,2026-11,low_conf_cell;value_lower_bound_withheld,1,0,0,0,0,,3
-10,hoist_crane,CA-point-arena|hoist_crane,CA-point-arena,Point Arena (Arena Cove),CA,575162,575162,1,CA-point-arena,24,85,28,available,high,2026-01-29,value_lower_bound_withheld,1,0,0,0,0,,21
-10,fuel,OR-depoe-bay|fuel,OR-depoe-bay,Depoe Bay (City harbor),OR,460756,460756,1,OR-depoe-bay,32,86,40,available,medium,2025-09-19,,0,0,0,0,0,,3
-10,hoist_crane,OR-depoe-bay|hoist_crane,OR-depoe-bay,Depoe Bay (City harbor),OR,460756,460756,1,OR-depoe-bay,25,86,29,available,medium,2026-11,,0,0,0,0,0,,21
-10,fuel,CA-shelter-cove|fuel,CA-shelter-cove,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,33,88,41,available,low,2026-11,low_conf_cell,0,0,0,0,0,,3
-10,fuel,CA-vallejo|fuel,CA-vallejo,Vallejo,CA,437452,437452,1,CA-vallejo,34,89,42,available,medium,2025-10-30,value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,3
-10,fuel,CA-huntington-harbour|fuel,CA-huntington-harbour,Huntington Harbour,CA,357152,357152,1,CA-huntington-harbour,35,90,43,available,low,2016-05-25,low_conf_cell;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,3
-10,fuel,WA-la-push|fuel,WA-la-push,La Push (Quileute Harbor Marina),WA,333333,71975266,1,WA-la-push,36,91,2,available,low,2022-12,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
-10,fuel,CA-avalon|fuel,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,37,92,44,available,medium,2021-03,value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,3
-10,hoist_crane,CA-avalon|hoist_crane,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,26,92,30,available,low,2026-11,low_conf_cell;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,21
-10,fuel,WA-everett|fuel,WA-everett,Everett (Port of Everett Marina),WA,133333,33513276,1,WA-everett,38,94,13,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
-10,fuel,WA-nahcotta|fuel,WA-nahcotta,Nahcotta (Port of Peninsula),WA,0,71975266,2,WA-bay-center;WA-nahcotta,39,95,3,available,medium,2026-04,backup_lowconf_absence_x1;value_range_shared_unit;value_lower_bound_withheld;route_willapa_unverified,2,0,2,0,1,WA-bay-center~WA-nahcotta:willapa_unverified,3
-10,fuel,WA-anacortes|fuel,WA-anacortes,Anacortes (Port of Anacortes Cap Sante Marina),WA,0,52221897,1,WA-anacortes,40,96,10,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
-10,fuel,WA-la-conner|fuel,WA-la-conner,La Conner (Port of Skagit La Conner Marina),WA,0,52221897,1,WA-la-conner,40,96,10,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
-10,hoist_crane,WA-chinook|hoist_crane,WA-chinook,Chinook (Port of Chinook),WA,0,17621253,1,WA-ilwaco,27,98,8,available,medium,2026-02-09,backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,1,0,1,1,0,,21
-10,fuel,OR-gold-beach|fuel,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,42,99,22,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,3
-10,hoist_crane,OR-gold-beach|hoist_crane,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,28,99,15,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,21
-10,fuel,OR-florence|fuel,OR-florence,Florence (Port of Siuslaw),OR,0,6328146,1,OR-florence,43,101,29,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,3
-10,hoist_crane,OR-florence|hoist_crane,OR-florence,Florence (Port of Siuslaw),OR,0,6328146,1,OR-florence,29,101,21,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,21
-10,fuel,OR-bandon|fuel,OR-bandon,Bandon (Port of Bandon),OR,0,4785102,1,OR-bandon,44,103,32,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,3
-10,hoist_crane,OR-bandon|hoist_crane,OR-bandon,Bandon (Port of Bandon),OR,0,4785102,1,OR-bandon,30,103,24,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,21
+10,fuel,CA-moss-landing|fuel,CA-moss-landing,Moss Landing,CA,6538613,6538613,1,CA-moss-landing,14,48,26,available,medium,2022-06,,0,0,0,0,0,,3
+10,hoist_crane,CA-moss-landing|hoist_crane,CA-moss-landing,Moss Landing,CA,6538613,6538613,1,CA-moss-landing,13,48,19,available,medium,2025-11-25,,0,0,0,0,0,,21
+10,fuel,CA-noyo-harbor|fuel,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,15,50,27,available,low,2025-10,low_conf_cell,0,0,0,0,0,,3
+10,hoist_crane,CA-noyo-harbor|hoist_crane,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,14,50,20,available,high,2026-02-24,,0,0,0,0,0,,21
+10,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,16,50,18,available,medium,2026-02-24,,0,0,0,0,0,,31
+10,fuel,CA-monterey|fuel,CA-monterey,Monterey,CA,6259505,6259505,1,CA-monterey,16,53,30,available,medium,2026-11,,0,0,0,0,0,,3
+10,hoist_crane,CA-monterey|hoist_crane,CA-monterey,Monterey,CA,6259505,6259505,1,CA-monterey,15,53,22,available,high,2026-11,,0,0,0,0,0,,21
+10,fuel,OR-winchester-bay|fuel,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,6116667,6328146,1,OR-winchester-bay,17,55,28,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,3
+10,ice,OR-winchester-bay|ice,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,6116667,6328146,1,OR-winchester-bay,17,55,19,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,31
+10,fuel,WA-blaine|fuel,WA-blaine,Blaine (Port of Bellingham Blaine Harbor),WA,5483333,52221897,1,WA-blaine,18,57,6,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
+10,fuel,WA-seattle|fuel,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5466667,33513276,1,WA-seattle,19,58,12,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
+10,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5466667,33513276,1,WA-seattle,16,58,5,available,high,2026-01-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,21
+10,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,8,60,4,available,low,2026-11,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,48
+10,fuel,WA-neah-bay|fuel,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,20,60,7,available,medium,2026-11,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
+10,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,17,60,3,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,21
+10,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,18,60,5,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,31
+10,fuel,OR-port-orford|fuel,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,21,64,31,available,low,2026-11,low_conf_cell;value_range_shared_unit,0,0,1,0,0,,3
+10,hoist_crane,OR-port-orford|hoist_crane,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,18,64,23,available,high,2026-08-07,value_range_shared_unit,0,0,1,0,0,,21
+10,ice,OR-port-orford|ice,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,19,64,20,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,31
+10,fuel,CA-mission-bay|fuel,CA-mission-bay,Mission Bay,CA,2310304,2310304,1,CA-mission-bay,22,67,33,available,high,2026-03-06,,0,0,0,0,0,,3
+10,fuel,CA-morro-bay|fuel,CA-morro-bay,Morro Bay,CA,2266786,2266786,1,CA-morro-bay,23,68,34,available,low,2026-11,low_conf_cell,0,0,0,0,0,,3
+10,hoist_crane,CA-morro-bay|hoist_crane,CA-morro-bay,Morro Bay,CA,2266786,2266786,1,CA-morro-bay,19,68,25,available,medium,2026-03,,0,0,0,0,0,,21
+10,ice,CA-morro-bay|ice,CA-morro-bay,Morro Bay,CA,2266786,2266786,1,CA-morro-bay,20,68,21,available,high,2026-03,,0,0,0,0,0,,31
+10,fuel,CA-santa-cruz|fuel,CA-santa-cruz,Santa Cruz,CA,2252974,2252974,1,CA-santa-cruz,24,71,35,available,high,2026-01-15,value_lower_bound_withheld,1,0,0,0,0,,3
+10,fuel,CA-dana-point|fuel,CA-dana-point,Dana Point Harbor,CA,2220589,2220589,1,CA-dana-point,25,72,36,available,high,2025-12-03,value_lower_bound_withheld,1,0,0,0,0,,3
+10,fuel,CA-oceanside|fuel,CA-oceanside,Oceanside Harbor,CA,1980014,1980014,1,CA-oceanside,26,73,37,available,medium,2026-11,,0,0,0,0,0,,3
+10,hoist_crane,CA-trinidad|hoist_crane,CA-trinidad,Trinidad,CA,1919756,1919756,1,CA-trinidad,20,74,26,available,medium,2010-08,value_lower_bound_withheld,1,0,0,0,0,,21
+10,fuel,CA-port-san-luis|fuel,CA-port-san-luis,Port San Luis (Avila Beach),CA,1526630,1526630,1,CA-port-san-luis,27,75,38,available,high,2025-09-26,,0,0,0,0,0,,3
+10,hoist_crane,CA-port-san-luis|hoist_crane,CA-port-san-luis,Port San Luis (Avila Beach),CA,1526630,1526630,1,CA-port-san-luis,21,75,27,available,high,2021-03-25,,0,0,0,0,0,,21
+10,ice,CA-port-san-luis|ice,CA-port-san-luis,Port San Luis (Avila Beach),CA,1526630,1526630,1,CA-port-san-luis,21,75,22,available,medium,2026-09-08,,0,0,0,0,0,,31
+10,fuel,WA-port-angeles|fuel,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,28,78,8,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
+10,hoist_crane,WA-port-angeles|hoist_crane,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,22,78,4,available,high,2026-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,21
+10,fuel,WA-port-townsend|fuel,WA-port-townsend,"Port Townsend (Boat Haven, Port of Port Townsend)",WA,1250000,52221897,1,WA-port-townsend,29,80,9,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
+10,fuel,CA-newport-beach|fuel,CA-newport-beach,Newport Beach,CA,1032334,1032334,1,CA-newport-beach,30,81,39,available,low,2026-11,low_conf_cell;value_lower_bound_withheld,1,0,0,0,0,,3
+10,hoist_crane,CA-point-arena|hoist_crane,CA-point-arena,Point Arena (Arena Cove),CA,575162,575162,1,CA-point-arena,23,82,28,available,high,2026-01-29,value_lower_bound_withheld,1,0,0,0,0,,21
+10,fuel,CA-shelter-cove|fuel,CA-shelter-cove,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,31,83,41,available,low,2026-11,low_conf_cell,0,0,0,0,0,,3
+10,fuel,CA-vallejo|fuel,CA-vallejo,Vallejo,CA,437452,437452,1,CA-vallejo,32,84,42,available,medium,2025-10-30,value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,3
+10,fuel,CA-huntington-harbour|fuel,CA-huntington-harbour,Huntington Harbour,CA,357152,357152,1,CA-huntington-harbour,33,85,43,available,low,2016-05-25,low_conf_cell;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,3
+10,fuel,WA-la-push|fuel,WA-la-push,La Push (Quileute Harbor Marina),WA,333333,71975266,1,WA-la-push,34,86,2,available,low,2022-12,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
+10,fuel,CA-avalon|fuel,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,35,87,44,available,medium,2021-03,value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,3
+10,hoist_crane,CA-avalon|hoist_crane,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,24,87,30,available,low,2026-11,low_conf_cell;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,21
+10,fuel,WA-everett|fuel,WA-everett,Everett (Port of Everett Marina),WA,133333,33513276,1,WA-everett,36,89,13,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
+10,fuel,WA-nahcotta|fuel,WA-nahcotta,Nahcotta (Port of Peninsula),WA,0,71975266,2,WA-bay-center;WA-nahcotta,37,90,3,available,medium,2026-04,backup_lowconf_absence_x1;value_range_shared_unit;value_lower_bound_withheld;route_willapa_unverified,2,0,2,0,1,WA-bay-center~WA-nahcotta:willapa_unverified,3
+10,fuel,WA-anacortes|fuel,WA-anacortes,Anacortes (Port of Anacortes Cap Sante Marina),WA,0,52221897,1,WA-anacortes,38,91,10,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
+10,fuel,WA-la-conner|fuel,WA-la-conner,La Conner (Port of Skagit La Conner Marina),WA,0,52221897,1,WA-la-conner,38,91,10,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,3
+10,hoist_crane,WA-chinook|hoist_crane,WA-chinook,Chinook (Port of Chinook),WA,0,17621253,1,WA-ilwaco,25,93,8,available,medium,2026-02-09,backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,1,0,1,1,0,,21
+10,fuel,OR-gold-beach|fuel,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,40,94,22,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,3
+10,hoist_crane,OR-gold-beach|hoist_crane,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,26,94,15,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,21
+10,fuel,OR-garibaldi|fuel,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,41,96,25,available,medium,2023-12,,0,0,0,0,0,,3
+10,hoist_crane,OR-garibaldi|hoist_crane,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,27,96,18,available,low,2026-11,low_conf_cell,0,0,0,0,0,,21
+10,ice,OR-garibaldi|ice,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,22,96,17,available,low,2026-11,low_conf_cell,0,0,0,0,0,,31
+10,fuel,OR-florence|fuel,OR-florence,Florence (Port of Siuslaw),OR,0,6328146,1,OR-florence,42,99,29,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,3
+10,hoist_crane,OR-florence|hoist_crane,OR-florence,Florence (Port of Siuslaw),OR,0,6328146,1,OR-florence,28,99,21,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,21
+10,fuel,OR-bandon|fuel,OR-bandon,Bandon (Port of Bandon),OR,0,4785102,1,OR-bandon,43,101,32,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,3
+10,hoist_crane,OR-bandon|hoist_crane,OR-bandon,Bandon (Port of Bandon),OR,0,4785102,1,OR-bandon,29,101,24,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,21
+10,fuel,OR-depoe-bay|fuel,OR-depoe-bay,Depoe Bay (City harbor),OR,0,460756,1,OR-depoe-bay,44,103,40,available,medium,2025-09-19,,0,0,0,0,0,,3
+10,hoist_crane,OR-depoe-bay|hoist_crane,OR-depoe-bay,Depoe Bay (City harbor),OR,0,460756,1,OR-depoe-bay,30,103,29,available,medium,2026-11,,0,0,0,0,0,,21
 10,fuel,CA-channel-islands|fuel,CA-channel-islands,Channel Islands Harbor (Oxnard),CA,0,0,0,,45,105,45,available,medium,2026-11,,0,0,0,0,0,,3
 10,hoist_crane,CA-channel-islands|hoist_crane,CA-channel-islands,Channel Islands Harbor (Oxnard),CA,0,0,0,,31,105,31,available,medium,2026-11,,0,0,0,0,0,,21
 10,fuel,CA-marina-del-rey|fuel,CA-marina-del-rey,Marina del Rey,CA,0,0,0,,45,105,45,available,medium,2026-11,,0,0,0,0,0,,3
@@ -122,7 +122,7 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 15,ice,WA-westport|ice,WA-westport,Westport (Port of Grays Harbor Westport Marina),WA,65733333,71975266,1,WA-westport,1,1,1,available,medium,2026-11,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,27
 15,cold_storage,OR-astoria|cold_storage,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,65429621,66800874,4,OR-astoria;OR-warrenton;WA-ilwaco;WA-chinook,2,5,2,available,medium,2023-12,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld,2,0,4,4,0,,46
 15,ice,OR-astoria|ice,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,65429621,66800874,4,OR-astoria;OR-warrenton;WA-ilwaco;WA-chinook,2,5,2,available,medium,2023-12,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld,2,0,4,4,0,,27
-15,ice,OR-newport|ice,OR-newport,Newport (Port of Newport commercial marina),OR,60736200,60736200,2,OR-depoe-bay;OR-newport,3,7,3,available,medium,2023-12,backup_not_found_x2,0,0,0,2,0,,27
+15,ice,OR-newport|ice,OR-newport,Newport (Port of Newport commercial marina),OR,60275445,60736200,2,OR-depoe-bay;OR-newport,3,7,3,available,medium,2023-12,backup_not_found_x2,0,0,0,2,0,,27
 15,ice,CA-port-hueneme|ice,CA-port-hueneme,Port Hueneme,CA,34302848,34302848,3,CA-ventura;CA-channel-islands;CA-port-hueneme,4,8,6,available,medium,2026-05,backup_not_found_x3;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,3,0,,27
 15,cold_storage,OR-charleston|cold_storage,OR-charleston,Charleston (Port of Coos Bay Charleston Marina),OR,24909336,24909336,1,OR-charleston,3,9,5,available,medium,2023-12,,0,0,0,0,0,,46
 15,fuel,OR-charleston|fuel,OR-charleston,Charleston (Port of Coos Bay Charleston Marina),OR,24909336,24909336,1,OR-charleston,2,9,13,available,medium,2026-11,,0,0,0,0,0,,2
@@ -160,49 +160,49 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 15,fuel,OR-brookings|fuel,OR-brookings,Brookings (Port of Brookings Harbor),OR,9016667,9741681,1,OR-brookings,11,41,19,available,high,2026-07-01,value_range_shared_unit,0,0,1,0,0,,2
 15,hoist_crane,OR-brookings|hoist_crane,OR-brookings,Brookings (Port of Brookings Harbor),OR,9016667,9741681,1,OR-brookings,11,41,13,available,high,2026-05-12,value_range_shared_unit,0,0,1,0,0,,19
 15,ice,OR-brookings|ice,OR-brookings,Brookings (Port of Brookings Harbor),OR,9016667,9741681,1,OR-brookings,15,41,15,available,medium,2025-12,value_range_shared_unit,0,0,1,0,0,,27
-15,fuel,OR-garibaldi|fuel,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,12,45,22,available,medium,2023-12,,0,0,0,0,0,,2
-15,hoist_crane,OR-garibaldi|hoist_crane,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,12,45,16,available,low,2026-11,low_conf_cell,0,0,0,0,0,,19
-15,ice,OR-garibaldi|ice,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,16,45,17,available,low,2026-11,low_conf_cell,0,0,0,0,0,,27
-15,fuel,CA-noyo-harbor|fuel,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,13,48,23,available,low,2025-10,low_conf_cell,0,0,0,0,0,,2
-15,hoist_crane,CA-noyo-harbor|hoist_crane,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,13,48,17,available,high,2026-02-24,,0,0,0,0,0,,19
-15,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,17,48,18,available,medium,2026-02-24,,0,0,0,0,0,,27
-15,fuel,OR-winchester-bay|fuel,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,6116667,6328146,1,OR-winchester-bay,14,51,24,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,2
-15,ice,OR-winchester-bay|ice,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,6116667,6328146,1,OR-winchester-bay,18,51,19,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,27
-15,fuel,WA-blaine|fuel,WA-blaine,Blaine (Port of Bellingham Blaine Harbor),WA,5483333,52221897,1,WA-blaine,15,53,5,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-15,fuel,WA-seattle|fuel,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5466667,33513276,1,WA-seattle,16,54,11,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-15,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5466667,33513276,1,WA-seattle,14,54,4,available,high,2026-01-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,19
-15,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,8,56,4,available,low,2026-11,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,46
-15,fuel,WA-neah-bay|fuel,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,17,56,6,available,medium,2026-11,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-15,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,15,56,2,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,19
-15,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,19,56,5,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,27
-15,fuel,OR-port-orford|fuel,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,18,60,26,available,low,2026-11,low_conf_cell;value_range_shared_unit,0,0,1,0,0,,2
-15,hoist_crane,OR-port-orford|hoist_crane,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,16,60,19,available,high,2026-08-07,value_range_shared_unit,0,0,1,0,0,,19
-15,ice,OR-port-orford|ice,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,20,60,20,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,27
-15,fuel,CA-morro-bay|fuel,CA-morro-bay,Morro Bay,CA,2266786,2266786,1,CA-morro-bay,19,63,28,available,low,2026-11,low_conf_cell,0,0,0,0,0,,2
-15,hoist_crane,CA-morro-bay|hoist_crane,CA-morro-bay,Morro Bay,CA,2266786,2266786,1,CA-morro-bay,17,63,21,available,medium,2026-03,,0,0,0,0,0,,19
-15,ice,CA-morro-bay|ice,CA-morro-bay,Morro Bay,CA,2266786,2266786,1,CA-morro-bay,21,63,21,available,high,2026-03,,0,0,0,0,0,,27
-15,fuel,CA-santa-cruz|fuel,CA-santa-cruz,Santa Cruz,CA,2252974,2252974,1,CA-santa-cruz,20,66,29,available,high,2026-01-15,value_lower_bound_withheld,1,0,0,0,0,,2
-15,fuel,CA-dana-point|fuel,CA-dana-point,Dana Point Harbor,CA,2220589,2220589,1,CA-dana-point,21,67,30,available,high,2025-12-03,value_lower_bound_withheld,1,0,0,0,0,,2
-15,fuel,CA-oceanside|fuel,CA-oceanside,Oceanside Harbor,CA,1980014,1980014,1,CA-oceanside,22,68,31,available,medium,2026-11,,0,0,0,0,0,,2
-15,hoist_crane,CA-trinidad|hoist_crane,CA-trinidad,Trinidad,CA,1919756,1919756,1,CA-trinidad,18,69,22,available,medium,2010-08,value_lower_bound_withheld,1,0,0,0,0,,19
-15,fuel,CA-port-san-luis|fuel,CA-port-san-luis,Port San Luis (Avila Beach),CA,1526630,1526630,1,CA-port-san-luis,23,70,32,available,high,2025-09-26,,0,0,0,0,0,,2
-15,hoist_crane,CA-port-san-luis|hoist_crane,CA-port-san-luis,Port San Luis (Avila Beach),CA,1526630,1526630,1,CA-port-san-luis,19,70,23,available,high,2021-03-25,,0,0,0,0,0,,19
-15,ice,CA-port-san-luis|ice,CA-port-san-luis,Port San Luis (Avila Beach),CA,1526630,1526630,1,CA-port-san-luis,22,70,22,available,medium,2026-09-08,,0,0,0,0,0,,27
-15,fuel,WA-port-angeles|fuel,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,24,73,7,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-15,hoist_crane,WA-port-angeles|hoist_crane,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,20,73,3,available,high,2026-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,19
-15,fuel,WA-port-townsend|fuel,WA-port-townsend,"Port Townsend (Boat Haven, Port of Port Townsend)",WA,1250000,52221897,1,WA-port-townsend,25,75,8,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-15,fuel,CA-newport-beach|fuel,CA-newport-beach,Newport Beach,CA,1032334,1032334,1,CA-newport-beach,26,76,33,available,low,2026-11,low_conf_cell;value_lower_bound_withheld,1,0,0,0,0,,2
-15,hoist_crane,CA-point-arena|hoist_crane,CA-point-arena,Point Arena (Arena Cove),CA,575162,575162,1,CA-point-arena,21,77,24,available,high,2026-01-29,value_lower_bound_withheld,1,0,0,0,0,,19
-15,fuel,CA-shelter-cove|fuel,CA-shelter-cove,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,27,78,34,available,low,2026-11,low_conf_cell,0,0,0,0,0,,2
-15,fuel,CA-vallejo|fuel,CA-vallejo,Vallejo,CA,437452,437452,1,CA-vallejo,28,79,35,available,medium,2025-10-30,value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,2
-15,fuel,WA-la-push|fuel,WA-la-push,La Push (Quileute Harbor Marina),WA,333333,71975266,1,WA-la-push,29,80,3,available,low,2022-12,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-15,fuel,CA-avalon|fuel,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,30,81,36,available,medium,2021-03,value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,2
-15,hoist_crane,CA-avalon|hoist_crane,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,22,81,25,available,low,2026-11,low_conf_cell;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,19
-15,fuel,WA-everett|fuel,WA-everett,Everett (Port of Everett Marina),WA,133333,33513276,1,WA-everett,31,83,12,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-15,fuel,WA-anacortes|fuel,WA-anacortes,Anacortes (Port of Anacortes Cap Sante Marina),WA,0,52221897,1,WA-anacortes,32,84,9,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-15,fuel,WA-la-conner|fuel,WA-la-conner,La Conner (Port of Skagit La Conner Marina),WA,0,52221897,1,WA-la-conner,32,84,9,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-15,fuel,OR-gold-beach|fuel,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,34,86,20,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,2
-15,hoist_crane,OR-gold-beach|hoist_crane,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,23,86,14,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,19
+15,fuel,CA-noyo-harbor|fuel,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,12,45,23,available,low,2025-10,low_conf_cell,0,0,0,0,0,,2
+15,hoist_crane,CA-noyo-harbor|hoist_crane,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,12,45,17,available,high,2026-02-24,,0,0,0,0,0,,19
+15,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,16,45,18,available,medium,2026-02-24,,0,0,0,0,0,,27
+15,fuel,OR-winchester-bay|fuel,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,6116667,6328146,1,OR-winchester-bay,13,48,24,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,2
+15,ice,OR-winchester-bay|ice,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,6116667,6328146,1,OR-winchester-bay,17,48,19,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,27
+15,fuel,WA-blaine|fuel,WA-blaine,Blaine (Port of Bellingham Blaine Harbor),WA,5483333,52221897,1,WA-blaine,14,50,5,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+15,fuel,WA-seattle|fuel,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5466667,33513276,1,WA-seattle,15,51,11,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+15,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5466667,33513276,1,WA-seattle,13,51,4,available,high,2026-01-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,19
+15,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,8,53,4,available,low,2026-11,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,46
+15,fuel,WA-neah-bay|fuel,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,16,53,6,available,medium,2026-11,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+15,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,14,53,2,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,19
+15,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,18,53,5,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,27
+15,fuel,OR-port-orford|fuel,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,17,57,26,available,low,2026-11,low_conf_cell;value_range_shared_unit,0,0,1,0,0,,2
+15,hoist_crane,OR-port-orford|hoist_crane,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,15,57,19,available,high,2026-08-07,value_range_shared_unit,0,0,1,0,0,,19
+15,ice,OR-port-orford|ice,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,19,57,20,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,27
+15,fuel,CA-morro-bay|fuel,CA-morro-bay,Morro Bay,CA,2266786,2266786,1,CA-morro-bay,18,60,28,available,low,2026-11,low_conf_cell,0,0,0,0,0,,2
+15,hoist_crane,CA-morro-bay|hoist_crane,CA-morro-bay,Morro Bay,CA,2266786,2266786,1,CA-morro-bay,16,60,21,available,medium,2026-03,,0,0,0,0,0,,19
+15,ice,CA-morro-bay|ice,CA-morro-bay,Morro Bay,CA,2266786,2266786,1,CA-morro-bay,20,60,21,available,high,2026-03,,0,0,0,0,0,,27
+15,fuel,CA-santa-cruz|fuel,CA-santa-cruz,Santa Cruz,CA,2252974,2252974,1,CA-santa-cruz,19,63,29,available,high,2026-01-15,value_lower_bound_withheld,1,0,0,0,0,,2
+15,fuel,CA-dana-point|fuel,CA-dana-point,Dana Point Harbor,CA,2220589,2220589,1,CA-dana-point,20,64,30,available,high,2025-12-03,value_lower_bound_withheld,1,0,0,0,0,,2
+15,fuel,CA-oceanside|fuel,CA-oceanside,Oceanside Harbor,CA,1980014,1980014,1,CA-oceanside,21,65,31,available,medium,2026-11,,0,0,0,0,0,,2
+15,hoist_crane,CA-trinidad|hoist_crane,CA-trinidad,Trinidad,CA,1919756,1919756,1,CA-trinidad,17,66,22,available,medium,2010-08,value_lower_bound_withheld,1,0,0,0,0,,19
+15,fuel,CA-port-san-luis|fuel,CA-port-san-luis,Port San Luis (Avila Beach),CA,1526630,1526630,1,CA-port-san-luis,22,67,32,available,high,2025-09-26,,0,0,0,0,0,,2
+15,hoist_crane,CA-port-san-luis|hoist_crane,CA-port-san-luis,Port San Luis (Avila Beach),CA,1526630,1526630,1,CA-port-san-luis,18,67,23,available,high,2021-03-25,,0,0,0,0,0,,19
+15,ice,CA-port-san-luis|ice,CA-port-san-luis,Port San Luis (Avila Beach),CA,1526630,1526630,1,CA-port-san-luis,21,67,22,available,medium,2026-09-08,,0,0,0,0,0,,27
+15,fuel,WA-port-angeles|fuel,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,23,70,7,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+15,hoist_crane,WA-port-angeles|hoist_crane,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,19,70,3,available,high,2026-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,19
+15,fuel,WA-port-townsend|fuel,WA-port-townsend,"Port Townsend (Boat Haven, Port of Port Townsend)",WA,1250000,52221897,1,WA-port-townsend,24,72,8,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+15,fuel,CA-newport-beach|fuel,CA-newport-beach,Newport Beach,CA,1032334,1032334,1,CA-newport-beach,25,73,33,available,low,2026-11,low_conf_cell;value_lower_bound_withheld,1,0,0,0,0,,2
+15,hoist_crane,CA-point-arena|hoist_crane,CA-point-arena,Point Arena (Arena Cove),CA,575162,575162,1,CA-point-arena,20,74,24,available,high,2026-01-29,value_lower_bound_withheld,1,0,0,0,0,,19
+15,fuel,CA-shelter-cove|fuel,CA-shelter-cove,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,26,75,34,available,low,2026-11,low_conf_cell,0,0,0,0,0,,2
+15,fuel,CA-vallejo|fuel,CA-vallejo,Vallejo,CA,437452,437452,1,CA-vallejo,27,76,35,available,medium,2025-10-30,value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,2
+15,fuel,WA-la-push|fuel,WA-la-push,La Push (Quileute Harbor Marina),WA,333333,71975266,1,WA-la-push,28,77,3,available,low,2022-12,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+15,fuel,CA-avalon|fuel,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,29,78,36,available,medium,2021-03,value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,2
+15,hoist_crane,CA-avalon|hoist_crane,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,21,78,25,available,low,2026-11,low_conf_cell;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,19
+15,fuel,WA-everett|fuel,WA-everett,Everett (Port of Everett Marina),WA,133333,33513276,1,WA-everett,30,80,12,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+15,fuel,WA-anacortes|fuel,WA-anacortes,Anacortes (Port of Anacortes Cap Sante Marina),WA,0,52221897,1,WA-anacortes,31,81,9,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+15,fuel,WA-la-conner|fuel,WA-la-conner,La Conner (Port of Skagit La Conner Marina),WA,0,52221897,1,WA-la-conner,31,81,9,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+15,fuel,OR-gold-beach|fuel,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,33,83,20,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,2
+15,hoist_crane,OR-gold-beach|hoist_crane,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,22,83,14,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,19
+15,fuel,OR-garibaldi|fuel,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,34,85,22,available,medium,2023-12,,0,0,0,0,0,,2
+15,hoist_crane,OR-garibaldi|hoist_crane,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,23,85,16,available,low,2026-11,low_conf_cell,0,0,0,0,0,,19
+15,ice,OR-garibaldi|ice,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,22,85,17,available,low,2026-11,low_conf_cell,0,0,0,0,0,,27
 15,fuel,OR-florence|fuel,OR-florence,Florence (Port of Siuslaw),OR,0,6328146,1,OR-florence,35,88,25,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,2
 15,hoist_crane,OR-florence|hoist_crane,OR-florence,Florence (Port of Siuslaw),OR,0,6328146,1,OR-florence,24,88,18,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,19
 15,fuel,OR-bandon|fuel,OR-bandon,Bandon (Port of Bandon),OR,0,4785102,1,OR-bandon,36,90,27,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,2
@@ -239,7 +239,7 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 20,ice,WA-westport|ice,WA-westport,Westport (Port of Grays Harbor Westport Marina),WA,65733333,71975266,2,WA-tokeland;WA-westport,1,1,1,available,medium,2026-11,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld;route_willapa_unverified,2,0,2,2,0,WA-tokeland~WA-westport:willapa_unverified,23
 20,cold_storage,OR-astoria|cold_storage,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,65429621,66800874,4,OR-astoria;OR-warrenton;WA-ilwaco;WA-chinook,2,5,2,available,medium,2023-12,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld,2,0,4,4,0,,42
 20,ice,OR-astoria|ice,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,65429621,66800874,4,OR-astoria;OR-warrenton;WA-ilwaco;WA-chinook,2,5,2,available,medium,2023-12,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld,2,0,4,4,0,,23
-20,ice,OR-newport|ice,OR-newport,Newport (Port of Newport commercial marina),OR,60736200,60736200,2,OR-depoe-bay;OR-newport,3,7,3,available,medium,2023-12,backup_not_found_x2,0,0,0,2,0,,23
+20,ice,OR-newport|ice,OR-newport,Newport (Port of Newport commercial marina),OR,60275445,60736200,2,OR-depoe-bay;OR-newport,3,7,3,available,medium,2023-12,backup_not_found_x2,0,0,0,2,0,,23
 20,ice,CA-port-hueneme|ice,CA-port-hueneme,Port Hueneme,CA,34302848,34302848,3,CA-ventura;CA-channel-islands;CA-port-hueneme,4,8,6,available,medium,2026-05,backup_not_found_x3;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,3,0,,23
 20,cold_storage,OR-charleston|cold_storage,OR-charleston,Charleston (Port of Coos Bay Charleston Marina),OR,24909336,29694438,2,OR-charleston;OR-bandon,3,9,5,available,medium,2023-12,backup_lowconf_absence_x2;value_range_shared_unit,0,0,1,0,2,,42
 20,ice,OR-charleston|ice,OR-charleston,Charleston (Port of Coos Bay Charleston Marina),OR,24909336,29694438,2,OR-charleston;OR-bandon,5,9,7,available,medium,2023-12,backup_lowconf_absence_x2;value_range_shared_unit,0,0,1,0,2,,23
@@ -273,41 +273,41 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 20,fuel,OR-brookings|fuel,OR-brookings,Brookings (Port of Brookings Harbor),OR,9016667,9741681,1,OR-brookings,8,37,16,available,high,2026-07-01,value_range_shared_unit,0,0,1,0,0,,2
 20,hoist_crane,OR-brookings|hoist_crane,OR-brookings,Brookings (Port of Brookings Harbor),OR,9016667,9741681,1,OR-brookings,10,37,12,available,high,2026-05-12,value_range_shared_unit,0,0,1,0,0,,16
 20,ice,OR-brookings|ice,OR-brookings,Brookings (Port of Brookings Harbor),OR,9016667,9741681,1,OR-brookings,15,37,15,available,medium,2025-12,value_range_shared_unit,0,0,1,0,0,,23
-20,fuel,OR-garibaldi|fuel,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,9,41,19,available,medium,2023-12,,0,0,0,0,0,,2
-20,hoist_crane,OR-garibaldi|hoist_crane,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,11,41,15,available,low,2026-11,low_conf_cell,0,0,0,0,0,,16
-20,ice,OR-garibaldi|ice,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,16,41,17,available,low,2026-11,low_conf_cell,0,0,0,0,0,,23
-20,fuel,CA-noyo-harbor|fuel,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,10,44,20,available,low,2025-10,low_conf_cell,0,0,0,0,0,,2
-20,hoist_crane,CA-noyo-harbor|hoist_crane,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,12,44,16,available,high,2026-02-24,,0,0,0,0,0,,16
-20,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,17,44,18,available,medium,2026-02-24,,0,0,0,0,0,,23
-20,fuel,OR-winchester-bay|fuel,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,6116667,6328146,1,OR-winchester-bay,11,47,21,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,2
-20,ice,OR-winchester-bay|ice,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,6116667,6328146,1,OR-winchester-bay,18,47,19,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,23
-20,fuel,WA-blaine|fuel,WA-blaine,Blaine (Port of Bellingham Blaine Harbor),WA,5483333,52221897,1,WA-blaine,12,49,4,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-20,fuel,WA-seattle|fuel,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5466667,33513276,1,WA-seattle,13,50,9,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-20,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5466667,33513276,1,WA-seattle,13,50,4,available,high,2026-01-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,16
-20,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,8,52,4,available,low,2026-11,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,42
-20,fuel,WA-neah-bay|fuel,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,14,52,5,available,medium,2026-11,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-20,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,14,52,2,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,16
-20,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,19,52,5,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,23
-20,fuel,OR-port-orford|fuel,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,15,56,23,available,low,2026-11,low_conf_cell;value_range_shared_unit,0,0,1,0,0,,2
-20,hoist_crane,OR-port-orford|hoist_crane,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,15,56,18,available,high,2026-08-07,value_range_shared_unit,0,0,1,0,0,,16
-20,ice,OR-port-orford|ice,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,20,56,20,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,23
-20,hoist_crane,CA-moss-landing|hoist_crane,CA-moss-landing,Moss Landing,CA,2252974,2252974,1,CA-santa-cruz,16,59,19,available,medium,2025-11-25,backup_not_found_x1;value_lower_bound_withheld,1,0,0,1,0,,16
-20,fuel,CA-oceanside|fuel,CA-oceanside,Oceanside Harbor,CA,1980014,1980014,1,CA-oceanside,16,60,24,available,medium,2026-11,,0,0,0,0,0,,2
-20,hoist_crane,CA-trinidad|hoist_crane,CA-trinidad,Trinidad,CA,1919756,1919756,1,CA-trinidad,17,61,20,available,medium,2010-08,value_lower_bound_withheld,1,0,0,0,0,,16
-20,fuel,WA-port-angeles|fuel,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,17,62,6,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-20,hoist_crane,WA-port-angeles|hoist_crane,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,18,62,3,available,high,2026-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,16
-20,fuel,WA-port-townsend|fuel,WA-port-townsend,"Port Townsend (Boat Haven, Port of Port Townsend)",WA,1250000,52221897,1,WA-port-townsend,18,64,7,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-20,hoist_crane,CA-point-arena|hoist_crane,CA-point-arena,Point Arena (Arena Cove),CA,575162,575162,1,CA-point-arena,19,65,21,available,high,2026-01-29,value_lower_bound_withheld,1,0,0,0,0,,16
-20,fuel,CA-shelter-cove|fuel,CA-shelter-cove,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,19,66,25,available,low,2026-11,low_conf_cell,0,0,0,0,0,,2
-20,fuel,CA-vallejo|fuel,CA-vallejo,Vallejo,CA,437452,437452,1,CA-vallejo,20,67,26,available,medium,2025-10-30,value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,2
-20,fuel,WA-la-push|fuel,WA-la-push,La Push (Quileute Harbor Marina),WA,333333,71975266,1,WA-la-push,21,68,2,available,low,2022-12,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-20,fuel,CA-avalon|fuel,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,22,69,27,available,medium,2021-03,value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,2
-20,hoist_crane,CA-avalon|hoist_crane,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,20,69,22,available,low,2026-11,low_conf_cell;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,16
-20,fuel,WA-everett|fuel,WA-everett,Everett (Port of Everett Marina),WA,133333,33513276,1,WA-everett,23,71,10,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-20,fuel,WA-nahcotta|fuel,WA-nahcotta,Nahcotta (Port of Peninsula),WA,0,71975266,2,WA-bay-center;WA-nahcotta,24,72,3,available,medium,2026-04,backup_lowconf_absence_x2;value_range_shared_unit;value_lower_bound_withheld;route_willapa_unverified,2,0,2,0,2,WA-bay-center~WA-nahcotta:willapa_unverified,2
-20,fuel,WA-la-conner|fuel,WA-la-conner,La Conner (Port of Skagit La Conner Marina),WA,0,52221897,1,WA-la-conner,25,73,8,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
-20,fuel,OR-gold-beach|fuel,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,26,74,17,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,2
-20,hoist_crane,OR-gold-beach|hoist_crane,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,21,74,13,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,16
+20,fuel,CA-noyo-harbor|fuel,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,9,41,20,available,low,2025-10,low_conf_cell,0,0,0,0,0,,2
+20,hoist_crane,CA-noyo-harbor|hoist_crane,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,11,41,16,available,high,2026-02-24,,0,0,0,0,0,,16
+20,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,16,41,18,available,medium,2026-02-24,,0,0,0,0,0,,23
+20,fuel,OR-winchester-bay|fuel,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,6116667,6328146,1,OR-winchester-bay,10,44,21,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,2
+20,ice,OR-winchester-bay|ice,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,6116667,6328146,1,OR-winchester-bay,17,44,19,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,23
+20,fuel,WA-blaine|fuel,WA-blaine,Blaine (Port of Bellingham Blaine Harbor),WA,5483333,52221897,1,WA-blaine,11,46,4,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+20,fuel,WA-seattle|fuel,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5466667,33513276,1,WA-seattle,12,47,9,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+20,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5466667,33513276,1,WA-seattle,12,47,4,available,high,2026-01-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,16
+20,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,8,49,4,available,low,2026-11,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,42
+20,fuel,WA-neah-bay|fuel,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,13,49,5,available,medium,2026-11,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+20,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,13,49,2,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,16
+20,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,18,49,5,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,23
+20,fuel,OR-port-orford|fuel,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,14,53,23,available,low,2026-11,low_conf_cell;value_range_shared_unit,0,0,1,0,0,,2
+20,hoist_crane,OR-port-orford|hoist_crane,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,14,53,18,available,high,2026-08-07,value_range_shared_unit,0,0,1,0,0,,16
+20,ice,OR-port-orford|ice,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,19,53,20,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,23
+20,hoist_crane,CA-moss-landing|hoist_crane,CA-moss-landing,Moss Landing,CA,2252974,2252974,1,CA-santa-cruz,15,56,19,available,medium,2025-11-25,backup_not_found_x1;value_lower_bound_withheld,1,0,0,1,0,,16
+20,fuel,CA-oceanside|fuel,CA-oceanside,Oceanside Harbor,CA,1980014,1980014,1,CA-oceanside,15,57,24,available,medium,2026-11,,0,0,0,0,0,,2
+20,hoist_crane,CA-trinidad|hoist_crane,CA-trinidad,Trinidad,CA,1919756,1919756,1,CA-trinidad,16,58,20,available,medium,2010-08,value_lower_bound_withheld,1,0,0,0,0,,16
+20,fuel,WA-port-angeles|fuel,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,16,59,6,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+20,hoist_crane,WA-port-angeles|hoist_crane,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,17,59,3,available,high,2026-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,16
+20,fuel,WA-port-townsend|fuel,WA-port-townsend,"Port Townsend (Boat Haven, Port of Port Townsend)",WA,1250000,52221897,1,WA-port-townsend,17,61,7,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+20,hoist_crane,CA-point-arena|hoist_crane,CA-point-arena,Point Arena (Arena Cove),CA,575162,575162,1,CA-point-arena,18,62,21,available,high,2026-01-29,value_lower_bound_withheld,1,0,0,0,0,,16
+20,fuel,CA-shelter-cove|fuel,CA-shelter-cove,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,18,63,25,available,low,2026-11,low_conf_cell,0,0,0,0,0,,2
+20,fuel,CA-vallejo|fuel,CA-vallejo,Vallejo,CA,437452,437452,1,CA-vallejo,19,64,26,available,medium,2025-10-30,value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,2
+20,fuel,WA-la-push|fuel,WA-la-push,La Push (Quileute Harbor Marina),WA,333333,71975266,1,WA-la-push,20,65,2,available,low,2022-12,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+20,fuel,CA-avalon|fuel,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,21,66,27,available,medium,2021-03,value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,2
+20,hoist_crane,CA-avalon|hoist_crane,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,19,66,22,available,low,2026-11,low_conf_cell;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,16
+20,fuel,WA-everett|fuel,WA-everett,Everett (Port of Everett Marina),WA,133333,33513276,1,WA-everett,22,68,10,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+20,fuel,WA-nahcotta|fuel,WA-nahcotta,Nahcotta (Port of Peninsula),WA,0,71975266,2,WA-bay-center;WA-nahcotta,23,69,3,available,medium,2026-04,backup_lowconf_absence_x2;value_range_shared_unit;value_lower_bound_withheld;route_willapa_unverified,2,0,2,0,2,WA-bay-center~WA-nahcotta:willapa_unverified,2
+20,fuel,WA-la-conner|fuel,WA-la-conner,La Conner (Port of Skagit La Conner Marina),WA,0,52221897,1,WA-la-conner,24,70,8,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,2
+20,fuel,OR-gold-beach|fuel,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,25,71,17,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,2
+20,hoist_crane,OR-gold-beach|hoist_crane,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,20,71,13,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,16
+20,fuel,OR-garibaldi|fuel,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,26,73,19,available,medium,2023-12,,0,0,0,0,0,,2
+20,hoist_crane,OR-garibaldi|hoist_crane,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,21,73,15,available,low,2026-11,low_conf_cell,0,0,0,0,0,,16
+20,ice,OR-garibaldi|ice,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,20,73,17,available,low,2026-11,low_conf_cell,0,0,0,0,0,,23
 20,fuel,OR-florence|fuel,OR-florence,Florence (Port of Siuslaw),OR,0,6328146,1,OR-florence,27,76,22,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,2
 20,hoist_crane,OR-florence|hoist_crane,OR-florence,Florence (Port of Siuslaw),OR,0,6328146,1,OR-florence,22,76,17,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,16
 20,fuel,CA-channel-islands|fuel,CA-channel-islands,Channel Islands Harbor (Oxnard),CA,0,0,0,,28,78,28,available,medium,2026-11,,0,0,0,0,0,,2
@@ -356,7 +356,7 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 25,ice,WA-westport|ice,WA-westport,Westport (Port of Grays Harbor Westport Marina),WA,65733333,71975266,3,WA-tokeland;WA-bay-center;WA-westport,1,1,1,available,medium,2026-11,backup_not_found_x3;value_range_shared_unit;value_lower_bound_withheld;route_willapa_unverified,3,0,3,3,0,WA-tokeland~WA-westport:willapa_unverified;WA-bay-center~WA-westport:willapa_unverified,20
 25,cold_storage,OR-astoria|cold_storage,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,65429621,66800874,4,OR-astoria;OR-warrenton;WA-ilwaco;WA-chinook,2,5,2,available,medium,2023-12,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld,2,0,4,4,0,,39
 25,ice,OR-astoria|ice,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,65429621,66800874,4,OR-astoria;OR-warrenton;WA-ilwaco;WA-chinook,2,5,2,available,medium,2023-12,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld,2,0,4,4,0,,20
-25,ice,OR-newport|ice,OR-newport,Newport (Port of Newport commercial marina),OR,60736200,60736200,2,OR-depoe-bay;OR-newport,3,7,3,available,medium,2023-12,backup_not_found_x2,0,0,0,2,0,,20
+25,ice,OR-newport|ice,OR-newport,Newport (Port of Newport commercial marina),OR,60275445,60736200,2,OR-depoe-bay;OR-newport,3,7,3,available,medium,2023-12,backup_not_found_x2,0,0,0,2,0,,20
 25,cold_storage,OR-charleston|cold_storage,OR-charleston,Charleston (Port of Coos Bay Charleston Marina),OR,31026002,36022583,3,OR-winchester-bay;OR-charleston;OR-bandon,3,8,5,available,medium,2023-12,backup_lowconf_absence_x3;value_range_shared_unit,0,0,2,0,3,,39
 25,cold_storage,OR-brookings|cold_storage,OR-brookings,Brookings (Port of Brookings Harbor),OR,24526627,25251642,2,CA-crescent-city;OR-brookings,4,9,6,available,medium,2023-12,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,39
 25,cold_storage,CA-los-angeles-long-beach|cold_storage,CA-los-angeles-long-beach,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,22254792,22254792,3,CA-redondo-beach;CA-los-angeles-long-beach;CA-huntington-harbour,5,10,7,available,medium,2026-11,backup_not_found_x3;value_lower_bound_withheld;heavily_withheld_harbor,3,1,0,3,0,,39
@@ -379,33 +379,33 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 25,fuel,CA-bodega-bay|fuel,CA-bodega-bay,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,4,26,11,available,high,2026-11,,0,0,0,0,0,,1
 25,hoist_crane,CA-bodega-bay|hoist_crane,CA-bodega-bay,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,6,26,10,available,high,2025-01,,0,0,0,0,0,,12
 25,ice,CA-bodega-bay|ice,CA-bodega-bay,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,12,26,13,available,high,2026-03-12,,0,0,0,0,0,,20
-25,fuel,OR-garibaldi|fuel,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,5,30,12,available,medium,2023-12,,0,0,0,0,0,,1
-25,hoist_crane,OR-garibaldi|hoist_crane,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,7,30,11,available,low,2026-11,low_conf_cell,0,0,0,0,0,,12
-25,ice,OR-garibaldi|ice,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,13,30,14,available,low,2026-11,low_conf_cell,0,0,0,0,0,,20
-25,fuel,CA-noyo-harbor|fuel,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,6,33,13,available,low,2025-10,low_conf_cell,0,0,0,0,0,,1
-25,hoist_crane,CA-noyo-harbor|hoist_crane,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,8,33,12,available,high,2026-02-24,,0,0,0,0,0,,12
-25,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,14,33,15,available,medium,2026-02-24,,0,0,0,0,0,,20
-25,hoist_crane,OR-charleston|hoist_crane,OR-charleston,Charleston (Port of Coos Bay Charleston Marina),OR,6116667,6328146,1,OR-winchester-bay,9,36,13,available,high,2026-01-01,backup_lowconf_absence_x1;value_range_shared_unit,0,0,1,0,1,,12
-25,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5600000,33513276,2,WA-seattle;WA-everett,10,37,4,available,high,2026-01-01,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,12
-25,fuel,WA-blaine|fuel,WA-blaine,Blaine (Port of Bellingham Blaine Harbor),WA,5483333,52221897,1,WA-blaine,7,38,4,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
-25,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,8,39,4,available,low,2026-11,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,39
-25,fuel,WA-neah-bay|fuel,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,8,39,5,available,medium,2026-11,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
-25,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,11,39,2,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,12
-25,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,15,39,5,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,20
-25,fuel,OR-port-orford|fuel,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,9,43,15,available,low,2026-11,low_conf_cell;value_range_shared_unit,0,0,1,0,0,,1
-25,hoist_crane,OR-port-orford|hoist_crane,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,12,43,15,available,high,2026-08-07,value_range_shared_unit,0,0,1,0,0,,12
-25,ice,OR-port-orford|ice,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,16,43,16,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,20
-25,fuel,WA-port-angeles|fuel,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,10,46,6,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
-25,hoist_crane,WA-port-angeles|hoist_crane,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,13,46,3,available,high,2026-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,12
-25,fuel,WA-port-townsend|fuel,WA-port-townsend,"Port Townsend (Boat Haven, Port of Port Townsend)",WA,1250000,52221897,1,WA-port-townsend,11,48,7,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
-25,hoist_crane,CA-point-arena|hoist_crane,CA-point-arena,Point Arena (Arena Cove),CA,575162,575162,1,CA-point-arena,14,49,16,available,high,2026-01-29,value_lower_bound_withheld,1,0,0,0,0,,12
-25,fuel,CA-shelter-cove|fuel,CA-shelter-cove,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,12,50,16,available,low,2026-11,low_conf_cell,0,0,0,0,0,,1
-25,fuel,WA-la-push|fuel,WA-la-push,La Push (Quileute Harbor Marina),WA,333333,71975266,1,WA-la-push,13,51,2,available,low,2022-12,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
-25,fuel,CA-avalon|fuel,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,14,52,17,available,medium,2021-03,value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,1
-25,hoist_crane,CA-avalon|hoist_crane,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,15,52,17,available,low,2026-11,low_conf_cell;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,12
-25,fuel,WA-nahcotta|fuel,WA-nahcotta,Nahcotta (Port of Peninsula),WA,0,71975266,1,WA-nahcotta,15,54,3,available,medium,2026-04,backup_lowconf_absence_x1;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,1,,1
-25,fuel,OR-gold-beach|fuel,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,16,55,10,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,1
-25,hoist_crane,OR-gold-beach|hoist_crane,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,16,55,9,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,12
+25,fuel,CA-noyo-harbor|fuel,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,5,30,13,available,low,2025-10,low_conf_cell,0,0,0,0,0,,1
+25,hoist_crane,CA-noyo-harbor|hoist_crane,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,7,30,12,available,high,2026-02-24,,0,0,0,0,0,,12
+25,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,13,30,15,available,medium,2026-02-24,,0,0,0,0,0,,20
+25,hoist_crane,OR-charleston|hoist_crane,OR-charleston,Charleston (Port of Coos Bay Charleston Marina),OR,6116667,6328146,1,OR-winchester-bay,8,33,13,available,high,2026-01-01,backup_lowconf_absence_x1;value_range_shared_unit,0,0,1,0,1,,12
+25,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5600000,33513276,2,WA-seattle;WA-everett,9,34,4,available,high,2026-01-01,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,12
+25,fuel,WA-blaine|fuel,WA-blaine,Blaine (Port of Bellingham Blaine Harbor),WA,5483333,52221897,1,WA-blaine,6,35,4,available,low,2026-04,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
+25,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,8,36,4,available,low,2026-11,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,39
+25,fuel,WA-neah-bay|fuel,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,7,36,5,available,medium,2026-11,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
+25,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,10,36,2,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,12
+25,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,14,36,5,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,20
+25,fuel,OR-port-orford|fuel,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,8,40,15,available,low,2026-11,low_conf_cell;value_range_shared_unit,0,0,1,0,0,,1
+25,hoist_crane,OR-port-orford|hoist_crane,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,11,40,15,available,high,2026-08-07,value_range_shared_unit,0,0,1,0,0,,12
+25,ice,OR-port-orford|ice,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,15,40,16,available,medium,2023-12,value_range_shared_unit,0,0,1,0,0,,20
+25,fuel,WA-port-angeles|fuel,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,9,43,6,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
+25,hoist_crane,WA-port-angeles|hoist_crane,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,12,43,3,available,high,2026-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,12
+25,fuel,WA-port-townsend|fuel,WA-port-townsend,"Port Townsend (Boat Haven, Port of Port Townsend)",WA,1250000,52221897,1,WA-port-townsend,10,45,7,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
+25,hoist_crane,CA-point-arena|hoist_crane,CA-point-arena,Point Arena (Arena Cove),CA,575162,575162,1,CA-point-arena,13,46,16,available,high,2026-01-29,value_lower_bound_withheld,1,0,0,0,0,,12
+25,fuel,CA-shelter-cove|fuel,CA-shelter-cove,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,11,47,16,available,low,2026-11,low_conf_cell,0,0,0,0,0,,1
+25,fuel,WA-la-push|fuel,WA-la-push,La Push (Quileute Harbor Marina),WA,333333,71975266,1,WA-la-push,12,48,2,available,low,2022-12,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
+25,fuel,CA-avalon|fuel,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,13,49,17,available,medium,2021-03,value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,1
+25,hoist_crane,CA-avalon|hoist_crane,CA-avalon,Avalon (Santa Catalina Island),CA,137580,137580,1,CA-avalon,14,49,17,available,low,2026-11,low_conf_cell;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,0,0,,12
+25,fuel,WA-nahcotta|fuel,WA-nahcotta,Nahcotta (Port of Peninsula),WA,0,71975266,1,WA-nahcotta,14,51,3,available,medium,2026-04,backup_lowconf_absence_x1;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,1,,1
+25,fuel,OR-gold-beach|fuel,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,15,52,10,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,1
+25,hoist_crane,OR-gold-beach|hoist_crane,OR-gold-beach,Gold Beach (Port of Gold Beach),OR,0,9741681,1,OR-gold-beach,15,52,9,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,12
+25,fuel,OR-garibaldi|fuel,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,16,54,12,available,medium,2023-12,,0,0,0,0,0,,1
+25,hoist_crane,OR-garibaldi|hoist_crane,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,16,54,11,available,low,2026-11,low_conf_cell,0,0,0,0,0,,12
+25,ice,OR-garibaldi|ice,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,16,54,14,available,low,2026-11,low_conf_cell,0,0,0,0,0,,20
 25,fuel,OR-florence|fuel,OR-florence,Florence (Port of Siuslaw),OR,0,6328146,1,OR-florence,17,57,14,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,1
 25,hoist_crane,OR-florence|hoist_crane,OR-florence,Florence (Port of Siuslaw),OR,0,6328146,1,OR-florence,17,57,14,available,medium,2026-11,value_range_shared_unit,0,0,1,0,0,,12
 25,ice,OR-charleston|ice,OR-charleston,Charleston (Port of Coos Bay Charleston Marina),OR,0,4785102,1,OR-bandon,17,59,17,available,medium,2023-12,backup_lowconf_absence_x1;value_range_shared_unit,0,0,1,0,1,,20
@@ -472,7 +472,7 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 30,ice,WA-westport|ice,WA-westport,Westport (Port of Grays Harbor Westport Marina),WA,71975266,71975266,4,WA-tokeland;WA-bay-center;WA-nahcotta;WA-westport,1,1,1,available,medium,2026-11,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld;route_willapa_unverified,4,0,4,4,0,WA-tokeland~WA-westport:willapa_unverified;WA-bay-center~WA-westport:willapa_unverified;WA-nahcotta~WA-westport:willapa_unverified,13
 30,cold_storage,OR-astoria|cold_storage,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,65429621,66800874,4,OR-astoria;OR-warrenton;WA-ilwaco;WA-chinook,2,4,2,available,medium,2023-12,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld,2,0,4,4,0,,33
 30,ice,OR-astoria|ice,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,65429621,66800874,4,OR-astoria;OR-warrenton;WA-ilwaco;WA-chinook,2,4,2,available,medium,2023-12,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld,2,0,4,4,0,,13
-30,ice,OR-newport|ice,OR-newport,Newport (Port of Newport commercial marina),OR,60736200,60736200,2,OR-depoe-bay;OR-newport,3,6,3,available,medium,2023-12,backup_not_found_x2,0,0,0,2,0,,13
+30,ice,OR-newport|ice,OR-newport,Newport (Port of Newport commercial marina),OR,60275445,60736200,2,OR-depoe-bay;OR-newport,3,6,3,available,medium,2023-12,backup_not_found_x2,0,0,0,2,0,,13
 30,cold_storage,OR-charleston|cold_storage,OR-charleston,Charleston (Port of Coos Bay Charleston Marina),OR,31026002,36022583,3,OR-winchester-bay;OR-charleston;OR-bandon,3,7,5,available,medium,2023-12,backup_lowconf_absence_x3;value_range_shared_unit,0,0,2,0,3,,33
 30,cold_storage,OR-brookings|cold_storage,OR-brookings,Brookings (Port of Brookings Harbor),OR,25251642,25251642,3,CA-crescent-city;OR-gold-beach;OR-brookings,4,8,6,available,medium,2023-12,backup_lowconf_absence_x2;value_range_shared_unit;value_lower_bound_withheld,1,0,2,0,2,,33
 30,cold_storage,CA-los-angeles-long-beach|cold_storage,CA-los-angeles-long-beach,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,24219493,24219493,6,CA-marina-del-rey;CA-redondo-beach;CA-los-angeles-long-beach;CA-huntington-harbour;CA-newport-beach;CA-avalon,5,9,7,available,medium,2026-11,backup_not_found_x6;value_lower_bound_withheld;heavily_withheld_harbor,6,2,0,6,0,,33
@@ -490,27 +490,27 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 30,fuel,CA-bodega-bay|fuel,CA-bodega-bay,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,3,20,6,available,high,2026-11,,0,0,0,0,0,,1
 30,hoist_crane,CA-bodega-bay|hoist_crane,CA-bodega-bay,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,3,20,6,available,high,2025-01,,0,0,0,0,0,,9
 30,ice,CA-bodega-bay|ice,CA-bodega-bay,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,10,20,12,available,high,2026-03-12,,0,0,0,0,0,,13
-30,fuel,OR-garibaldi|fuel,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,4,24,7,available,medium,2023-12,,0,0,0,0,0,,1
-30,hoist_crane,OR-garibaldi|hoist_crane,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,4,24,7,available,low,2026-11,low_conf_cell,0,0,0,0,0,,9
-30,ice,OR-garibaldi|ice,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,11,24,13,available,low,2026-11,low_conf_cell,0,0,0,0,0,,13
-30,fuel,CA-noyo-harbor|fuel,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,5,27,8,available,low,2025-10,low_conf_cell,0,0,0,0,0,,1
-30,hoist_crane,CA-noyo-harbor|hoist_crane,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,5,27,8,available,high,2026-02-24,,0,0,0,0,0,,9
-30,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,12,27,14,available,medium,2026-02-24,,0,0,0,0,0,,13
-30,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5600000,33513276,2,WA-seattle;WA-everett,6,30,4,available,high,2026-01-01,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,9
-30,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,8,31,4,available,low,2026-11,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,33
-30,fuel,WA-neah-bay|fuel,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,6,31,2,available,medium,2026-11,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
-30,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,7,31,2,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,9
-30,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,13,31,5,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,13
-30,ice,OR-port-orford|ice,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,14,35,16,available,medium,2023-12,backup_lowconf_absence_x1;value_range_shared_unit,0,0,1,0,1,,13
-30,hoist_crane,CA-los-angeles-long-beach|hoist_crane,CA-los-angeles-long-beach,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,2316401,2316401,3,CA-marina-del-rey;CA-redondo-beach;CA-newport-beach,8,36,10,available,high,2024-07-11,backup_not_found_x3;backup_lowconf_absence_x1;value_lower_bound_withheld,3,0,0,3,1,,9
-30,fuel,WA-port-angeles|fuel,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,7,37,3,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
-30,hoist_crane,WA-port-angeles|hoist_crane,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,9,37,3,available,high,2026-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,9
-30,hoist_crane,CA-san-francisco|hoist_crane,CA-san-francisco,San Francisco (Fisherman's Wharf / Pier 45),CA,726864,726864,2,CA-vallejo;CA-berkeley,10,39,11,available,low,2016-03-30,low_conf_cell;backup_not_found_x2;value_lower_bound_withheld;heavily_withheld_harbor,2,1,0,2,0,,9
-30,ice,CA-san-francisco|ice,CA-san-francisco,San Francisco (Fisherman's Wharf / Pier 45),CA,726864,726864,2,CA-vallejo;CA-berkeley,15,39,17,available,high,2026-07,backup_not_found_x2;value_lower_bound_withheld;heavily_withheld_harbor,2,1,0,2,0,,13
-30,hoist_crane,CA-point-arena|hoist_crane,CA-point-arena,Point Arena (Arena Cove),CA,575162,575162,1,CA-point-arena,11,41,12,available,high,2026-01-29,value_lower_bound_withheld,1,0,0,0,0,,9
-30,fuel,CA-shelter-cove|fuel,CA-shelter-cove,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,8,42,9,available,low,2026-11,low_conf_cell,0,0,0,0,0,,1
-30,fuel,WA-la-push|fuel,WA-la-push,La Push (Quileute Harbor Marina),WA,333333,71975266,1,WA-la-push,9,43,1,available,low,2022-12,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
-30,ice,OR-brookings|ice,OR-brookings,Brookings (Port of Brookings Harbor),OR,0,9741681,1,OR-gold-beach,16,44,11,available,medium,2025-12,backup_lowconf_absence_x1;value_range_shared_unit,0,0,1,0,1,,13
+30,fuel,CA-noyo-harbor|fuel,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,4,24,8,available,low,2025-10,low_conf_cell,0,0,0,0,0,,1
+30,hoist_crane,CA-noyo-harbor|hoist_crane,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,4,24,8,available,high,2026-02-24,,0,0,0,0,0,,9
+30,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,11,24,14,available,medium,2026-02-24,,0,0,0,0,0,,13
+30,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5600000,33513276,2,WA-seattle;WA-everett,5,27,4,available,high,2026-01-01,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,9
+30,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,8,28,4,available,low,2026-11,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,33
+30,fuel,WA-neah-bay|fuel,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,5,28,2,available,medium,2026-11,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
+30,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,6,28,2,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,9
+30,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,12,28,5,available,medium,2014-10-10,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,13
+30,ice,OR-port-orford|ice,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,13,32,16,available,medium,2023-12,backup_lowconf_absence_x1;value_range_shared_unit,0,0,1,0,1,,13
+30,hoist_crane,CA-los-angeles-long-beach|hoist_crane,CA-los-angeles-long-beach,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,2316401,2316401,3,CA-marina-del-rey;CA-redondo-beach;CA-newport-beach,7,33,10,available,high,2024-07-11,backup_not_found_x3;backup_lowconf_absence_x1;value_lower_bound_withheld,3,0,0,3,1,,9
+30,fuel,WA-port-angeles|fuel,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,6,34,3,available,medium,2026-04,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
+30,hoist_crane,WA-port-angeles|hoist_crane,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,8,34,3,available,high,2026-01,value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,9
+30,hoist_crane,CA-san-francisco|hoist_crane,CA-san-francisco,San Francisco (Fisherman's Wharf / Pier 45),CA,726864,726864,2,CA-vallejo;CA-berkeley,9,36,11,available,low,2016-03-30,low_conf_cell;backup_not_found_x2;value_lower_bound_withheld;heavily_withheld_harbor,2,1,0,2,0,,9
+30,ice,CA-san-francisco|ice,CA-san-francisco,San Francisco (Fisherman's Wharf / Pier 45),CA,726864,726864,2,CA-vallejo;CA-berkeley,14,36,17,available,high,2026-07,backup_not_found_x2;value_lower_bound_withheld;heavily_withheld_harbor,2,1,0,2,0,,13
+30,hoist_crane,CA-point-arena|hoist_crane,CA-point-arena,Point Arena (Arena Cove),CA,575162,575162,1,CA-point-arena,10,38,12,available,high,2026-01-29,value_lower_bound_withheld,1,0,0,0,0,,9
+30,fuel,CA-shelter-cove|fuel,CA-shelter-cove,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,7,39,9,available,low,2026-11,low_conf_cell,0,0,0,0,0,,1
+30,fuel,WA-la-push|fuel,WA-la-push,La Push (Quileute Harbor Marina),WA,333333,71975266,1,WA-la-push,8,40,1,available,low,2022-12,low_conf_cell;value_range_shared_unit;value_lower_bound_withheld,1,0,1,0,0,,1
+30,ice,OR-brookings|ice,OR-brookings,Brookings (Port of Brookings Harbor),OR,0,9741681,1,OR-gold-beach,15,41,11,available,medium,2025-12,backup_lowconf_absence_x1;value_range_shared_unit,0,0,1,0,1,,13
+30,fuel,OR-garibaldi|fuel,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,9,42,7,available,medium,2023-12,,0,0,0,0,0,,1
+30,hoist_crane,OR-garibaldi|hoist_crane,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,11,42,7,available,low,2026-11,low_conf_cell,0,0,0,0,0,,9
+30,ice,OR-garibaldi|ice,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,16,42,13,available,low,2026-11,low_conf_cell,0,0,0,0,0,,13
 30,hoist_crane,OR-florence|hoist_crane,OR-florence,Florence (Port of Siuslaw),OR,0,6328146,1,OR-florence,12,45,9,available,medium,2026-11,backup_lowconf_absence_x1;value_range_shared_unit,0,0,1,0,1,,9
 30,ice,OR-winchester-bay|ice,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,0,6328146,1,OR-florence,17,45,15,available,medium,2023-12,backup_lowconf_absence_x1;value_range_shared_unit,0,0,1,0,1,,13
 30,fuel,CA-avalon|fuel,CA-avalon,Avalon (Santa Catalina Island),CA,0,0,0,,10,47,10,available,medium,2021-03,,0,0,0,0,0,,1
@@ -589,7 +589,7 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 40,hoist_crane,WA-westport|hoist_crane,WA-westport,Westport (Port of Grays Harbor Westport Marina),WA,65733333,71975266,2,WA-nahcotta;WA-westport,1,3,2,available,low,2026-11,low_conf_cell;backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld;route_willapa_unverified,2,0,2,2,0,WA-nahcotta~WA-westport:willapa_unverified,6
 40,cold_storage,OR-astoria|cold_storage,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,65429621,66800874,4,OR-astoria;OR-warrenton;WA-ilwaco;WA-chinook,2,4,3,available,medium,2023-12,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld,2,0,4,4,0,,30
 40,ice,OR-astoria|ice,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,65429621,66800874,4,OR-astoria;OR-warrenton;WA-ilwaco;WA-chinook,2,4,3,available,medium,2023-12,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld,2,0,4,4,0,,9
-40,ice,OR-newport|ice,OR-newport,Newport (Port of Newport commercial marina),OR,60736200,60736200,2,OR-depoe-bay;OR-newport,3,6,4,available,medium,2023-12,backup_not_found_x2,0,0,0,2,0,,9
+40,ice,OR-newport|ice,OR-newport,Newport (Port of Newport commercial marina),OR,60275445,60736200,2,OR-depoe-bay;OR-newport,3,6,4,available,medium,2023-12,backup_not_found_x2,0,0,0,2,0,,9
 40,cold_storage,WA-bellingham|cold_storage,WA-bellingham,Bellingham (Port of Bellingham Squalicum Harbor),WA,39716667,52221897,4,WA-la-conner;WA-anacortes;WA-bellingham;WA-blaine,3,7,4,available,high,2025-04-02,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld;route_portage_bar,4,0,4,4,0,WA-blaine~WA-bellingham:portage_bar,30
 40,ice,WA-bellingham|ice,WA-bellingham,Bellingham (Port of Bellingham Squalicum Harbor),WA,39716667,52221897,4,WA-la-conner;WA-anacortes;WA-bellingham;WA-blaine,4,7,5,available,low,2020-09-18,low_conf_cell;backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld;route_portage_bar,4,0,4,4,0,WA-blaine~WA-bellingham:portage_bar,9
 40,cold_storage,OR-charleston|cold_storage,OR-charleston,Charleston (Port of Coos Bay Charleston Marina),OR,31026002,36022583,3,OR-winchester-bay;OR-charleston;OR-bandon,4,9,5,available,medium,2023-12,backup_lowconf_absence_x3;value_range_shared_unit,0,0,2,0,3,,30
@@ -604,21 +604,21 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 40,fuel,CA-bodega-bay|fuel,CA-bodega-bay,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,2,17,2,available,high,2026-11,,0,0,0,0,0,,0
 40,hoist_crane,CA-bodega-bay|hoist_crane,CA-bodega-bay,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,3,17,6,available,high,2025-01,,0,0,0,0,0,,6
 40,ice,CA-bodega-bay|ice,CA-bodega-bay,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,8,17,9,available,high,2026-03-12,,0,0,0,0,0,,9
-40,fuel,OR-garibaldi|fuel,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,3,21,3,available,medium,2023-12,,0,0,0,0,0,,0
-40,hoist_crane,OR-garibaldi|hoist_crane,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,4,21,7,available,low,2026-11,low_conf_cell,0,0,0,0,0,,6
-40,ice,OR-garibaldi|ice,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,9,21,10,available,low,2026-11,low_conf_cell,0,0,0,0,0,,9
-40,fuel,CA-noyo-harbor|fuel,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,7022492,7022492,2,CA-noyo-harbor;CA-point-arena,4,24,4,available,low,2025-10,low_conf_cell;backup_not_found_x2;value_lower_bound_withheld,1,0,0,2,0,,0
-40,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,7022492,7022492,2,CA-noyo-harbor;CA-point-arena,10,24,11,available,medium,2026-02-24,backup_not_found_x2;value_lower_bound_withheld,1,0,0,2,0,,9
-40,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,8,26,1,available,low,2026-11,low_conf_cell;backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,30
-40,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,5,26,1,available,medium,2014-10-10,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,6
-40,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,11,26,1,available,medium,2014-10-10,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,9
-40,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5600000,33513276,2,WA-seattle;WA-everett,6,29,4,available,high,2026-01-01,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,6
-40,ice,OR-port-orford|ice,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,12,30,13,available,medium,2023-12,backup_lowconf_absence_x1;value_range_shared_unit,0,0,1,0,1,,9
-40,hoist_crane,WA-port-angeles|hoist_crane,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,7,31,3,available,high,2026-01,backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,1,0,1,1,0,,6
-40,hoist_crane,CA-los-angeles-long-beach|hoist_crane,CA-los-angeles-long-beach,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,794786,794786,1,CA-marina-del-rey,8,32,9,available,high,2024-07-11,backup_not_found_x1;value_lower_bound_withheld,1,0,0,1,0,,6
-40,fuel,CA-shelter-cove|fuel,CA-shelter-cove,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,5,33,5,available,low,2026-11,low_conf_cell,0,0,0,0,0,,0
-40,hoist_crane,CA-san-francisco|hoist_crane,CA-san-francisco,San Francisco (Fisherman's Wharf / Pier 45),CA,437452,437452,1,CA-vallejo,9,34,10,available,low,2016-03-30,low_conf_cell;backup_not_found_x1;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,1,0,,6
-40,ice,CA-san-francisco|ice,CA-san-francisco,San Francisco (Fisherman's Wharf / Pier 45),CA,437452,437452,1,CA-vallejo,13,34,14,available,high,2026-07,backup_not_found_x1;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,1,0,,9
+40,fuel,CA-noyo-harbor|fuel,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,7022492,7022492,2,CA-noyo-harbor;CA-point-arena,3,21,4,available,low,2025-10,low_conf_cell;backup_not_found_x2;value_lower_bound_withheld,1,0,0,2,0,,0
+40,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,7022492,7022492,2,CA-noyo-harbor;CA-point-arena,9,21,11,available,medium,2026-02-24,backup_not_found_x2;value_lower_bound_withheld,1,0,0,2,0,,9
+40,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,8,23,1,available,low,2026-11,low_conf_cell;backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,30
+40,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,4,23,1,available,medium,2014-10-10,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,6
+40,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,10,23,1,available,medium,2014-10-10,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,9
+40,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5600000,33513276,2,WA-seattle;WA-everett,5,26,4,available,high,2026-01-01,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,6
+40,ice,OR-port-orford|ice,OR-port-orford,Port Orford (Port of Port Orford dolly dock),OR,2416667,4785102,1,OR-port-orford,11,27,13,available,medium,2023-12,backup_lowconf_absence_x1;value_range_shared_unit,0,0,1,0,1,,9
+40,hoist_crane,WA-port-angeles|hoist_crane,WA-port-angeles,Port Angeles (Port Angeles Boat Haven),WA,1483333,52221897,1,WA-port-angeles,6,28,3,available,high,2026-01,backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,1,0,1,1,0,,6
+40,hoist_crane,CA-los-angeles-long-beach|hoist_crane,CA-los-angeles-long-beach,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,794786,794786,1,CA-marina-del-rey,7,29,9,available,high,2024-07-11,backup_not_found_x1;value_lower_bound_withheld,1,0,0,1,0,,6
+40,fuel,CA-shelter-cove|fuel,CA-shelter-cove,Shelter Cove,CA,459365,459365,1,CA-shelter-cove,4,30,5,available,low,2026-11,low_conf_cell,0,0,0,0,0,,0
+40,hoist_crane,CA-san-francisco|hoist_crane,CA-san-francisco,San Francisco (Fisherman's Wharf / Pier 45),CA,437452,437452,1,CA-vallejo,8,31,10,available,low,2016-03-30,low_conf_cell;backup_not_found_x1;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,1,0,,6
+40,ice,CA-san-francisco|ice,CA-san-francisco,San Francisco (Fisherman's Wharf / Pier 45),CA,437452,437452,1,CA-vallejo,12,31,14,available,high,2026-07,backup_not_found_x1;value_lower_bound_withheld;heavily_withheld_harbor,1,1,0,1,0,,9
+40,fuel,OR-garibaldi|fuel,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,5,33,3,available,medium,2023-12,,0,0,0,0,0,,0
+40,hoist_crane,OR-garibaldi|hoist_crane,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,9,33,7,available,low,2026-11,low_conf_cell,0,0,0,0,0,,6
+40,ice,OR-garibaldi|ice,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,13,33,10,available,low,2026-11,low_conf_cell,0,0,0,0,0,,9
 40,hoist_crane,OR-florence|hoist_crane,OR-florence,Florence (Port of Siuslaw),OR,0,6328146,1,OR-florence,10,36,8,available,medium,2026-11,backup_lowconf_absence_x1;value_range_shared_unit,0,0,1,0,1,,6
 40,ice,OR-winchester-bay|ice,OR-winchester-bay,"Winchester Bay (Salmon Harbor, Douglas County)",OR,0,6328146,1,OR-florence,14,36,12,available,medium,2023-12,backup_lowconf_absence_x1;value_range_shared_unit,0,0,1,0,1,,9
 40,fuel,CA-avalon|fuel,CA-avalon,Avalon (Santa Catalina Island),CA,0,0,0,,6,38,6,available,medium,2021-03,,0,0,0,0,0,,0
@@ -703,7 +703,7 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 40,fuel,WA-westport|fuel,WA-westport,Westport (Port of Grays Harbor Westport Marina),WA,0,0,0,,6,38,6,available,medium,2026-04,,0,0,0,0,0,,0
 50,cold_storage,WA-westport|cold_storage,WA-westport,Westport (Port of Grays Harbor Westport Marina),WA,65733333,71975266,1,WA-westport,1,1,2,available,medium,2026-11,backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,1,0,1,1,0,,27
 50,ice,WA-westport|ice,WA-westport,Westport (Port of Grays Harbor Westport Marina),WA,65733333,71975266,1,WA-westport,1,1,2,available,medium,2026-11,backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,1,0,1,1,0,,5
-50,ice,OR-newport|ice,OR-newport,Newport (Port of Newport commercial marina),OR,60736200,60736200,2,OR-depoe-bay;OR-newport,2,3,3,available,medium,2023-12,backup_not_found_x2;backup_lowconf_absence_x1,0,0,0,2,1,,5
+50,ice,OR-newport|ice,OR-newport,Newport (Port of Newport commercial marina),OR,60275445,60736200,2,OR-depoe-bay;OR-newport,2,3,3,available,medium,2023-12,backup_not_found_x2;backup_lowconf_absence_x1,0,0,0,2,1,,5
 50,cold_storage,OR-astoria|cold_storage,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,49179621,49179621,2,OR-astoria;OR-warrenton,2,4,4,available,medium,2023-12,backup_not_found_x2;value_range_shared_unit,0,0,2,2,0,,27
 50,ice,OR-astoria|ice,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,49179621,49179621,2,OR-astoria;OR-warrenton,3,4,5,available,medium,2023-12,backup_not_found_x2;value_range_shared_unit,0,0,2,2,0,,5
 50,cold_storage,WA-bellingham|cold_storage,WA-bellingham,Bellingham (Port of Bellingham Squalicum Harbor),WA,40966667,52221897,5,WA-port-townsend;WA-la-conner;WA-anacortes;WA-bellingham;WA-blaine,3,6,3,available,high,2025-04-02,backup_not_found_x5;value_range_shared_unit;value_lower_bound_withheld;route_portage_bar,5,0,5,5,0,WA-blaine~WA-bellingham:portage_bar,27
@@ -721,17 +721,17 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 50,fuel,CA-bodega-bay|fuel,CA-bodega-bay,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,2,17,2,available,high,2026-11,,0,0,0,0,0,,0
 50,hoist_crane,CA-bodega-bay|hoist_crane,CA-bodega-bay,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,3,17,5,available,high,2025-01,,0,0,0,0,0,,2
 50,ice,CA-bodega-bay|ice,CA-bodega-bay,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,8,17,9,available,high,2026-03-12,,0,0,0,0,0,,5
-50,fuel,OR-garibaldi|fuel,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,3,21,3,available,medium,2023-12,,0,0,0,0,0,,0
-50,hoist_crane,OR-garibaldi|hoist_crane,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,4,21,6,available,low,2026-11,low_conf_cell,0,0,0,0,0,,2
-50,ice,OR-garibaldi|ice,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,8231912,8231912,1,OR-garibaldi,9,21,10,available,low,2026-11,low_conf_cell,0,0,0,0,0,,5
-50,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,7481857,7481857,3,CA-shelter-cove;CA-noyo-harbor;CA-point-arena,10,24,11,available,medium,2026-02-24,backup_not_found_x2;value_lower_bound_withheld,1,0,0,2,0,,5
-50,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,8,25,1,available,low,2026-11,low_conf_cell;backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,27
-50,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,5,25,1,available,medium,2014-10-10,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,2
-50,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,11,25,1,available,medium,2014-10-10,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,5
-50,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5600000,33513276,2,WA-seattle;WA-everett,6,28,3,available,high,2026-01-01,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,2
-50,ice,CA-pillar-point|ice,CA-pillar-point,Pillar Point Harbor (Princeton / Half Moon Bay),CA,2252974,2252974,1,CA-santa-cruz,12,29,12,available,medium,2025-08,backup_not_found_x1;value_lower_bound_withheld,1,0,0,1,0,,5
-50,fuel,CA-noyo-harbor|fuel,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,575162,575162,1,CA-point-arena,4,30,4,available,low,2025-10,low_conf_cell;backup_not_found_x1;value_lower_bound_withheld,1,0,0,1,0,,0
-50,hoist_crane,CA-noyo-harbor|hoist_crane,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,459365,459365,1,CA-shelter-cove,7,31,7,available,high,2026-02-24,backup_not_found_x1,0,0,0,1,0,,2
+50,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,7481857,7481857,3,CA-shelter-cove;CA-noyo-harbor;CA-point-arena,9,21,11,available,medium,2026-02-24,backup_not_found_x2;value_lower_bound_withheld,1,0,0,2,0,,5
+50,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,8,22,1,available,low,2026-11,low_conf_cell;backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,27
+50,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,4,22,1,available,medium,2014-10-10,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,2
+50,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,10,22,1,available,medium,2014-10-10,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,5
+50,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5600000,33513276,2,WA-seattle;WA-everett,5,25,3,available,high,2026-01-01,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,2
+50,ice,CA-pillar-point|ice,CA-pillar-point,Pillar Point Harbor (Princeton / Half Moon Bay),CA,2252974,2252974,1,CA-santa-cruz,11,26,12,available,medium,2025-08,backup_not_found_x1;value_lower_bound_withheld,1,0,0,1,0,,5
+50,fuel,CA-noyo-harbor|fuel,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,575162,575162,1,CA-point-arena,3,27,4,available,low,2025-10,low_conf_cell;backup_not_found_x1;value_lower_bound_withheld,1,0,0,1,0,,0
+50,hoist_crane,CA-noyo-harbor|hoist_crane,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,459365,459365,1,CA-shelter-cove,6,28,7,available,high,2026-02-24,backup_not_found_x1,0,0,0,1,0,,2
+50,fuel,OR-garibaldi|fuel,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,4,29,3,available,medium,2023-12,,0,0,0,0,0,,0
+50,hoist_crane,OR-garibaldi|hoist_crane,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,7,29,6,available,low,2026-11,low_conf_cell,0,0,0,0,0,,2
+50,ice,OR-garibaldi|ice,OR-garibaldi,Garibaldi (Port of Garibaldi),OR,0,8231912,1,OR-garibaldi,12,29,10,available,low,2026-11,low_conf_cell,0,0,0,0,0,,5
 50,fuel,CA-avalon|fuel,CA-avalon,Avalon (Santa Catalina Island),CA,0,0,0,,5,32,5,available,medium,2021-03,,0,0,0,0,0,,0
 50,hoist_crane,CA-avalon|hoist_crane,CA-avalon,Avalon (Santa Catalina Island),CA,0,0,0,,8,32,8,available,low,2026-11,low_conf_cell,0,0,0,0,0,,2
 50,fuel,CA-berkeley|fuel,CA-berkeley,Berkeley,CA,0,0,0,,5,32,5,available,low,2026-11,low_conf_cell,0,0,0,0,0,,0
@@ -831,15 +831,15 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 60,fuel,CA-humboldt-bay|fuel,CA-humboldt-bay,Humboldt Bay (Eureka / Fields Landing / King Salmon),CA,9914696,9914696,1,CA-humboldt-bay,1,11,1,available,high,2025-12-26,backup_lowconf_absence_x1;value_lower_bound_withheld,1,0,0,0,1,,0
 60,ice,CA-humboldt-bay|ice,CA-humboldt-bay,Humboldt Bay (Eureka / Fields Landing / King Salmon),CA,9914696,9914696,1,CA-humboldt-bay,4,11,5,available,medium,2025-10,backup_lowconf_absence_x1;value_lower_bound_withheld,1,0,0,0,1,,4
 60,fuel,CA-bodega-bay|fuel,CA-bodega-bay,Bodega Bay (Spud Point),CA,9079330,9079330,1,CA-bodega-bay,2,13,2,available,high,2026-11,backup_not_found_x1,0,0,0,1,0,,0
-60,cold_storage,OR-astoria|cold_storage,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,8231912,8231912,1,OR-garibaldi,6,14,7,available,medium,2023-12,backup_not_found_x1;backup_lowconf_absence_x1,0,0,0,1,1,,21
-60,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6906696,6906696,2,CA-shelter-cove;CA-noyo-harbor,5,15,6,available,medium,2026-02-24,backup_not_found_x1,0,0,0,1,0,,4
-60,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,7,16,1,available,low,2026-11,low_conf_cell;backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,21
-60,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,6,16,1,available,medium,2014-10-10,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,4
-60,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5600000,33513276,2,WA-seattle;WA-everett,3,18,3,available,high,2026-01-01,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,1
-60,ice,CA-los-angeles-long-beach|ice,CA-los-angeles-long-beach,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,3747655,3747655,4,CA-huntington-harbour;CA-newport-beach;CA-avalon;CA-dana-point,7,19,7,available,low,2011-11-28,low_conf_cell;backup_not_found_x4;value_lower_bound_withheld;heavily_withheld_harbor,4,2,0,4,0,,4
-60,ice,CA-pillar-point|ice,CA-pillar-point,Pillar Point Harbor (Princeton / Half Moon Bay),CA,2252974,2252974,1,CA-santa-cruz,8,20,8,available,medium,2025-08,backup_not_found_x1;value_lower_bound_withheld,1,0,0,1,0,,4
-60,hoist_crane,CA-noyo-harbor|hoist_crane,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,459365,459365,1,CA-shelter-cove,4,21,5,available,high,2026-02-24,backup_not_found_x1,0,0,0,1,0,,1
-60,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,333333,71975266,1,WA-la-push,5,22,1,available,medium,2014-10-10,backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,1,0,1,1,0,,1
+60,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6906696,6906696,2,CA-shelter-cove;CA-noyo-harbor,5,14,6,available,medium,2026-02-24,backup_not_found_x1,0,0,0,1,0,,4
+60,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,6,15,1,available,low,2026-11,low_conf_cell;backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,21
+60,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5633333,124197162,2,WA-la-push;WA-neah-bay,6,15,1,available,medium,2014-10-10,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,4
+60,hoist_crane,WA-seattle|hoist_crane,WA-seattle,"Seattle (Fishermen's Terminal, Salmon Bay)",WA,5600000,33513276,2,WA-seattle;WA-everett,3,17,3,available,high,2026-01-01,backup_not_found_x2;value_range_shared_unit;value_lower_bound_withheld,2,0,2,2,0,,1
+60,ice,CA-los-angeles-long-beach|ice,CA-los-angeles-long-beach,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,3747655,3747655,4,CA-huntington-harbour;CA-newport-beach;CA-avalon;CA-dana-point,7,18,7,available,low,2011-11-28,low_conf_cell;backup_not_found_x4;value_lower_bound_withheld;heavily_withheld_harbor,4,2,0,4,0,,4
+60,ice,CA-pillar-point|ice,CA-pillar-point,Pillar Point Harbor (Princeton / Half Moon Bay),CA,2252974,2252974,1,CA-santa-cruz,8,19,8,available,medium,2025-08,backup_not_found_x1;value_lower_bound_withheld,1,0,0,1,0,,4
+60,hoist_crane,CA-noyo-harbor|hoist_crane,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,459365,459365,1,CA-shelter-cove,4,20,5,available,high,2026-02-24,backup_not_found_x1,0,0,0,1,0,,1
+60,hoist_crane,WA-neah-bay|hoist_crane,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,333333,71975266,1,WA-la-push,5,21,1,available,medium,2014-10-10,backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,1,0,1,1,0,,1
+60,cold_storage,OR-astoria|cold_storage,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,0,8231912,1,OR-garibaldi,7,22,7,available,medium,2023-12,backup_not_found_x1;backup_lowconf_absence_x1,0,0,0,1,1,,21
 60,fuel,CA-avalon|fuel,CA-avalon,Avalon (Santa Catalina Island),CA,0,0,0,,3,23,3,available,medium,2021-03,,0,0,0,0,0,,0
 60,hoist_crane,CA-avalon|hoist_crane,CA-avalon,Avalon (Santa Catalina Island),CA,0,0,0,,6,23,6,available,low,2026-11,low_conf_cell,0,0,0,0,0,,1
 60,fuel,CA-berkeley|fuel,CA-berkeley,Berkeley,CA,0,0,0,,3,23,3,available,low,2026-11,low_conf_cell,0,0,0,0,0,,0
@@ -945,11 +945,11 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 75,ice,CA-pillar-point|ice,CA-pillar-point,Pillar Point Harbor (Princeton / Half Moon Bay),CA,12798118,12798118,2,CA-moss-landing;CA-monterey,2,8,3,available,medium,2025-08,backup_not_found_x2,0,0,0,2,0,,1
 75,ice,CA-san-diego-bay|ice,CA-san-diego-bay,San Diego Bay (Tuna Harbor / Driscoll's Wharf),CA,11188264,11188264,2,CA-mission-bay;CA-san-diego-bay,3,9,4,available,low,2026-11,low_conf_cell;backup_not_found_x2,0,0,0,2,0,,1
 75,hoist_crane,CA-san-diego-bay|hoist_crane,CA-san-diego-bay,San Diego Bay (Tuna Harbor / Driscoll's Wharf),CA,8877959,8877959,1,CA-san-diego-bay,2,10,2,available,high,2026-11,backup_not_found_x1,0,0,0,1,0,,0
-75,cold_storage,OR-astoria|cold_storage,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,8231912,8231912,1,OR-garibaldi,6,11,7,available,medium,2023-12,backup_not_found_x1;backup_lowconf_absence_x1,0,0,0,1,1,,15
-75,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,4,12,5,available,medium,2026-02-24,backup_not_found_x1,0,0,0,1,0,,1
-75,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,7,13,3,available,low,2026-11,low_conf_cell;backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,1,0,1,1,0,,15
-75,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,5,13,2,available,medium,2014-10-10,backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,1,0,1,1,0,,1
-75,ice,CA-los-angeles-long-beach|ice,CA-los-angeles-long-beach,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,1032334,1032334,1,CA-newport-beach,6,15,6,available,low,2011-11-28,low_conf_cell;backup_not_found_x1;value_lower_bound_withheld,1,0,0,1,0,,1
+75,ice,CA-noyo-harbor|ice,CA-noyo-harbor,Noyo Harbor (Fort Bragg),CA,6447331,6447331,1,CA-noyo-harbor,4,11,5,available,medium,2026-02-24,backup_not_found_x1,0,0,0,1,0,,1
+75,cold_storage,WA-neah-bay|cold_storage,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,6,12,3,available,low,2026-11,low_conf_cell;backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,1,0,1,1,0,,15
+75,ice,WA-neah-bay|ice,WA-neah-bay,Neah Bay (Makah Marina / Port of Neah Bay),WA,5300000,52221897,1,WA-neah-bay,5,12,2,available,medium,2014-10-10,backup_not_found_x1;value_range_shared_unit;value_lower_bound_withheld,1,0,1,1,0,,1
+75,ice,CA-los-angeles-long-beach|ice,CA-los-angeles-long-beach,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,1032334,1032334,1,CA-newport-beach,6,14,6,available,low,2011-11-28,low_conf_cell;backup_not_found_x1;value_lower_bound_withheld,1,0,0,1,0,,1
+75,cold_storage,OR-astoria|cold_storage,OR-astoria,Astoria (Port of Astoria West/East Basins),OR,0,8231912,1,OR-garibaldi,7,15,7,available,medium,2023-12,backup_not_found_x1;backup_lowconf_absence_x1,0,0,0,1,1,,15
 75,fuel,CA-avalon|fuel,CA-avalon,Avalon (Santa Catalina Island),CA,0,0,0,,1,16,1,available,medium,2021-03,,0,0,0,0,0,,0
 75,hoist_crane,CA-avalon|hoist_crane,CA-avalon,Avalon (Santa Catalina Island),CA,0,0,0,,3,16,3,available,low,2026-11,low_conf_cell,0,0,0,0,0,,0
 75,fuel,CA-berkeley|fuel,CA-berkeley,Berkeley,CA,0,0,0,,1,16,1,available,low,2026-11,low_conf_cell,0,0,0,0,0,,0
@@ -1053,7 +1053,7 @@ threshold_nm,service,facility_id,harbor,harbor_name,state,stranded_low,stranded_
 75,hoist_crane,WA-westport|hoist_crane,WA-westport,Westport (Port of Grays Harbor Westport Marina),WA,0,0,0,,3,16,3,available,low,2026-11,low_conf_cell,0,0,0,0,0,,0
 75,ice,WA-westport|ice,WA-westport,Westport (Port of Grays Harbor Westport Marina),WA,0,0,0,,7,16,7,available,medium,2026-11,,0,0,0,0,0,,1
 100,cold_storage,CA-los-angeles-long-beach|cold_storage,CA-los-angeles-long-beach,"Los Angeles / Long Beach Harbor (Fish Harbor, San Pedro)",CA,86077890,86077890,14,CA-santa-barbara;CA-ventura;CA-channel-islands;CA-port-hueneme;CA-marina-del-rey;CA-redondo-beach;CA-los-angeles-long-beach;CA-huntington-harbour;CA-newport-beach;CA-avalon;CA-dana-point;CA-oceanside;CA-mission-bay;CA-san-diego-bay,1,1,1,available,medium,2026-11,backup_not_found_x14;value_lower_bound_withheld;heavily_withheld_harbor,8,3,0,14,0,,6
-100,cold_storage,OR-charleston|cold_storage,OR-charleston,Charleston (Port of Coos Bay Charleston Marina),OR,66852867,67064346,4,OR-depoe-bay;OR-newport;OR-florence;OR-winchester-bay,2,2,3,available,medium,2023-12,backup_not_found_x4;backup_lowconf_absence_x4;value_range_shared_unit,0,0,2,4,4,,6
+100,cold_storage,OR-charleston|cold_storage,OR-charleston,Charleston (Port of Coos Bay Charleston Marina),OR,66392111,67064346,4,OR-depoe-bay;OR-newport;OR-florence;OR-winchester-bay,2,2,3,available,medium,2023-12,backup_not_found_x4;backup_lowconf_absence_x4;value_range_shared_unit,0,0,2,4,4,,6
 100,cold_storage,CA-bodega-bay|cold_storage,CA-bodega-bay,Bodega Bay (Spud Point),CA,37204343,37204343,7,CA-noyo-harbor;CA-point-arena;CA-bodega-bay;CA-san-francisco;CA-vallejo;CA-berkeley;CA-pillar-point,3,3,5,available,medium,2025-01,backup_not_found_x7;value_lower_bound_withheld;heavily_withheld_harbor,3,1,0,7,0,,6
 100,cold_storage,WA-bellingham|cold_storage,WA-bellingham,Bellingham (Port of Bellingham Squalicum Harbor),WA,27616667,85735173,4,WA-seattle;WA-everett;WA-bellingham;WA-blaine,4,4,2,available,high,2025-04-02,backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld;route_portage_bar,4,0,4,4,0,WA-blaine~WA-bellingham:portage_bar,6
 100,ice,WA-bellingham|ice,WA-bellingham,Bellingham (Port of Bellingham Squalicum Harbor),WA,27616667,85735173,4,WA-seattle;WA-everett;WA-bellingham;WA-blaine,1,4,1,available,low,2020-09-18,low_conf_cell;backup_not_found_x4;value_range_shared_unit;value_lower_bound_withheld;route_portage_bar,4,0,4,4,0,WA-blaine~WA-bellingham:portage_bar,0

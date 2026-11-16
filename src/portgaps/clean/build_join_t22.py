@@ -14,6 +14,8 @@ Rules (decisions-log, do not change here):
 - facility status for month M = latest facilities row with as_of_date[:7] <= M
   (string sort within a month, so a day-dated row beats a YYYY-MM row; i.e. end-of-month status);
   'no_observation' before the first row. Current status = latest row overall (data_dictionary.md).
+- tie rule (T3.4 / F1): rows with the same as_of_date for one port x service are ordered by
+  file line, so the later-appended row wins (explicit key, not sort stability).
 """
 from pathlib import Path
 import pandas as pd
@@ -77,7 +79,8 @@ def main():
     pm.loc[pm.unit_id.isna(), "withheld_flag"] = NOT_IN_SOURCE
 
     # ---- facility status by month ----
-    fac = fac.sort_values(["port_id", "service", "as_of_date"])
+    fac = fac.assign(_line=range(2, len(fac) + 2))   # 1-based file line (header = 1)
+    fac = fac.sort_values(["port_id", "service", "as_of_date", "_line"])  # same-date tie: later line wins
     fac["m"] = fac.as_of_date.str[:7]
     cur = fac.groupby(["port_id", "service"]).tail(1).set_index(["port_id", "service"]).status
     for svc in SERVICES:

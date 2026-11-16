@@ -1,0 +1,38 @@
+{
+ "1 Schema and allowed values": [
+  true,
+  "ports 9 / facilities 10 columns, exact names and order; all 272 facility rows and 58 port rows within allowed values"
+ ],
+ "2 Unique port_id": [
+  true,
+  "58 ports, 0 duplicates (CA 30, OR 12, WA 16)"
+ ],
+ "3 Every port has all 4 services": [
+  true,
+  "58/58 ports complete; missing: []"
+ ],
+ "4 as_of_date, source_url (or search note), confidence on every row": [
+  true,
+  "272 rows: missing date 0, confidence 0, source/search-note 0; 66 not_found rows rely on a search note"
+ ],
+ "5 lat/lon present and at the harbor (flag >2 km)": [
+  true,
+  "58/58 present and inside state box; >2 km from harbor: 0 []; 1\u20132 km watch list: CA-crescent-city 1.7 km, CA-port-hueneme 1.26 km, CA-oceanside 1.55 km, CA-mission-bay 1.5 km (9 CA town points replaced first)"
+ ],
+ "6 Coding rules applied the same in all states": [
+  true,
+  "Travelift/launch-hoist keyword hits on counted hoist rows: 3 (all reviewed: offload equipment, haul-out text in notes only); retail-ice hits on available ice rows: 1 (reviewed: folded note only); tribal rows 6 all public+'tribal'; Snapshot rows 40 none high, all 2023-12; not_found rows all dated 2026-11; undated-page rows all say 'undated'; blank-operator rows all 'unknown'; not_available rows all sourced. Failures: 0"
+ ],
+ "7 Closure-port key rows dated (day) and medium+": [
+  true,
+  "9 day-dated event rows; 0 below medium"
+ ],
+ "8 Shared agency codes noted in context_notes": [
+  true,
+  "AST (Astoria+Warrenton), LWC (Ilwaco+Chinook), WLB (Tokeland+Bay Center+Nahcotta) all noted"
+ ],
+ "9 Same-date ties listed; later file line wins (data_dictionary.md section 5)": [
+  true,
+  "1 tie group(s), 2 rows (outputs/tables/t13_qa_ties.csv); winners: WA-westport|hoist_crane|2026-11 -> line 272 available/low; current-status table disagrees with the rule: 0"
+ ]
+}

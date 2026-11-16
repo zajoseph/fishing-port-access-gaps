@@ -1,4 +1,5 @@
-"""T3.3 known-closure check: apply the index's own removal logic to each event cell."""
+"""T3.3 known-closure check: apply the index's own removal logic to each event cell.
+T3.4: adds run s4 (no-moorage launch-hoist harbors cannot substitute hoist)."""
 import sys
 sys.path.insert(0, sys.argv[1] + "/src")
 import pandas as pd
@@ -11,7 +12,9 @@ WORK = os.environ.get("T33_WORK", "/tmp/t33"); os.makedirs(WORK, exist_ok=True)
 hv, units = build_values(); cur = load_status(); D = load_distance(list(hv.port_id))
 unit_of = dict(zip(hv.port_id, hv.unit_id)); name = dict(zip(hv.port_id, hv.port_name))
 st0 = {(r.port_id, r.service): r.status for r in cur.itertuples()}
-RUNS = {"main": {"available"}, "s1_not_found_as_available": {"available", "not_found"}}
+RUNS = {"main": {"available"}, "s1_not_found_as_available": {"available", "not_found"},
+        "s4_no_moorage_hoist_no_substitute": {"available"}}   # T3.4 / R3
+OWN_ONLY = {"s4_no_moorage_hoist_no_substitute": set(C.NO_MOORAGE_LAUNCH_HOIST)}
 TH = [10, 15, 20, 25, 30, 40, 50, 60]
 EVENTS = [
  dict(event="E1 Crescent City ice", harbor="CA-crescent-city", service="ice", dates="2024-10-05 to ~2025-08 (reopened by 2025-08-27)",
@@ -37,10 +40,11 @@ for e in EVENTS:
         F = [p for p in D.index if st[(p, s)] in W]
         others = sorted(((D.loc[g, p], p) for p in F if p != g))
         for T in TH:
-            reach = {h: {f for f in F if D.loc[h, f] <= T + 1e-9} for h in D.index}
+            own = OWN_ONLY.get(run, set()) if s == "hoist_crane" else set()
+            reach = {h: ({h} & set(F) if h in own else {f for f in F if D.loc[h, f] <= T + 1e-9}) for h in D.index}
             cut = sorted(h for h in D.index if reach[h] == {g})
             lo, hi = set_value(set(cut), units, unit_of) if cut else (0.0, 0.0)
-            within = [p for d, p in others if d <= T + 1e-9]
+            within = [] if g in own else [p for d, p in others if d <= T + 1e-9]
             fid = f"{g}|{s}"
             r_idx = idx.loc[(run, T, fid)] if (run, T, fid) in idx.index else None
             db = e["doc_backup"]

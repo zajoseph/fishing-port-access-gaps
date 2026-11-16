@@ -1,0 +1,3 @@
+port_id,service,as_of_date,file_line,status,confidence,wins_tie,tie_on_latest_date,statuses_differ,is_current_row
+WA-westport,hoist_crane,2026-11,230,not_found,low,N,Y,Y,N
+WA-westport,hoist_crane,2026-11,272,available,low,Y,Y,Y,Y

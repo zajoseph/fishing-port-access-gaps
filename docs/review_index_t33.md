@@ -138,3 +138,26 @@ Conditions for using the index in the report:
 - **R3:** Add a flag (not a method change) for no-moorage launch-hoist harbors in the ranking tables, so readers see that hoist backups there aren't real substitutes.
 - **R4:** Correct `DOCUMENTED_BACKUPS` labels (F5): Charleston → Winchester Bay = documented; Point Arena → Noyo = not a run. Optionally add `t33_indep.py` as check C10 (F3).
 - **R5:** In the report, describe s1 as a lower bound on stranding, not a plausible state (F4).
+
+---
+
+## T3.4 patch, 2026-11
+
+*2026-11-16, branch `t3.4-index-patch`. Applies F1, F2, R3 and R4 as approved (decisions log 2026-11-16). Full method text is in `docs/methods/failure_index.md` → "T3.4 patch, 2026-11". No other method, threshold or rank was changed.*
+
+| Item | Status after T3.4 |
+|---|---|
+| **F1 / R1** Westport same-date tie | **Resolved by rule.** On a same-date tie, the later file line wins. The rule is in data dictionary §5 and applied explicitly in QA, the join, the index and the independent recompute. QA check 9 lists the one tie (Westport hoist, lines 230 vs 272; line 272 `available`/low wins). No index number changes. *Condition 4 met.* |
+| **F2** non-inventory units | **Literal rule applied.** The units were derived systematically from `t21_units.csv` × `port_crosswalk.md`. Two are added: Garibaldi's and Depoe Bay's ODFW tables. The other five were already applied, and two 2025-only tables are listed for completeness. Garibaldi = $0–8.2M; Depoe Bay = $0–0.46M; 129 rows change (lower bound only). *Condition 5 met:* Garibaldi may be quoted only as the range $0–8.2M. |
+| **F3** C5 not independent | **Covered.** Index check C10 runs `t33_indep.py`: 7,968/7,968 rows match, all five runs included. |
+| **F4** s1 hides documented losses | Unchanged (report language, R5). |
+| **F5 / R4** backup-run labels | **Fixed.** New `run_type` column: Charleston → Winchester Bay = documented; Point Arena → Noyo and Ilwaco → Astoria = nearest-facility distance, not a run. |
+| **R3** launch-hoist limit | **Sensitivity run s4 added** (Point Arena, Port Orford reach only their own hoist; main unchanged). Port Orford hoist $2.4–4.8M from 30 nm (s4 #6 at 40); Point Arena hoist $0.58M from 40 nm (s4 #9 at 40). |
+
+**E4 Point Arena under s4: agree at 20, 25, 30, 40 and 50 nm.** The index strands Point Arena ($0.58M) because no other hoist can substitute, and in reality the pier closed and the fleet missed the opener. In main and s1 the verdict stays as in §3 (agree at 25–30, disagree at 40–50). `t33_event_check.csv` now has 90 rows (6 event cells × 5 thresholds × main/s1/s4). E1–E3 and E5 are unchanged; E4's main/s1 rank moves up one place because Garibaldi hoist falls below it.
+
+**§4 refreshed ("hold under both runs").**
+- *At 40 nm:* 12 of 33. Charleston cold storage 31.0–36.0; Brookings cold storage 25.3; Humboldt Bay fuel and ice 11.8; Bodega Bay (all 4) 9.1; Shelter Cove fuel 0.46; Garibaldi fuel and hoist 0–8.2 (range only); Florence hoist 0–6.3. Garibaldi ice has dropped out.
+- *Across 25–50 nm:* 63 of 137. Lost: Garibaldi fuel (25), hoist (25, 30) and ice (40, 50). Gained: Neah Bay hoist (25), Port Townsend fuel (25), Point Arena hoist (30).
+
+Before/after detail is in `outputs/tables/t34_before_after.csv`.

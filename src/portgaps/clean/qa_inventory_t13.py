@@ -151,9 +151,11 @@ tab = pd.crosstab([fac.state], fac.service, values=(fac.confidence == "low").ast
 tot = pd.crosstab([fac.state], fac.service)
 tab["all"] = tab.sum(axis=1); tot["all"] = tot.sum(axis=1)
 share = (tab / tot * 100).round(0).astype(int).astype(str) + "% (" + tab.astype(str) + "/" + tot.astype(str) + ")"
-# latest row per port x service (sort key: as_of string; same-period ties reported)
+# latest row per port x service: latest as_of_date (string sort); on the same
+# as_of_date the later-appended row (higher file line) wins (data_dictionary.md section 5)
 fac["_k"] = fac.as_of_date
-last = fac.sort_values("_k").groupby(["port_id", "service"]).tail(1)
+fac["file_line"] = range(2, len(fac) + 2)  # 1-based file line (header = 1); tie-rule key (T3.4 / F1)
+last = fac.sort_values(["port_id", "service", "_k", "file_line"]).groupby(["port_id", "service"]).tail(1)
 ties = fac.groupby(["port_id", "service", "as_of_date"]).size()
 ties = ties[ties > 1]
 # a tie matters only if it is on the latest date and statuses differ
@@ -162,6 +164,32 @@ for (p, s, a), n in ties.items():
     sub = fac[(fac.port_id == p) & (fac.service == s)]
     if a == sub.as_of_date.max() and sub[sub.as_of_date == a].status.nunique() > 1:
         tie_issue.append((p, s, a))
+
+# 9 same-date ties (T3.4 / F1): list every port x service x as_of_date with >1 row and the winning row
+trows, t_bad = [], []
+for (p, s, a), n in ties.items():
+    grp = fac[(fac.port_id == p) & (fac.service == s) & (fac.as_of_date == a)].sort_values("file_line")
+    win = grp.file_line.max()
+    on_latest = a == fac[(fac.port_id == p) & (fac.service == s)].as_of_date.max()
+    cur_line = int(last[(last.port_id == p) & (last.service == s)].file_line.iloc[0])
+    if on_latest and cur_line != win:
+        t_bad.append((p, s, a))
+    for r in grp.itertuples():
+        trows.append(dict(port_id=p, service=s, as_of_date=a, file_line=r.file_line, status=r.status,
+                          confidence=r.confidence, wins_tie="Y" if r.file_line == win else "N",
+                          tie_on_latest_date="Y" if on_latest else "N",
+                          statuses_differ="Y" if grp.status.nunique() > 1 else "N",
+                          is_current_row="Y" if (on_latest and r.file_line == win) else "N"))
+tie_tab = pd.DataFrame(trows, columns=["port_id", "service", "as_of_date", "file_line", "status", "confidence",
+                                       "wins_tie", "tie_on_latest_date", "statuses_differ", "is_current_row"])
+tie_tab.to_csv("outputs/tables/t13_qa_ties.csv", index=False)
+print("\nSAME-DATE TIES (later file line wins):\n", tie_tab.to_string())
+wins = tie_tab[tie_tab.wins_tie == "Y"]
+R["9 Same-date ties listed; later file line wins (data_dictionary.md section 5)"] = (
+    len(t_bad) == 0,
+    f"{len(ties)} tie group(s), {len(tie_tab)} rows (outputs/tables/t13_qa_ties.csv); winners: "
+    + ("; ".join(f"{r.port_id}|{r.service}|{r.as_of_date} -> line {r.file_line} {r.status}/{r.confidence}" for r in wins.itertuples()) or "none")
+    + f"; current-status table disagrees with the rule: {len(t_bad)}")
 last_low = pd.crosstab(last.state, last.service, values=(last.confidence == "low").astype(int), aggfunc="sum")
 last_tot = pd.crosstab(last.state, last.service)
 last_status = pd.crosstab([last.state, last.service], last.status)
@@ -171,7 +199,7 @@ print("\nLATEST STATUS\n", last_status.to_string())
 print("\nties on latest date with different status:", tie_issue)
 print("\nconfidence all rows by state:\n", pd.crosstab(fac.state, fac.confidence).to_string())
 share.to_csv("outputs/tables/t13_qa_lowconf_share.csv")
-last.drop(columns=["_k", "state2"]).to_csv("outputs/tables/t13_latest_status.csv", index=False)
+last.drop(columns=["_k", "state2", "file_line"]).to_csv("outputs/tables/t13_latest_status.csv", index=False)
 json.dump({k: [bool(v[0]), v[1]] for k, v in R.items()}, open("outputs/tables/t13_qa_results.json", "w"), indent=1)
 for k, v in R.items():
     print(("PASS " if v[0] else "FAIL ") + k + " — " + v[1])

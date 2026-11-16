@@ -54,12 +54,43 @@ WA_GROUPS = {
     "WA-PACFIN-NPS": "PacFIN group NPS",
     "WA-PACFIN-SPS": "PacFIN group SPS",
 }
-# Multi-harbor units whose agency group also holds landings from non-inventory
-# ports (from outputs/tables/t21_units.csv). For these, the whole-unit value is
-# never a lower bound even when every inventory harbor in it is cut off.
+# Units (ODFW table or PacFIN group) whose agency reporting group also holds
+# landings from non-inventory ports. Literal shared-unit rule (decisions log
+# 2026-11-14; applied literally from T3.4 / F2, 2026-11-16): such a unit
+# contributes $0 to the lower bound unless the harbor has its own published
+# value (FOSS sub-block); the whole-unit value is never a lower bound, whether
+# the unit holds one inventory harbor or several. Derived systematically by
+# values.derive_noninventory_units() from outputs/tables/t21_units.csv (unit
+# agency codes) vs docs/port_crosswalk.md (inventory harbors' codes); the build
+# asserts that this set equals the derived one. Non-inventory codes in brackets.
 UNITS_WITH_NONINVENTORY_PORTS = {
-    "OR-ODFW-waldport-winchester-bay",  # also Waldport, Yachats
-    "WA-PACFIN-CLW", "WA-PACFIN-CWA", "WA-PACFIN-NPS", "WA-PACFIN-SPS",
+    # used in the 2019-2024 value window
+    "OR-ODFW-gearhart-garibaldi",         # [GSS Gearhart/Seaside, CNB Cannon Beach, NHL Nehalem Bay] (T3.4 addition)
+    "OR-ODFW-netarts-depoe-bay",          # [NTR Netarts, PCC Pacific City, SLZ Siletz Bay, SRV Salmon River] (T3.4 addition)
+    "OR-ODFW-waldport-winchester-bay",    # [WLD Waldport, YAC Yachats]
+    "WA-PACFIN-CLW",                      # [OCR other Columbia River ports]
+    "WA-PACFIN-CWA",                      # [CPL Copalis, GRH Grays Harbor, OWC other WA coast]
+    "WA-PACFIN-NPS",                      # [FRI Friday Harbor, ONP other N Puget Sound, SEQ Sequim]
+    "WA-PACFIN-SPS",                      # [OLY Olympia, OSP other S Puget Sound, SHL Shelton, TAC Tacoma]
+    # 2025 ODFW regrouped tables (outside the 2019-2024 value window; listed for completeness)
+    "OR-ODFW-gearhart-siletz-bay-2025",   # [GSS, CNB, NHL, NTR, PCC, SLZ, SRV]
+    "OR-ODFW-depoe-bay-yachats-2025",     # [WLD, YAC]
+}
+
+# Sensitivity run s4 (T3.4 / R3): harbors whose only offload is a launch hoist
+# with no in-water moorage. In s4 their hoist access comes only from their own
+# hoist (no backup hoist at any distance). Main run unchanged. Sources are
+# data/processed/facilities.csv rows (file line) and the logged dual-use hoist
+# decision (decisions log 2026-11-12, user answer in T1.3).
+NO_MOORAGE_LAUNCH_HOIST = {
+    "CA-point-arena": "facilities.csv lines 30-31 (hoist_crane 2025-10-18 closed, 2026-01-29 available): "
+                      "'Hoist-only launch: no harbor moorage'; 'Dual-use launch/offload hoist at a harbor with no "
+                      "in-water moorage'; ports.csv context_notes: 'Hoist-launch pier, no moorage basin; hoist outage "
+                      "Oct 2025-Jan 2026 stopped the fleet'; decisions log 2026-11-12 dual-use hoist ruling",
+    "OR-port-orford": "facilities.csv line 190 (hoist_crane 2026-08-07 available): 'Electric cranes lower boats to "
+                      "the ocean and lift them back onto the dolly dock'; 'Dual-use launch/offload hoist at a harbor "
+                      "with no in-water moorage'; ports.csv context_notes: 'No in-water moorage: boats craned to "
+                      "dollies, so a crane outage stops the fleet'; decisions log 2026-11-12 dual-use hoist ruling",
 }
 
 # Known intertidal crossing (T3.1): drying bar between Portage Island and the
