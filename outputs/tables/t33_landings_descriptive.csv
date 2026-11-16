@@ -1,0 +1,9 @@
+event,role,unit_id,species,during_window,during_mean_monthly_usd,during_months_published,during_withheld_months,prior3_same_months_mean_usd,prior3_by_year_usd,during_vs_prior3
+E1 Crescent City ice,event,CA-crescent-city,all,2024-10 to 2025-08,1650044,11/11,0,1734865,"901,610 (10/11); 2,297,299 (11/11); 2,005,686 (11/11)",0.95
+E1 Crescent City ice,"backup (Brookings; ODFW Gold Beach-Brookings table to 2024-12, Bandon-Brookings table 2025)",OR-ODFW-gold-beach-brookings;OR-ODFW-bandon-brookings-2025,all,2024-10 to 2025-08,1048889,11/11,0,882921,"451,683 (11/11); 1,054,131 (11/11); 1,142,949 (11/11)",1.19
+E2 Charleston ice,event,OR-charleston,all,2019-12 to 2020-09,1893462,10/10,0,2857548,"2,749,815 (10/10); 3,259,309 (10/10); 2,563,519 (10/10)",0.66
+E2 Charleston ice,backup (Winchester Bay; ODFW Waldport-Yachats-Florence-Winchester Bay table),OR-ODFW-waldport-winchester-bay,all,2019-12 to 2020-09,441173,10/10,0,452802,"464,667 (10/10); 587,882 (10/10); 305,858 (10/10)",0.97
+E3 Ilwaco Landing,"event (PacFIN CLW group, Dungeness crab only, group-level)",WA-PACFIN-CLW,Dungeness crab,2024-01 to 2024-12,1390722,8/12,4,1601754,"1,502,956 (8/12); 993,487 (9/12); 2,308,820 (9/12)",0.87
+E3 Ilwaco Landing,"backup (Astoria; ODFW Astoria table, all species)",OR-ODFW-astoria,all,2024-01 to 2024-12,5684877,12/12,0,3877407,"3,736,302 (12/12); 3,489,118 (12/12); 4,406,801 (12/12)",1.47
+E4 Point Arena hoist,event (Oct 18-Dec 2025 only; 2026 not released),CA-point-arena,all,2025-10 to 2025-12,53239,1/3,2,46141,"33,315 (3/3); 73,812 (2/3); 31,296 (3/3)",1.15
+E4 Point Arena hoist,backup (Noyo Harbor),CA-noyo-harbor,all,2025-10 to 2025-12,587379,3/3,0,502475,"431,375 (3/3); 430,949 (3/3); 645,101 (3/3)",1.17
