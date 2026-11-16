@@ -84,14 +84,16 @@ def sc_fit(y1: pd.Series, Y0: pd.DataFrame, pre_end: int, windows: dict,
 
 
 def placebo_in_space(series: dict, treated: str, donors: list, pre_end: int,
-                     windows: dict) -> pd.DataFrame:
+                     windows: dict, **fit_kw) -> pd.DataFrame:
     """Refit with each donor as the 'treated' unit (the real treated unit is
     never a donor). p-values: share of units (incl. treated) whose statistic is
-    at least as extreme as the treated unit's."""
+    at least as extreme as the treated unit's. ``fit_kw`` (pre_start, data_end,
+    exclude_months) is passed to sc_fit; T4.1 passes none."""
     rows = []
     for u in [treated] + donors:
         pool = [d for d in donors if d != u]
-        r = sc_fit(series[u], pd.DataFrame({d: series[d] for d in pool}), pre_end, windows)
+        r = sc_fit(series[u], pd.DataFrame({d: series[d] for d in pool}), pre_end, windows,
+                   **fit_kw)
         row = {"unit_id": u, "is_treated": u == treated, "pre_rmspe": r["pre_rmspe"]}
         for name in windows:
             row[f"{name}_pct"] = r[f"{name}_pct"]
@@ -108,15 +110,21 @@ def perm_p(stat_treated: float, stats_all: pd.Series, two_sided=True) -> float:
     return float((s >= stat_treated - 1e-12).mean())
 
 
-def placebo_in_time_sc(y1, Y0, years, during_len_months=11) -> pd.DataFrame:
-    """Fake event in October of each year in ``years``; fit on data before it,
-    evaluate the next 11 months, use no data after the fake window."""
+def placebo_in_time_sc(y1, Y0, years, during_len_months=11, m_start=10, m_end=8,
+                       exclude_months=()) -> pd.DataFrame:
+    """Fake event in month ``m_start`` of each year in ``years`` (T4.1: October);
+    fit on data before it, evaluate the window through month ``m_end`` (next
+    year if m_end < m_start), use no data after the fake window. Months in
+    ``exclude_months`` (e.g. a real closure, for fake events placed after it)
+    are left out of the fit."""
     rows = []
     for y in years:
-        a = y * 100 + 10
-        b = (y + 1) * 100 + 8
-        r = sc_fit(y1, Y0, pre_end=y * 100 + 9, windows={"during": (a, b)}, data_end=b)
-        rows.append({"fake_event": f"{y}-10", "pre_rmspe": r["pre_rmspe"],
+        a = y * 100 + m_start
+        b = (y + 1 if m_end < m_start else y) * 100 + m_end
+        pre_end = a - 1 if m_start > 1 else (y - 1) * 100 + 12
+        r = sc_fit(y1, Y0, pre_end=pre_end, windows={"during": (a, b)}, data_end=b,
+                   exclude_months=exclude_months)
+        rows.append({"fake_event": f"{y}-{m_start:02d}", "pre_rmspe": r["pre_rmspe"],
                      "during_pct": r["during_pct"], "during_ratio": r["during_ratio"],
                      "n_fit_months": r["n_fit_months"]})
     return pd.DataFrame(rows)
