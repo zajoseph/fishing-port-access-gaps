@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="description" content="Interactive map of 58 West Coast commercial fishing harbors, their fuel, ice, hoist/crane and cold storage, and which single facility failures would strand the most landed value.">
+<title>Fishing Port Access Gaps · map</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Ccircle cx=%228%22 cy=%228%22 r=%226%22 fill=%22%230072B2%22/%3E%3C/svg%3E">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="css/map.css">
+</head>
+<body>
+<a class="skip" href="#controls">Skip to map controls</a>
+<div id="app">
+  <aside id="sidebar" aria-label="Map controls and details">
+    <header class="head">
+      <h1>Fishing Port Access Gaps</h1>
+      <p class="sub">Which single facility failure would cut off the most fishing on the U.S. West Coast? 58 harbors, San Diego to Bellingham.</p>
+      <button type="button" id="about-open" class="linkish">About, caveats and sources</button>
+    </header>
+
+    <form id="controls" onsubmit="return false">
+      <fieldset class="seg">
+        <legend>Service</legend>
+        <label><input type="radio" name="service" value="fuel" checked><span>Fuel</span></label>
+        <label><input type="radio" name="service" value="ice"><span>Ice</span></label>
+        <label><input type="radio" name="service" value="hoist_crane"><span>Hoist/crane</span></label>
+        <label><input type="radio" name="service" value="cold_storage"><span>Cold storage</span></label>
+      </fieldset>
+      <fieldset class="seg">
+        <legend>Run to backup threshold <span class="hint">(charted-equivalent nm)</span></legend>
+        <label><input type="radio" name="threshold" value="25"><span>25</span></label>
+        <label><input type="radio" name="threshold" value="30"><span>30</span></label>
+        <label><input type="radio" name="threshold" value="40" checked><span>40</span></label>
+        <label><input type="radio" name="threshold" value="50"><span>50</span></label>
+      </fieldset>
+      <div class="checks">
+        <label><input type="checkbox" id="s4"> Show s4 sensitivity <span class="hint">(harbors with only a launch hoist and no moorage, Point Arena and Port Orford, can't use another harbor's hoist)</span></label>
+        <label><input type="checkbox" id="events" checked> Show the five validation closures</label>
+      </div>
+    </form>
+
+    <section id="legend" aria-label="Legend">
+      <h2 class="visually-hidden">Legend</h2>
+      <ul class="legend">
+        <li><span class="sym" data-st="available"></span>Available</li>
+        <li><span class="sym" data-st="not_available"></span>Not available</li>
+        <li><span class="sym" data-st="closed"></span>Closed</li>
+        <li class="wide"><span class="sym" data-st="not_found"></span>No source located <span class="hint">(not the same as absent)</span></li>
+        <li><span class="sym rankbadge">3</span>Top-10 rank (main run)</li>
+        <li><span class="sym evsym"></span>Validation closure</li>
+        <li><span class="sym line within"></span>Backup within threshold</li>
+        <li><span class="sym line beyond"></span>Backup beyond threshold (cut off)</li>
+      </ul>
+    </section>
+
+    <section id="detail" aria-live="polite" hidden></section>
+
+    <section id="top10" aria-label="Top 10 facilities"></section>
+  </aside>
+  <main id="map" aria-label="Map of harbors"></main>
+</div>
+
+<dialog id="about" aria-labelledby="about-title">
+  <div class="dlg">
+    <button type="button" class="close" id="about-close" aria-label="Close">×</button>
+    <h2 id="about-title">About this map</h2>
+    <h3>What the index measures</h3>
+    <p>Each <em>facility</em> is one harbor's fuel, ice, hoist/crane or cold storage, where the inventory's current status is "available". The index removes one facility at a time. Any harbor that then has no working facility of that service within the selected sea distance is <em>cut off</em>. The facility's <em>stranded value</em> is the mean annual all-species ex-vessel landed value (2019–2024, nominal dollars) of the harbors it cuts off. The thresholds are 25, 30, 40 (headline) and 50 charted-equivalent nautical miles; the results are stable across that band.</p>
+    <h3>Why values are ranges</h3>
+    <p>About three-quarters of top-10 entries rest on a weak facility record. The <strong>main run</strong> counts only "available" facilities as working. Sensitivity run <strong>s1</strong> also treats every "no source located" cell as available. s1 is a lower bound on stranding, not a plausible state. Values are shown as the range across main and s1. Some harbors report landings only inside a shared agency group (most of Washington, and some Oregon tables). Their value is itself a range: the lower end counts only the harbor's own published value, and the upper end the whole group's value. Only entries marked <span class="badge hold">Holds under both runs</span> stay in the top 10 in both runs; they are stated without the range caveat. Garibaldi is only ever a range ($0–8.2M at 40 nm).</p>
+    <p><strong>s4</strong> is a labelled sensitivity, not the default. In s4, Point Arena and Port Orford, which offload only by launch hoist and have no moorage, can't use another harbor's hoist.</p>
+    <h3>Unverified facility cells</h3>
+    <p>A targeted verification pass re-checked 42 cells; 40 are still unverified and drive most of the gap between main and s1. "No source located" means no public source was found, not that the service is confirmed absent. Each harbor's panel shows status, confidence, the date of the observation and its source.</p>
+    <h3>Distances are a lower bound</h3>
+    <p>Sea distances are shortest water paths on OpenStreetMap shoreline, with no depth, tide, bar conditions, weather or traffic lanes. They run a median 5.9% shorter than NOAA's <em>Distances Between U.S. Ports</em>; charted-equivalent nm = model nm × 1.06. Several real backups were trucked, not run by boat.</p>
+    <h3>The five validation closures</h3>
+    <p>The closures test whether the index identifies the backup actually used, not the size of stranded value. Ilwaco landings are available only as a Dungeness-crab-only group series. For the Ilwaco review, the failed cell was restored to "available" before removal; this was a review step and does not change the index.</p>
+    <h3>Data sources and dates</h3>
+    <ul>
+      <li>Facilities: port and harbor sites, agenda packets, the Oregon Coastal Ports Snapshot (2023), operator postings and news. Observations are dated <span id="asof-range"></span>; current status = the latest dated observation.</li>
+      <li>Landed value: CDFW (Marine Fisheries Data Explorer), ODFW (FTR205 port reports), PacFIN (ALL005, CRAB002) and NOAA Fisheries (FOSS).</li>
+      <li>Distances: NOAA <em>Distances Between U.S. Ports</em> (2025) for validation.</li>
+      <li>Route geometry and basemap: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL</a>. OSM land and water polygons were retrieved 2026-11-13. Basemap tiles come from the OpenStreetMap Foundation's tile server, shown in greyscale. Map library: <a href="https://leafletjs.com">Leaflet</a> (BSD-2).</li>
+    </ul>
+    <h3>Links</h3>
+    <ul>
+      <li><a href="https://github.com/zajoseph/fishing-port-access-gaps">Code and data repository</a></li>
+      <li><a href="https://github.com/zajoseph/fishing-port-access-gaps/tree/main/report">Report and brief</a> (in preparation)</li>
+      <li>Methods: <a href="https://github.com/zajoseph/fishing-port-access-gaps/blob/main/docs/methods/failure_index.md">failure index</a> · <a href="https://github.com/zajoseph/fishing-port-access-gaps/blob/main/docs/methods/sea_routes.md">sea routes</a> · <a href="https://github.com/zajoseph/fishing-port-access-gaps/blob/main/docs/review_index_t33.md">independent review</a> · <a href="https://github.com/zajoseph/fishing-port-access-gaps/blob/main/docs/data_dictionary.md">data dictionary</a></li>
+    </ul>
+    <p class="hint">Built from the frozen results (<span id="build-info"></span>). The page has no tracking and no cookies. Your browser loads basemap tiles from tile.openstreetmap.org, which is subject to the <a href="https://osmfoundation.org/wiki/Privacy_Policy">OSMF privacy policy</a>.</p>
+  </div>
+</dialog>
+
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="js/map.js"></script>
+</body>
+</html>
