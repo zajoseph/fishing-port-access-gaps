@@ -74,8 +74,18 @@ See [`docs/data_access.md`](docs/data_access.md) for full access notes.
 - **Dataset:** _TBD (Zenodo DOI)_
 - **Access-gap index:** _TBD_
 - **Event study:** _TBD_
-- **Map:** _TBD_
+- **Map:** https://zajoseph.github.io/fishing-port-access-gaps/ (see [Map](#map))
 - **Report and 2-page brief:** _TBD_
+
+## Map
+
+**Live map:** https://zajoseph.github.io/fishing-port-access-gaps/
+
+The map shows the 58 harbors and each one's current fuel, ice, hoist/crane and cold storage status, with confidence, observation date and source. It also shows the single-point-of-failure results at 25, 30, 40 (default) or 50 charted-equivalent nm. Select a facility to see the harbors it would cut off and its backup routes. The five validation closures are marked with their verdicts.
+
+- Values are ranges across the main and s1 runs. Only results that hold under both runs carry no caveat; s4 is an opt-in sensitivity.
+- The site is static (`outputs/map/`), built from the frozen results by `src/portgaps/map/build_map_data.py` and deployed by `.github/workflows/pages.yml`. Details are in [`outputs/map/README.md`](outputs/map/README.md).
+- Basemap and route geometry: © OpenStreetMap contributors (ODbL).
 
 ## Citation
 
